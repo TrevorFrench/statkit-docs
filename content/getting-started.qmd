@@ -82,7 +82,7 @@ Download your results in:
 ## Need Help?
 
 - [FAQ](help/faq.qmd) - Common questions
-- [Statistical Tests](docs/statistical-tests/) - Detailed guides
+- [Statistical Tests](content/statistical-tests/) - Detailed guides
 - [Contact Support](https://statisticskit.com) - Get help
 
 ---

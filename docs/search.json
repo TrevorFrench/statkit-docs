@@ -60,8 +60,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html",
-    "href": "docs/statistical-tests/t-tests.html",
+    "objectID": "content/statistical-tests/t-tests.html",
+    "href": "content/statistical-tests/t-tests.html",
     "title": "T-Tests",
     "section": "",
     "text": "T-tests compare means between groups to determine if differences are statistically significant.\n\n\n\n\nCompare means between two separate groups.\nExample: Compare test scores between students in different schools.\nData Requirements:\n\nData Column: Numeric variable to compare\nGroup Column: Categorical variable with exactly 2 groups\nSample Size: At least 2 observations per group\n\n\n\n\nCompare means of related observations.\nExample: Before/after treatment measurements.\nData Requirements:\n\nColumn 1: First set of measurements\nColumn 2: Second set of measurements (paired)\nSample Size: At least 2 pairs\n\n\n\n\nTest if a single group differs from a hypothesized value.\nExample: Test if a class average differs from the national average.\nData Requirements:\n\nColumn: Numeric variable\nPopulation Mean: Hypothesized value (default: 0)\nSample Size: At least 2 observations\n\n\n\n\n\n\nSelect “T-Test” from the test dropdown\nChoose the test type (Independent, Paired, One-sample)\nSelect your data columns\nClick “Run Test”\n\n\n\n\n\n\n\nt-statistic: Measure of difference relative to variability\np-value: Probability of observing this difference by chance\nDegrees of Freedom: Number of independent observations\nGroup Means: Average values for each group\n\n\n\n\n\np &lt; 0.05: Generally significant\np &lt; 0.01: Strong significance\np &lt; 0.001: Very strong significance\n\n\n\n\n\n\nNormality: Data approximately follows normal distribution\nIndependence: Observations are independent (except paired tests)\nEqual Variance: Groups have similar variability (independent tests)\n\n\n\n\n\nLaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html#types-of-t-tests",
-    "href": "docs/statistical-tests/t-tests.html#types-of-t-tests",
+    "objectID": "content/statistical-tests/t-tests.html#types-of-t-tests",
+    "href": "content/statistical-tests/t-tests.html#types-of-t-tests",
     "title": "T-Tests",
     "section": "",
     "text": "Compare means between two separate groups.\nExample: Compare test scores between students in different schools.\nData Requirements:\n\nData Column: Numeric variable to compare\nGroup Column: Categorical variable with exactly 2 groups\nSample Size: At least 2 observations per group\n\n\n\n\nCompare means of related observations.\nExample: Before/after treatment measurements.\nData Requirements:\n\nColumn 1: First set of measurements\nColumn 2: Second set of measurements (paired)\nSample Size: At least 2 pairs\n\n\n\n\nTest if a single group differs from a hypothesized value.\nExample: Test if a class average differs from the national average.\nData Requirements:\n\nColumn: Numeric variable\nPopulation Mean: Hypothesized value (default: 0)\nSample Size: At least 2 observations",
@@ -84,8 +84,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html#how-to-run",
-    "href": "docs/statistical-tests/t-tests.html#how-to-run",
+    "objectID": "content/statistical-tests/t-tests.html#how-to-run",
+    "href": "content/statistical-tests/t-tests.html#how-to-run",
     "title": "T-Tests",
     "section": "",
     "text": "Select “T-Test” from the test dropdown\nChoose the test type (Independent, Paired, One-sample)\nSelect your data columns\nClick “Run Test”",
@@ -96,8 +96,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html#interpreting-results",
-    "href": "docs/statistical-tests/t-tests.html#interpreting-results",
+    "objectID": "content/statistical-tests/t-tests.html#interpreting-results",
+    "href": "content/statistical-tests/t-tests.html#interpreting-results",
     "title": "T-Tests",
     "section": "",
     "text": "t-statistic: Measure of difference relative to variability\np-value: Probability of observing this difference by chance\nDegrees of Freedom: Number of independent observations\nGroup Means: Average values for each group\n\n\n\n\n\np &lt; 0.05: Generally significant\np &lt; 0.01: Strong significance\np &lt; 0.001: Very strong significance",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html#assumptions",
-    "href": "docs/statistical-tests/t-tests.html#assumptions",
+    "objectID": "content/statistical-tests/t-tests.html#assumptions",
+    "href": "content/statistical-tests/t-tests.html#assumptions",
     "title": "T-Tests",
     "section": "",
     "text": "Normality: Data approximately follows normal distribution\nIndependence: Observations are independent (except paired tests)\nEqual Variance: Groups have similar variability (independent tests)",
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/t-tests.html#export-options",
-    "href": "docs/statistical-tests/t-tests.html#export-options",
+    "objectID": "content/statistical-tests/t-tests.html#export-options",
+    "href": "content/statistical-tests/t-tests.html#export-options",
     "title": "T-Tests",
     "section": "",
     "text": "LaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -132,8 +132,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html",
-    "href": "docs/statistical-tests/neural-networks.html",
+    "objectID": "content/statistical-tests/neural-networks.html",
+    "href": "content/statistical-tests/neural-networks.html",
     "title": "Neural Networks",
     "section": "",
     "text": "Neural networks are machine learning models that can learn complex patterns in your data for classification and regression tasks.\n\n\n\n\nPredict categories or classes.\nExample: Spam vs. not spam, flower species identification.\n\n\n\nPredict continuous values.\nExample: House prices, stock prices, temperature forecasting.\n\n\n\n\n\n\n\nNumeric features: All input variables must be numeric\nClean data: Remove or handle missing values\nSufficient samples: More data generally leads to better performance\n\n\n\n\n\nClassification: Categorical variable (2+ classes)\nRegression: Continuous numeric variable\n\n\n\n\n\n\n\n\nChoose “Neural Network” from the test dropdown\nSelect your CSV file\n\n\n\n\n\nTask Type: Choose Classification or Regression\nDependent Variable: Select your target variable\nIndependent Variables: Select one or more feature variables\nHyperparameters (optional):\n\nHidden Layer Size: Number of neurons (default: 10)\nLearning Rate: Step size for training (default: 0.01)\nEpochs: Training iterations (default: 1000)\n\n\n\n\n\nClick “Run Analysis” to train your neural network.\n\n\n\n\n\n\n\nArchitecture: Input → Hidden → Output layer sizes\nTask Type: Classification or Regression\nHyperparameters: Training configuration used\n\n\n\n\nFor Classification:\n\nAccuracy: Percentage of correct predictions\nNumber of Classes: Total categories in your data\n\nFor Regression:\n\nMSE (Mean Squared Error): Average squared prediction error\nRMSE (Root Mean Squared Error): Square root of MSE\nMAE (Mean Absolute Error): Average absolute prediction error\nR²: Proportion of variance explained by the model\n\n\n\n\n\nTraining Loss: Error on training data\nValidation Loss: Error on validation data\nConvergence: Whether the model stopped improving\n\n\n\n\n\n\n\n\nModel File (.pkl): Complete trained neural network\nModel Info (.json): Architecture and performance details\nPython Script: Ready-to-use code for deployment\n\n\n\n\nimport numpy as np\nimport pickle\nimport base64\n\n# Load your model\nmodel = SimpleNeuralNetwork(input_size, hidden_size, output_size)\nmodel.load_model(model_base64)\n\n# Preprocess new data\nnormalized_data = preprocess_data(new_data, X_mean, X_std)\n\n# Make predictions\npredictions = model.predict(normalized_data)\n\n\n\n\n\n\n\nClean your data: Remove missing values and outliers\nFeature selection: Choose relevant variables\nData splitting: Ensure sufficient training data\n\n\n\n\n\nStart simple: Use default hyperparameters first\nExperiment: Try different hidden layer sizes\nMonitor training: Watch for overfitting\n\n\n\n\n\n\n\n\nSingle hidden layer: Limited to one hidden layer\nFixed architecture: Cannot add custom layers\nBasic optimization: Uses simple gradient descent\n\n\n\n\n\nBlack-box nature: Difficult to interpret decisions\nData requirements: Need sufficient training data\nComputational cost: Training can be time-consuming\nOverfitting risk: Can memorize training data\n\n\n\n\n\n\nLaTeX: Publication-ready tables\nCSV: Structured data format\nModel files: Complete models for deployment\n\n\nNeed help? Check the FAQ or contact support.",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#types-of-tasks",
-    "href": "docs/statistical-tests/neural-networks.html#types-of-tasks",
+    "objectID": "content/statistical-tests/neural-networks.html#types-of-tasks",
+    "href": "content/statistical-tests/neural-networks.html#types-of-tasks",
     "title": "Neural Networks",
     "section": "",
     "text": "Predict categories or classes.\nExample: Spam vs. not spam, flower species identification.\n\n\n\nPredict continuous values.\nExample: House prices, stock prices, temperature forecasting.",
@@ -156,8 +156,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#data-requirements",
-    "href": "docs/statistical-tests/neural-networks.html#data-requirements",
+    "objectID": "content/statistical-tests/neural-networks.html#data-requirements",
+    "href": "content/statistical-tests/neural-networks.html#data-requirements",
     "title": "Neural Networks",
     "section": "",
     "text": "Numeric features: All input variables must be numeric\nClean data: Remove or handle missing values\nSufficient samples: More data generally leads to better performance\n\n\n\n\n\nClassification: Categorical variable (2+ classes)\nRegression: Continuous numeric variable",
@@ -168,8 +168,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#how-to-run",
-    "href": "docs/statistical-tests/neural-networks.html#how-to-run",
+    "objectID": "content/statistical-tests/neural-networks.html#how-to-run",
+    "href": "content/statistical-tests/neural-networks.html#how-to-run",
     "title": "Neural Networks",
     "section": "",
     "text": "Choose “Neural Network” from the test dropdown\nSelect your CSV file\n\n\n\n\n\nTask Type: Choose Classification or Regression\nDependent Variable: Select your target variable\nIndependent Variables: Select one or more feature variables\nHyperparameters (optional):\n\nHidden Layer Size: Number of neurons (default: 10)\nLearning Rate: Step size for training (default: 0.01)\nEpochs: Training iterations (default: 1000)\n\n\n\n\n\nClick “Run Analysis” to train your neural network.",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#interpreting-results",
-    "href": "docs/statistical-tests/neural-networks.html#interpreting-results",
+    "objectID": "content/statistical-tests/neural-networks.html#interpreting-results",
+    "href": "content/statistical-tests/neural-networks.html#interpreting-results",
     "title": "Neural Networks",
     "section": "",
     "text": "Architecture: Input → Hidden → Output layer sizes\nTask Type: Classification or Regression\nHyperparameters: Training configuration used\n\n\n\n\nFor Classification:\n\nAccuracy: Percentage of correct predictions\nNumber of Classes: Total categories in your data\n\nFor Regression:\n\nMSE (Mean Squared Error): Average squared prediction error\nRMSE (Root Mean Squared Error): Square root of MSE\nMAE (Mean Absolute Error): Average absolute prediction error\nR²: Proportion of variance explained by the model\n\n\n\n\n\nTraining Loss: Error on training data\nValidation Loss: Error on validation data\nConvergence: Whether the model stopped improving",
@@ -192,8 +192,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#model-download",
-    "href": "docs/statistical-tests/neural-networks.html#model-download",
+    "objectID": "content/statistical-tests/neural-networks.html#model-download",
+    "href": "content/statistical-tests/neural-networks.html#model-download",
     "title": "Neural Networks",
     "section": "",
     "text": "Model File (.pkl): Complete trained neural network\nModel Info (.json): Architecture and performance details\nPython Script: Ready-to-use code for deployment\n\n\n\n\nimport numpy as np\nimport pickle\nimport base64\n\n# Load your model\nmodel = SimpleNeuralNetwork(input_size, hidden_size, output_size)\nmodel.load_model(model_base64)\n\n# Preprocess new data\nnormalized_data = preprocess_data(new_data, X_mean, X_std)\n\n# Make predictions\npredictions = model.predict(normalized_data)",
@@ -204,8 +204,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#best-practices",
-    "href": "docs/statistical-tests/neural-networks.html#best-practices",
+    "objectID": "content/statistical-tests/neural-networks.html#best-practices",
+    "href": "content/statistical-tests/neural-networks.html#best-practices",
     "title": "Neural Networks",
     "section": "",
     "text": "Clean your data: Remove missing values and outliers\nFeature selection: Choose relevant variables\nData splitting: Ensure sufficient training data\n\n\n\n\n\nStart simple: Use default hyperparameters first\nExperiment: Try different hidden layer sizes\nMonitor training: Watch for overfitting",
@@ -216,8 +216,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#limitations",
-    "href": "docs/statistical-tests/neural-networks.html#limitations",
+    "objectID": "content/statistical-tests/neural-networks.html#limitations",
+    "href": "content/statistical-tests/neural-networks.html#limitations",
     "title": "Neural Networks",
     "section": "",
     "text": "Single hidden layer: Limited to one hidden layer\nFixed architecture: Cannot add custom layers\nBasic optimization: Uses simple gradient descent\n\n\n\n\n\nBlack-box nature: Difficult to interpret decisions\nData requirements: Need sufficient training data\nComputational cost: Training can be time-consuming\nOverfitting risk: Can memorize training data",
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/neural-networks.html#export-options",
-    "href": "docs/statistical-tests/neural-networks.html#export-options",
+    "objectID": "content/statistical-tests/neural-networks.html#export-options",
+    "href": "content/statistical-tests/neural-networks.html#export-options",
     "title": "Neural Networks",
     "section": "",
     "text": "LaTeX: Publication-ready tables\nCSV: Structured data format\nModel files: Complete models for deployment\n\n\nNeed help? Check the FAQ or contact support.",
@@ -240,8 +240,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html",
-    "href": "docs/statistical-tests/anova.html",
+    "objectID": "content/statistical-tests/anova.html",
+    "href": "content/statistical-tests/anova.html",
     "title": "ANOVA",
     "section": "",
     "text": "ANOVA (Analysis of Variance) compares means across three or more groups to determine if there are significant differences.\n\n\n\nMultiple groups: Compare means across 3+ groups\nCategorical predictor: One categorical variable defining groups\nContinuous outcome: Numeric variable to compare\n\nExample: Compare test scores across students in different schools.\n\n\n\n\nOutcome Variable: Continuous numeric variable\nGroup Variable: Categorical variable with 3+ groups\nSample Size: At least 2 observations per group\nIndependence: Observations are independent\n\n\n\n\n\nSelect “ANOVA” from the test dropdown\nChoose your CSV file\nSelect your outcome variable\nSelect your group variable\nClick “Run Test”\n\n\n\n\n\n\n\nF-statistic: Ratio of between-group to within-group variance\np-value: Probability of observing these differences by chance\nDegrees of Freedom: Between and within groups\nGroup Means: Average values for each group\n\n\n\n\n\np &lt; 0.05: At least one group differs significantly\np &lt; 0.01: Strong evidence of differences\np &lt; 0.001: Very strong evidence of differences\n\n\n\n\n\nEta-squared: Proportion of variance explained by groups\nLarge effect: η² &gt; 0.14\nMedium effect: η² = 0.06 - 0.14\nSmall effect: η² &lt; 0.06\n\n\n\n\n\n\nNormality: Data approximately follows normal distribution\nIndependence: Observations are independent\nEqual Variance: Groups have similar variability\nRandom Sampling: Data collected randomly\n\n\n\n\n\nLaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -252,8 +252,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#when-to-use",
-    "href": "docs/statistical-tests/anova.html#when-to-use",
+    "objectID": "content/statistical-tests/anova.html#when-to-use",
+    "href": "content/statistical-tests/anova.html#when-to-use",
     "title": "ANOVA",
     "section": "",
     "text": "Multiple groups: Compare means across 3+ groups\nCategorical predictor: One categorical variable defining groups\nContinuous outcome: Numeric variable to compare\n\nExample: Compare test scores across students in different schools.",
@@ -264,8 +264,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#data-requirements",
-    "href": "docs/statistical-tests/anova.html#data-requirements",
+    "objectID": "content/statistical-tests/anova.html#data-requirements",
+    "href": "content/statistical-tests/anova.html#data-requirements",
     "title": "ANOVA",
     "section": "",
     "text": "Outcome Variable: Continuous numeric variable\nGroup Variable: Categorical variable with 3+ groups\nSample Size: At least 2 observations per group\nIndependence: Observations are independent",
@@ -276,8 +276,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#how-to-run",
-    "href": "docs/statistical-tests/anova.html#how-to-run",
+    "objectID": "content/statistical-tests/anova.html#how-to-run",
+    "href": "content/statistical-tests/anova.html#how-to-run",
     "title": "ANOVA",
     "section": "",
     "text": "Select “ANOVA” from the test dropdown\nChoose your CSV file\nSelect your outcome variable\nSelect your group variable\nClick “Run Test”",
@@ -288,8 +288,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#interpreting-results",
-    "href": "docs/statistical-tests/anova.html#interpreting-results",
+    "objectID": "content/statistical-tests/anova.html#interpreting-results",
+    "href": "content/statistical-tests/anova.html#interpreting-results",
     "title": "ANOVA",
     "section": "",
     "text": "F-statistic: Ratio of between-group to within-group variance\np-value: Probability of observing these differences by chance\nDegrees of Freedom: Between and within groups\nGroup Means: Average values for each group\n\n\n\n\n\np &lt; 0.05: At least one group differs significantly\np &lt; 0.01: Strong evidence of differences\np &lt; 0.001: Very strong evidence of differences\n\n\n\n\n\nEta-squared: Proportion of variance explained by groups\nLarge effect: η² &gt; 0.14\nMedium effect: η² = 0.06 - 0.14\nSmall effect: η² &lt; 0.06",
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#assumptions",
-    "href": "docs/statistical-tests/anova.html#assumptions",
+    "objectID": "content/statistical-tests/anova.html#assumptions",
+    "href": "content/statistical-tests/anova.html#assumptions",
     "title": "ANOVA",
     "section": "",
     "text": "Normality: Data approximately follows normal distribution\nIndependence: Observations are independent\nEqual Variance: Groups have similar variability\nRandom Sampling: Data collected randomly",
@@ -312,8 +312,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/anova.html#export-options",
-    "href": "docs/statistical-tests/anova.html#export-options",
+    "objectID": "content/statistical-tests/anova.html#export-options",
+    "href": "content/statistical-tests/anova.html#export-options",
     "title": "ANOVA",
     "section": "",
     "text": "LaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -324,85 +324,85 @@
     ]
   },
   {
-    "objectID": "docs/results/export-formats.html",
-    "href": "docs/results/export-formats.html",
+    "objectID": "content/results/export-formats.html",
+    "href": "content/results/export-formats.html",
     "title": "Export Formats",
     "section": "",
     "text": "StatKit provides multiple export formats to meet different needs for sharing, publishing, and further analysis of your statistical results.\n\n\n\n\n\nFormat: LaTeX code for academic papers\nUse case: Publication-ready tables\nFeatures: Professional formatting, mathematical notation\nDownload: Copy-paste into LaTeX documents\n\n\n\n\n\nFormat: Comma-separated values\nUse case: Further analysis in other tools\nFeatures: Structured data, spreadsheet compatible\nDownload: Direct file download\n\n\n\n\n\nFormat: JavaScript Object Notation\nUse case: Programmatic access to results\nFeatures: Complete data structure, API integration\nDownload: Raw result data\n\n\n\n\n\nFormat: Pickle (.pkl) files\nUse case: Model deployment and reuse\nFeatures: Complete trained models, ready for prediction\nDownload: Binary model files\n\n\n\n\n\n\n\n\nLaTeX: Publication-ready summary tables\nCSV: Structured data with statistics by column\nJSON: Complete result data with metadata\n\n\n\n\n\nLaTeX: Professional statistical tables\nCSV: Detailed results with test statistics\nJSON: Complete test results and metadata\n\n\n\n\n\nLaTeX: Analysis of variance tables\nCSV: Group comparisons and significance tests\nJSON: Complete ANOVA results\n\n\n\n\n\nLaTeX: Model coefficients and fit statistics\nCSV: Regression results and predictions\nJSON: Complete model information\n\n\n\n\n\nLaTeX: Model architecture and performance metrics\nCSV: Training results and predictions\nJSON: Complete model data\nModel File: Trained neural network (.pkl)\nPython Script: Ready-to-use deployment code\n\n\n\n\n\n\n\n\nRun your analysis in StatKit\nView results in the dashboard\nChoose export format:\n\nClick “Download” for CSV\nCopy LaTeX code\nDownload model files (neural networks)\n\n\n\n\n\n\nNavigate to Analyses section\nFind your analysis in the list\nClick “Download” button\nSelect format if multiple options available\n\n\n\n\n\nOpen file preview for any dataset\nClick “Download” button\nFile downloads directly to your device\n\n\n\n\n\n\n\n\nPublication-ready: Professional academic formatting\nMathematical notation: Proper statistical symbols\nTable structure: Organized data presentation\nCopy-paste: Easy integration into documents\n\n\n\n\n\\begin{tabular}{lc}\\toprule\nStatistic & Value \\\\ \\midrule\nTest Type & Independent Samples T-Test \\\\\nTested Variable & Height \\\\\nGrouping Variable & Gender \\\\\nt-statistic & 2.3456 \\\\\np-value & 0.023456 \\\\\nDegrees of Freedom & 45.0 \\\\\nMale Mean & 175.2 \\\\\nFemale Mean & 162.8 \\\\\n\\bottomrule\\end{tabular}\n\n\n\n\nCopy the entire table: Include all LaTeX commands\nCheck formatting: Verify in your LaTeX editor\nCustomize if needed: Modify for specific journal requirements\nInclude in document: Paste into your LaTeX file\n\n\n\n\n\n\n\n\nStructured data: Organized in rows and columns\nSpreadsheet compatible: Opens in Excel, Google Sheets\nFurther analysis: Import into statistical software\nData sharing: Easy to share with colleagues\n\n\n\n\nStatistic,Value\nTest Type,Independent Samples T-Test\nTested Variable,Height\nGrouping Variable,Gender\nt-statistic,2.3456\np-value,0.023456\nDegrees of Freedom,45.0\nMale Mean,175.2\nFemale Mean,162.8\n\n\n\n\nOpen in spreadsheet: Excel, Google Sheets, or similar\nCheck formatting: Ensure proper column separation\nFurther analysis: Import into R, Python, or other tools\nData cleaning: Verify data types and formatting\n\n\n\n\n\n\n\n\nComplete data: All analysis results included\nProgrammatic access: Easy to parse with code\nMetadata: Additional information about the analysis\nAPI integration: Suitable for automated workflows\n\n\n\n\n{\n  \"test_type\": \"Independent Samples T-Test\",\n  \"column1\": \"Height\",\n  \"column2\": \"Gender\",\n  \"t_statistic\": 2.3456,\n  \"p_value\": 0.023456,\n  \"df\": 45.0,\n  \"sample1_mean\": 175.2,\n  \"sample2_mean\": 162.8,\n  \"sample1_n\": 25,\n  \"sample2_n\": 22\n}\n\n\n\n\nParse with code: Use in Python, R, or JavaScript\nExtract specific values: Access individual statistics\nBuild applications: Integrate into custom tools\nData validation: Verify result structure\n\n\n\n\n\n\n\n\nComplete model: Trained neural network\nReady for deployment: Load and use immediately\nBinary format: Efficient storage and transfer\nPython compatible: Works with NumPy and pickle\n\n\n\n\n\nReady-to-use code: Complete implementation\nExample usage: Shows how to load and use model\nDocumentation: Includes comments and explanations\nCustomizable: Easy to modify for your needs\n\n\n\n\n\nHuman-readable: Architecture and performance details\nMetadata: Training configuration and results\nDocumentation: Model specifications and limitations\nSharing: Easy to share model information\n\n\n\n\n\n\n\n\nAcademic papers: Use LaTeX tables\nFurther analysis: Use CSV or JSON\nModel deployment: Use .pkl files\nDocumentation: Use JSON for metadata\n\n\n\n\n\nOrganize downloads: Create folders for different projects\nVersion control: Keep track of different analysis runs\nBackup important results: Save multiple copies\nNaming conventions: Use descriptive file names\n\n\n\n\n\nVerify downloads: Check file integrity\nTest imports: Ensure files work in target applications\nCross-reference: Compare with original results\nDocument process: Keep notes on export choices\n\n\n\n\n\n\n\n\nDownload fails: Check browser settings and permissions\nFile corruption: Try downloading again\nFormat issues: Verify file extension and content\nImport problems: Check target application compatibility\n\n\n\n\n\nClear browser cache: Remove temporary files\nCheck file size: Ensure complete download\nVerify format: Open file to check content\nTry different browser: Use alternative web browser\n\n\n\n\n\n\nUnderstanding Results - Interpreting your analysis\nUnderstanding Results - Interpreting your analysis\nNeural Networks - Model downloads\n\n\nChoose the right export format for your needs. LaTeX for publications, CSV for analysis, JSON for programming, and model files for deployment."
   },
   {
-    "objectID": "docs/results/export-formats.html#available-export-formats",
-    "href": "docs/results/export-formats.html#available-export-formats",
+    "objectID": "content/results/export-formats.html#available-export-formats",
+    "href": "content/results/export-formats.html#available-export-formats",
     "title": "Export Formats",
     "section": "",
     "text": "Format: LaTeX code for academic papers\nUse case: Publication-ready tables\nFeatures: Professional formatting, mathematical notation\nDownload: Copy-paste into LaTeX documents\n\n\n\n\n\nFormat: Comma-separated values\nUse case: Further analysis in other tools\nFeatures: Structured data, spreadsheet compatible\nDownload: Direct file download\n\n\n\n\n\nFormat: JavaScript Object Notation\nUse case: Programmatic access to results\nFeatures: Complete data structure, API integration\nDownload: Raw result data\n\n\n\n\n\nFormat: Pickle (.pkl) files\nUse case: Model deployment and reuse\nFeatures: Complete trained models, ready for prediction\nDownload: Binary model files"
   },
   {
-    "objectID": "docs/results/export-formats.html#export-options-by-analysis-type",
-    "href": "docs/results/export-formats.html#export-options-by-analysis-type",
+    "objectID": "content/results/export-formats.html#export-options-by-analysis-type",
+    "href": "content/results/export-formats.html#export-options-by-analysis-type",
     "title": "Export Formats",
     "section": "",
     "text": "LaTeX: Publication-ready summary tables\nCSV: Structured data with statistics by column\nJSON: Complete result data with metadata\n\n\n\n\n\nLaTeX: Professional statistical tables\nCSV: Detailed results with test statistics\nJSON: Complete test results and metadata\n\n\n\n\n\nLaTeX: Analysis of variance tables\nCSV: Group comparisons and significance tests\nJSON: Complete ANOVA results\n\n\n\n\n\nLaTeX: Model coefficients and fit statistics\nCSV: Regression results and predictions\nJSON: Complete model information\n\n\n\n\n\nLaTeX: Model architecture and performance metrics\nCSV: Training results and predictions\nJSON: Complete model data\nModel File: Trained neural network (.pkl)\nPython Script: Ready-to-use deployment code"
   },
   {
-    "objectID": "docs/results/export-formats.html#how-to-export-results",
-    "href": "docs/results/export-formats.html#how-to-export-results",
+    "objectID": "content/results/export-formats.html#how-to-export-results",
+    "href": "content/results/export-formats.html#how-to-export-results",
     "title": "Export Formats",
     "section": "",
     "text": "Run your analysis in StatKit\nView results in the dashboard\nChoose export format:\n\nClick “Download” for CSV\nCopy LaTeX code\nDownload model files (neural networks)\n\n\n\n\n\n\nNavigate to Analyses section\nFind your analysis in the list\nClick “Download” button\nSelect format if multiple options available\n\n\n\n\n\nOpen file preview for any dataset\nClick “Download” button\nFile downloads directly to your device"
   },
   {
-    "objectID": "docs/results/export-formats.html#latex-export",
-    "href": "docs/results/export-formats.html#latex-export",
+    "objectID": "content/results/export-formats.html#latex-export",
+    "href": "content/results/export-formats.html#latex-export",
     "title": "Export Formats",
     "section": "",
     "text": "Publication-ready: Professional academic formatting\nMathematical notation: Proper statistical symbols\nTable structure: Organized data presentation\nCopy-paste: Easy integration into documents\n\n\n\n\n\\begin{tabular}{lc}\\toprule\nStatistic & Value \\\\ \\midrule\nTest Type & Independent Samples T-Test \\\\\nTested Variable & Height \\\\\nGrouping Variable & Gender \\\\\nt-statistic & 2.3456 \\\\\np-value & 0.023456 \\\\\nDegrees of Freedom & 45.0 \\\\\nMale Mean & 175.2 \\\\\nFemale Mean & 162.8 \\\\\n\\bottomrule\\end{tabular}\n\n\n\n\nCopy the entire table: Include all LaTeX commands\nCheck formatting: Verify in your LaTeX editor\nCustomize if needed: Modify for specific journal requirements\nInclude in document: Paste into your LaTeX file"
   },
   {
-    "objectID": "docs/results/export-formats.html#csv-export",
-    "href": "docs/results/export-formats.html#csv-export",
+    "objectID": "content/results/export-formats.html#csv-export",
+    "href": "content/results/export-formats.html#csv-export",
     "title": "Export Formats",
     "section": "",
     "text": "Structured data: Organized in rows and columns\nSpreadsheet compatible: Opens in Excel, Google Sheets\nFurther analysis: Import into statistical software\nData sharing: Easy to share with colleagues\n\n\n\n\nStatistic,Value\nTest Type,Independent Samples T-Test\nTested Variable,Height\nGrouping Variable,Gender\nt-statistic,2.3456\np-value,0.023456\nDegrees of Freedom,45.0\nMale Mean,175.2\nFemale Mean,162.8\n\n\n\n\nOpen in spreadsheet: Excel, Google Sheets, or similar\nCheck formatting: Ensure proper column separation\nFurther analysis: Import into R, Python, or other tools\nData cleaning: Verify data types and formatting"
   },
   {
-    "objectID": "docs/results/export-formats.html#json-export",
-    "href": "docs/results/export-formats.html#json-export",
+    "objectID": "content/results/export-formats.html#json-export",
+    "href": "content/results/export-formats.html#json-export",
     "title": "Export Formats",
     "section": "",
     "text": "Complete data: All analysis results included\nProgrammatic access: Easy to parse with code\nMetadata: Additional information about the analysis\nAPI integration: Suitable for automated workflows\n\n\n\n\n{\n  \"test_type\": \"Independent Samples T-Test\",\n  \"column1\": \"Height\",\n  \"column2\": \"Gender\",\n  \"t_statistic\": 2.3456,\n  \"p_value\": 0.023456,\n  \"df\": 45.0,\n  \"sample1_mean\": 175.2,\n  \"sample2_mean\": 162.8,\n  \"sample1_n\": 25,\n  \"sample2_n\": 22\n}\n\n\n\n\nParse with code: Use in Python, R, or JavaScript\nExtract specific values: Access individual statistics\nBuild applications: Integrate into custom tools\nData validation: Verify result structure"
   },
   {
-    "objectID": "docs/results/export-formats.html#neural-network-model-exports",
-    "href": "docs/results/export-formats.html#neural-network-model-exports",
+    "objectID": "content/results/export-formats.html#neural-network-model-exports",
+    "href": "content/results/export-formats.html#neural-network-model-exports",
     "title": "Export Formats",
     "section": "",
     "text": "Complete model: Trained neural network\nReady for deployment: Load and use immediately\nBinary format: Efficient storage and transfer\nPython compatible: Works with NumPy and pickle\n\n\n\n\n\nReady-to-use code: Complete implementation\nExample usage: Shows how to load and use model\nDocumentation: Includes comments and explanations\nCustomizable: Easy to modify for your needs\n\n\n\n\n\nHuman-readable: Architecture and performance details\nMetadata: Training configuration and results\nDocumentation: Model specifications and limitations\nSharing: Easy to share model information"
   },
   {
-    "objectID": "docs/results/export-formats.html#best-practices",
-    "href": "docs/results/export-formats.html#best-practices",
+    "objectID": "content/results/export-formats.html#best-practices",
+    "href": "content/results/export-formats.html#best-practices",
     "title": "Export Formats",
     "section": "",
     "text": "Academic papers: Use LaTeX tables\nFurther analysis: Use CSV or JSON\nModel deployment: Use .pkl files\nDocumentation: Use JSON for metadata\n\n\n\n\n\nOrganize downloads: Create folders for different projects\nVersion control: Keep track of different analysis runs\nBackup important results: Save multiple copies\nNaming conventions: Use descriptive file names\n\n\n\n\n\nVerify downloads: Check file integrity\nTest imports: Ensure files work in target applications\nCross-reference: Compare with original results\nDocument process: Keep notes on export choices"
   },
   {
-    "objectID": "docs/results/export-formats.html#troubleshooting",
-    "href": "docs/results/export-formats.html#troubleshooting",
+    "objectID": "content/results/export-formats.html#troubleshooting",
+    "href": "content/results/export-formats.html#troubleshooting",
     "title": "Export Formats",
     "section": "",
     "text": "Download fails: Check browser settings and permissions\nFile corruption: Try downloading again\nFormat issues: Verify file extension and content\nImport problems: Check target application compatibility\n\n\n\n\n\nClear browser cache: Remove temporary files\nCheck file size: Ensure complete download\nVerify format: Open file to check content\nTry different browser: Use alternative web browser"
   },
   {
-    "objectID": "docs/results/export-formats.html#related-topics",
-    "href": "docs/results/export-formats.html#related-topics",
+    "objectID": "content/results/export-formats.html#related-topics",
+    "href": "content/results/export-formats.html#related-topics",
     "title": "Export Formats",
     "section": "",
     "text": "Understanding Results - Interpreting your analysis\nUnderstanding Results - Interpreting your analysis\nNeural Networks - Model downloads\n\n\nChoose the right export format for your needs. LaTeX for publications, CSV for analysis, JSON for programming, and model files for deployment."
   },
   {
-    "objectID": "docs/help/faq.html",
-    "href": "docs/help/faq.html",
+    "objectID": "content/help/faq.html",
+    "href": "content/help/faq.html",
     "title": "FAQ",
     "section": "",
     "text": "Visit statisticskit.com and click “Sign In” to create an account.\n\n\n\nStatKit supports CSV files only. Use UTF-8 encoding for best results.\n\n\n\nCurrently no file size limits, but very large files may take longer to process.\n\n\n\n\n\n\n\nDescriptive Statistics\nT-Tests (Independent, Paired, One-sample)\nANOVA\nRegression (Linear, Logistic)\nNeural Networks\n\n\n\n\n\nComparing means: T-Tests or ANOVA\nExploring relationships: Regression\nData exploration: Descriptive Statistics\nMachine learning: Neural Networks\n\n\n\n\n\np &lt; 0.05: Generally significant\np &lt; 0.01: Strong significance\np &lt; 0.001: Very strong significance\n\n\n\n\n\n\n\n\nLaTeX tables: For academic papers\nCSV files: For further analysis\nJSON data: For programmatic access\nModel files: For neural networks\n\n\n\n\nAfter running an analysis, click “Download” to get your results.\n\n\n\nYes, all analyses are automatically saved to your account.\n\n\n\n\n\n\n\nCheck file format (CSV only)\nVerify UTF-8 encoding\nTry a smaller file\nCheck your internet connection\n\n\n\n\nAnalysis time depends on:\n\nData size\nTest complexity\nServer load\n\n\n\n\n\nCheck your data meets test requirements\nVerify file format\nReview test parameters\nContact support if needed\n\n\n\n\n\n\n\nYes, StatKit takes data security seriously:\n\nEncrypted storage\nSecure transmission\nAccess control\nRegular backups\n\n\n\n\nOnly you can access your data and analyses.\n\n\n\n\n\n\n\nDocumentation - Guides for all features\nFAQ - This page\nContact Support - For specific issues\n\n\nStill have questions? Contact support.",
@@ -413,8 +413,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#getting-started",
-    "href": "docs/help/faq.html#getting-started",
+    "objectID": "content/help/faq.html#getting-started",
+    "href": "content/help/faq.html#getting-started",
     "title": "FAQ",
     "section": "",
     "text": "Visit statisticskit.com and click “Sign In” to create an account.\n\n\n\nStatKit supports CSV files only. Use UTF-8 encoding for best results.\n\n\n\nCurrently no file size limits, but very large files may take longer to process.",
@@ -425,8 +425,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#statistical-tests",
-    "href": "docs/help/faq.html#statistical-tests",
+    "objectID": "content/help/faq.html#statistical-tests",
+    "href": "content/help/faq.html#statistical-tests",
     "title": "FAQ",
     "section": "",
     "text": "Descriptive Statistics\nT-Tests (Independent, Paired, One-sample)\nANOVA\nRegression (Linear, Logistic)\nNeural Networks\n\n\n\n\n\nComparing means: T-Tests or ANOVA\nExploring relationships: Regression\nData exploration: Descriptive Statistics\nMachine learning: Neural Networks\n\n\n\n\n\np &lt; 0.05: Generally significant\np &lt; 0.01: Strong significance\np &lt; 0.001: Very strong significance",
@@ -437,8 +437,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#results-and-export",
-    "href": "docs/help/faq.html#results-and-export",
+    "objectID": "content/help/faq.html#results-and-export",
+    "href": "content/help/faq.html#results-and-export",
     "title": "FAQ",
     "section": "",
     "text": "LaTeX tables: For academic papers\nCSV files: For further analysis\nJSON data: For programmatic access\nModel files: For neural networks\n\n\n\n\nAfter running an analysis, click “Download” to get your results.\n\n\n\nYes, all analyses are automatically saved to your account.",
@@ -449,8 +449,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#troubleshooting",
-    "href": "docs/help/faq.html#troubleshooting",
+    "objectID": "content/help/faq.html#troubleshooting",
+    "href": "content/help/faq.html#troubleshooting",
     "title": "FAQ",
     "section": "",
     "text": "Check file format (CSV only)\nVerify UTF-8 encoding\nTry a smaller file\nCheck your internet connection\n\n\n\n\nAnalysis time depends on:\n\nData size\nTest complexity\nServer load\n\n\n\n\n\nCheck your data meets test requirements\nVerify file format\nReview test parameters\nContact support if needed",
@@ -461,8 +461,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#privacy-and-security",
-    "href": "docs/help/faq.html#privacy-and-security",
+    "objectID": "content/help/faq.html#privacy-and-security",
+    "href": "content/help/faq.html#privacy-and-security",
     "title": "FAQ",
     "section": "",
     "text": "Yes, StatKit takes data security seriously:\n\nEncrypted storage\nSecure transmission\nAccess control\nRegular backups\n\n\n\n\nOnly you can access your data and analyses.",
@@ -473,8 +473,8 @@
     ]
   },
   {
-    "objectID": "docs/help/faq.html#support",
-    "href": "docs/help/faq.html#support",
+    "objectID": "content/help/faq.html#support",
+    "href": "content/help/faq.html#support",
     "title": "FAQ",
     "section": "",
     "text": "Documentation - Guides for all features\nFAQ - This page\nContact Support - For specific issues\n\n\nStill have questions? Contact support.",
@@ -485,78 +485,78 @@
     ]
   },
   {
-    "objectID": "docs/data-management/uploading-data.html",
-    "href": "docs/data-management/uploading-data.html",
+    "objectID": "content/data-management/uploading-data.html",
+    "href": "content/data-management/uploading-data.html",
     "title": "Uploading Data",
     "section": "",
     "text": "Uploading data is the first step in any statistical analysis. StatKit makes it easy to upload your data files and get started with analysis quickly."
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#overview",
-    "href": "docs/data-management/uploading-data.html#overview",
+    "objectID": "content/data-management/uploading-data.html#overview",
+    "href": "content/data-management/uploading-data.html#overview",
     "title": "Uploading Data",
     "section": "",
     "text": "Uploading data is the first step in any statistical analysis. StatKit makes it easy to upload your data files and get started with analysis quickly."
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#supported-file-formats",
-    "href": "docs/data-management/uploading-data.html#supported-file-formats",
+    "objectID": "content/data-management/uploading-data.html#supported-file-formats",
+    "href": "content/data-management/uploading-data.html#supported-file-formats",
     "title": "Uploading Data",
     "section": "Supported File Formats",
     "text": "Supported File Formats\n\nCSV Files (Recommended)\n\nComma-separated values: Most common format\nUTF-8 encoding: Supports international characters\nHeader row: Column names in the first row\nFile size: Currently no limits (subject to change)\n\nRelated: Data Exploration\n\n\nOther Formats\n\nExcel files (.xlsx, .xls): Convert to CSV for best results\nText files (.txt): Tab or comma separated\nJSON files: Structured data format"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#step-by-step-upload-process",
-    "href": "docs/data-management/uploading-data.html#step-by-step-upload-process",
+    "objectID": "content/data-management/uploading-data.html#step-by-step-upload-process",
+    "href": "content/data-management/uploading-data.html#step-by-step-upload-process",
     "title": "Uploading Data",
     "section": "Step-by-Step Upload Process",
     "text": "Step-by-Step Upload Process\n\n1. Prepare Your Data\nBefore uploading, ensure your data is ready: - Clean your data: Remove errors and inconsistencies - Check formatting: Ensure proper column headers - Verify data types: Numeric columns should contain numbers - Handle missing values: Decide how to treat missing data\nRelated: Data Exploration\n\n\n2. Access the Upload Feature\n\nSign in to your StatKit account\nNavigate to the dashboard\nClick “Upload Dataset” button\nSelect your file from your device\n\n\n\n3. File Selection\n\nBrowse your computer for the file\nSelect the file you want to upload\nVerify the file name and size\nClick “Upload” to proceed\n\n\n\n4. Data Preview\nAfter upload, StatKit will: - Display a preview of your data - Show column names and data types - Identify potential issues - Allow you to review before proceeding"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#data-requirements",
-    "href": "docs/data-management/uploading-data.html#data-requirements",
+    "objectID": "content/data-management/uploading-data.html#data-requirements",
+    "href": "content/data-management/uploading-data.html#data-requirements",
     "title": "Uploading Data",
     "section": "Data Requirements",
     "text": "Data Requirements\n\nColumn Types\n\nNumeric columns: For statistical calculations\nCategorical columns: For grouping and comparison\nText columns: For labels and descriptions\nDate columns: For time-series analysis\n\n\n\nData Quality\n\nNo empty headers: All columns should have names\nConsistent formatting: Same data type within columns\nReasonable values: Check for obvious errors\nAppropriate sample size: Enough data for meaningful analysis"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#common-upload-issues",
-    "href": "docs/data-management/uploading-data.html#common-upload-issues",
+    "objectID": "content/data-management/uploading-data.html#common-upload-issues",
+    "href": "content/data-management/uploading-data.html#common-upload-issues",
     "title": "Uploading Data",
     "section": "Common Upload Issues",
     "text": "Common Upload Issues\n\nFile Too Large\n\nIssue: File too large for processing\nSolution: Consider sampling or reducing file size if needed\n\n\n\nEncoding Problems\n\nIssue: Special characters appear incorrectly\nSolution: Save file with UTF-8 encoding\n\n\n\nMissing Headers\n\nIssue: Column names are missing or unclear\nSolution: Add descriptive column names in the first row\n\n\n\nMixed Data Types\n\nIssue: Numeric columns contain text\nSolution: Clean data before upload, separate numeric and text columns"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#best-practices",
-    "href": "docs/data-management/uploading-data.html#best-practices",
+    "objectID": "content/data-management/uploading-data.html#best-practices",
+    "href": "content/data-management/uploading-data.html#best-practices",
     "title": "Uploading Data",
     "section": "Best Practices",
     "text": "Best Practices\n\nBefore Upload\n\nBackup your data: Keep original files safe\nDocument your data: Note what each column represents\nCheck for errors: Look for obvious mistakes\nConsider privacy: Remove sensitive information if needed\n\n\n\nDuring Upload\n\nUse descriptive names: Make column names clear and meaningful\nCheck preview: Verify data looks correct\nNote any warnings: Address issues before analysis\nSave metadata: Keep track of data sources and dates\n\n\n\nAfter Upload\n\nRun data quality checks: Use StatKit’s built-in tools\nExplore your data: Start with descriptive statistics\nPlan your analysis: Decide which tests to run\nDocument your process: Keep notes for reproducibility"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#data-management",
-    "href": "docs/data-management/uploading-data.html#data-management",
+    "objectID": "content/data-management/uploading-data.html#data-management",
+    "href": "content/data-management/uploading-data.html#data-management",
     "title": "Uploading Data",
     "section": "Data Management",
     "text": "Data Management\n\nOrganizing Files\n\nUse clear names: Descriptive file names\nGroup related data: Keep similar datasets together\nVersion control: Keep track of different versions\nBackup regularly: Don’t rely on cloud storage alone\n\n\n\nUpdating Data\n\nReplace old files: Upload new versions when data changes\nNote changes: Document what was updated\nCheck compatibility: Ensure new data works with existing analyses\nArchive old versions: Keep previous versions for reference"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#related-topics",
-    "href": "docs/data-management/uploading-data.html#related-topics",
+    "objectID": "content/data-management/uploading-data.html#related-topics",
+    "href": "content/data-management/uploading-data.html#related-topics",
     "title": "Uploading Data",
     "section": "Related Topics",
     "text": "Related Topics\n\nData Exploration - Interactive data analysis\nData Exploration - Interactive data analysis\nDescriptive Statistics - First steps after upload\nGetting Started Guide - Complete beginner’s guide"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#troubleshooting",
-    "href": "docs/data-management/uploading-data.html#troubleshooting",
+    "objectID": "content/data-management/uploading-data.html#troubleshooting",
+    "href": "content/data-management/uploading-data.html#troubleshooting",
     "title": "Uploading Data",
     "section": "Troubleshooting",
     "text": "Troubleshooting\n\nCommon Problems\n\nUpload fails: Check file size and format\nData looks wrong: Verify encoding and formatting\nColumns missing: Check for empty headers\nAnalysis errors: Ensure data types are correct\n\n\n\nGetting Help\n\nCheck documentation: Review related guides\nContact support: Get help with specific issues\nCommunity forums: Ask other users for advice\nVideo tutorials: Watch step-by-step guides"
   },
   {
-    "objectID": "docs/data-management/uploading-data.html#next-steps",
-    "href": "docs/data-management/uploading-data.html#next-steps",
+    "objectID": "content/data-management/uploading-data.html#next-steps",
+    "href": "content/data-management/uploading-data.html#next-steps",
     "title": "Uploading Data",
     "section": "Next Steps",
     "text": "Next Steps\nAfter successfully uploading your data: 1. Run descriptive statistics to understand your data 2. Check data quality to identify any issues 3. Plan your analysis based on your research questions 4. Start with exploratory analysis before formal testing\n\nReady to upload your first dataset? Sign in to StatKit and start your analysis journey!"
@@ -646,85 +646,85 @@
     ]
   },
   {
-    "objectID": "docs/data-management/data-exploration.html",
-    "href": "docs/data-management/data-exploration.html",
+    "objectID": "content/data-management/data-exploration.html",
+    "href": "content/data-management/data-exploration.html",
     "title": "Data Exploration",
     "section": "",
     "text": "StatKit’s data exploration feature allows you to interactively analyze and visualize your data before running statistical tests. This powerful tool helps you understand your data structure, identify patterns, and prepare for analysis.\n\n\nThe data explorer provides a comprehensive interface for: - Data preview: View your data in a paginated table - Filtering: Apply filters to focus on specific data subsets - Visualization: Create basic charts and graphs - Summary statistics: Get quick insights about your data\n\n\n\n\n\n\nUpload your CSV file\nClick “Preview” on any dataset\nClick “Explore Data” button (appears for CSV files)\nThe data explorer modal will open\n\n\n\n\n\n\n\nPagination: Navigate through large datasets\nColumn selection: Show/hide specific columns\nSorting: Click column headers to sort\nSearch: Find specific values quickly\n\n\n\n\n\nEquals: Exact value matching\nContains: Text search within values\nGreater/Less than: Numeric comparisons\nBetween: Range filtering for numeric data\nIn list: Multiple value selection\n\n\n\n\n\nHistograms: Distribution of numeric variables\nScatter plots: Relationship between two variables\nBar charts: Frequency of categorical variables\nBox plots: Distribution and outliers\n\n\n\n\n\nNumeric variables: Mean, median, min, max, standard deviation\nCategorical variables: Count, unique values, most common\nData quality: Missing values, data types\n\n\n\n\n\n\n\n\n\nNavigate to your uploaded CSV file\nClick “Preview” to view the file\nClick “Explore Data” button\nThe explorer opens in a modal window\n\n\n\n\nThe explorer has three main views:\n\n\n\nView your data: Browse through rows and columns\nSelect columns: Choose which variables to display\nPagination: Navigate large datasets efficiently\nExport filtered data: Download filtered results\n\n\n\n\n\nSelect chart type: Histogram, scatter, bar, or box plot\nChoose variables: Pick X and Y axes for visualizations\nInterpret results: Understand data distributions and relationships\n\n\n\n\n\nVariable overview: Statistics for each column\nData quality: Missing values and data types\nQuick insights: Key characteristics of your data\n\n\n\n\n\n\nClick “Add Filter” button\nSelect the column to filter\nChoose the filter operator\nEnter filter values\nClick “Add Filter” to apply\n\n\n\n\n\nReview filtered data: See how filters affect your dataset\nCheck visualizations: Understand data patterns\nNote insights: Document important findings\nPrepare for analysis: Use insights to choose appropriate tests\n\n\n\n\n\n\n\n\nEquals: Exact numeric match\nGreater than: Values above threshold\nLess than: Values below threshold\nBetween: Values within range\n\n\n\n\n\nEquals: Exact text match\nContains: Text search (case-insensitive)\nIn list: Multiple value selection\n\n\n\n\n\nMultiple filters: Combine different conditions\nClear filters: Remove all filters at once\nFilter persistence: Filters remain active across views\n\n\n\n\n\n\n\n\nPurpose: Show distribution of numeric variables\nUse when: Understanding data spread and shape\nInterpretation: Look for normal distribution, skewness, outliers\n\n\n\n\n\nPurpose: Show relationship between two numeric variables\nUse when: Investigating correlations or patterns\nInterpretation: Look for linear relationships, clusters, outliers\n\n\n\n\n\nPurpose: Show frequency of categorical variables\nUse when: Understanding category distributions\nInterpretation: Identify most/least common categories\n\n\n\n\n\nPurpose: Show distribution and identify outliers\nUse when: Understanding data spread and detecting anomalies\nInterpretation: Look for symmetry, outliers, data range\n\n\n\n\n\n\n\n\nCheck for missing values: Identify incomplete data\nVerify data types: Ensure numeric variables are properly formatted\nLook for outliers: Identify unusual values that might affect analysis\nAssess sample size: Ensure sufficient data for statistical tests\n\n\n\n\n\nStart with summary: Get overview of all variables\nExamine distributions: Use histograms for numeric data\nCheck relationships: Use scatter plots for correlations\nApply filters: Focus on relevant data subsets\nDocument findings: Note important patterns and issues\n\n\n\n\n\nChoose appropriate tests: Use insights to select statistical methods\nHandle missing data: Decide how to treat incomplete observations\nConsider transformations: Note if data needs normalization\nPlan follow-up: Identify additional analyses needed\nEvaluate ML potential: Consider neural networks for complex patterns\n\n\n\n\n\n\n\n\nLiterature review: Understand previous findings\nHypothesis generation: Identify potential relationships\nMethod selection: Choose appropriate statistical tests\nQuality assurance: Verify data integrity\n\n\n\n\n\nCustomer segmentation: Identify distinct groups\nTrend analysis: Spot patterns over time\nPerformance monitoring: Track key metrics\nDecision support: Inform business strategies\n\n\n\n\n\nLearning tool: Understand statistical concepts\nData storytelling: Present findings clearly\nMethod practice: Apply statistical techniques\nReport preparation: Generate insights for reports\n\n\n\n\n\n\n\n\nBasic visualizations: Limited to fundamental chart types\nSingle dataset: Cannot compare multiple files\nNo advanced analytics: Focus on exploration, not modeling\nExport limitations: Filtered data only\nML preparation: Data exploration helps prepare for neural network analysis\n\n\n\n\n\nLarge datasets: Performance may slow with very large files\nMemory usage: Very large datasets may cause browser issues\nMobile compatibility: Best experience on desktop\n\n\n\n\n\n\n\n\nStart broad: Begin with summary statistics\nFocus gradually: Apply filters to narrow scope\nDocument process: Keep notes of your exploration\nSave insights: Export important findings\n\n\n\n\n\nSlow performance: Try filtering to smaller datasets\nMissing visualizations: Ensure data types are appropriate\nFilter issues: Check data format and values\nExport problems: Verify file permissions\n\n\n\n\n\n\nUploading Data - Getting your data into StatKit\nUploading Data - Getting your data into StatKit\nDescriptive Statistics - Statistical summaries\nUnderstanding Results - Interpreting analysis output\n\n\nData exploration is the foundation of good statistical analysis. Take time to understand your data before running tests - it will lead to better insights and more appropriate statistical methods."
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#overview",
-    "href": "docs/data-management/data-exploration.html#overview",
+    "objectID": "content/data-management/data-exploration.html#overview",
+    "href": "content/data-management/data-exploration.html#overview",
     "title": "Data Exploration",
     "section": "",
     "text": "The data explorer provides a comprehensive interface for: - Data preview: View your data in a paginated table - Filtering: Apply filters to focus on specific data subsets - Visualization: Create basic charts and graphs - Summary statistics: Get quick insights about your data"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#accessing-data-exploration",
-    "href": "docs/data-management/data-exploration.html#accessing-data-exploration",
+    "objectID": "content/data-management/data-exploration.html#accessing-data-exploration",
+    "href": "content/data-management/data-exploration.html#accessing-data-exploration",
     "title": "Data Exploration",
     "section": "",
     "text": "Upload your CSV file\nClick “Preview” on any dataset\nClick “Explore Data” button (appears for CSV files)\nThe data explorer modal will open\n\n\n\n\n\n\n\nPagination: Navigate through large datasets\nColumn selection: Show/hide specific columns\nSorting: Click column headers to sort\nSearch: Find specific values quickly\n\n\n\n\n\nEquals: Exact value matching\nContains: Text search within values\nGreater/Less than: Numeric comparisons\nBetween: Range filtering for numeric data\nIn list: Multiple value selection\n\n\n\n\n\nHistograms: Distribution of numeric variables\nScatter plots: Relationship between two variables\nBar charts: Frequency of categorical variables\nBox plots: Distribution and outliers\n\n\n\n\n\nNumeric variables: Mean, median, min, max, standard deviation\nCategorical variables: Count, unique values, most common\nData quality: Missing values, data types"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#how-to-use-data-exploration",
-    "href": "docs/data-management/data-exploration.html#how-to-use-data-exploration",
+    "objectID": "content/data-management/data-exploration.html#how-to-use-data-exploration",
+    "href": "content/data-management/data-exploration.html#how-to-use-data-exploration",
     "title": "Data Exploration",
     "section": "",
     "text": "Navigate to your uploaded CSV file\nClick “Preview” to view the file\nClick “Explore Data” button\nThe explorer opens in a modal window\n\n\n\n\nThe explorer has three main views:\n\n\n\nView your data: Browse through rows and columns\nSelect columns: Choose which variables to display\nPagination: Navigate large datasets efficiently\nExport filtered data: Download filtered results\n\n\n\n\n\nSelect chart type: Histogram, scatter, bar, or box plot\nChoose variables: Pick X and Y axes for visualizations\nInterpret results: Understand data distributions and relationships\n\n\n\n\n\nVariable overview: Statistics for each column\nData quality: Missing values and data types\nQuick insights: Key characteristics of your data\n\n\n\n\n\n\nClick “Add Filter” button\nSelect the column to filter\nChoose the filter operator\nEnter filter values\nClick “Add Filter” to apply\n\n\n\n\n\nReview filtered data: See how filters affect your dataset\nCheck visualizations: Understand data patterns\nNote insights: Document important findings\nPrepare for analysis: Use insights to choose appropriate tests"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#filtering-options",
-    "href": "docs/data-management/data-exploration.html#filtering-options",
+    "objectID": "content/data-management/data-exploration.html#filtering-options",
+    "href": "content/data-management/data-exploration.html#filtering-options",
     "title": "Data Exploration",
     "section": "",
     "text": "Equals: Exact numeric match\nGreater than: Values above threshold\nLess than: Values below threshold\nBetween: Values within range\n\n\n\n\n\nEquals: Exact text match\nContains: Text search (case-insensitive)\nIn list: Multiple value selection\n\n\n\n\n\nMultiple filters: Combine different conditions\nClear filters: Remove all filters at once\nFilter persistence: Filters remain active across views"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#visualization-types",
-    "href": "docs/data-management/data-exploration.html#visualization-types",
+    "objectID": "content/data-management/data-exploration.html#visualization-types",
+    "href": "content/data-management/data-exploration.html#visualization-types",
     "title": "Data Exploration",
     "section": "",
     "text": "Purpose: Show distribution of numeric variables\nUse when: Understanding data spread and shape\nInterpretation: Look for normal distribution, skewness, outliers\n\n\n\n\n\nPurpose: Show relationship between two numeric variables\nUse when: Investigating correlations or patterns\nInterpretation: Look for linear relationships, clusters, outliers\n\n\n\n\n\nPurpose: Show frequency of categorical variables\nUse when: Understanding category distributions\nInterpretation: Identify most/least common categories\n\n\n\n\n\nPurpose: Show distribution and identify outliers\nUse when: Understanding data spread and detecting anomalies\nInterpretation: Look for symmetry, outliers, data range"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#best-practices",
-    "href": "docs/data-management/data-exploration.html#best-practices",
+    "objectID": "content/data-management/data-exploration.html#best-practices",
+    "href": "content/data-management/data-exploration.html#best-practices",
     "title": "Data Exploration",
     "section": "",
     "text": "Check for missing values: Identify incomplete data\nVerify data types: Ensure numeric variables are properly formatted\nLook for outliers: Identify unusual values that might affect analysis\nAssess sample size: Ensure sufficient data for statistical tests\n\n\n\n\n\nStart with summary: Get overview of all variables\nExamine distributions: Use histograms for numeric data\nCheck relationships: Use scatter plots for correlations\nApply filters: Focus on relevant data subsets\nDocument findings: Note important patterns and issues\n\n\n\n\n\nChoose appropriate tests: Use insights to select statistical methods\nHandle missing data: Decide how to treat incomplete observations\nConsider transformations: Note if data needs normalization\nPlan follow-up: Identify additional analyses needed\nEvaluate ML potential: Consider neural networks for complex patterns"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#common-use-cases",
-    "href": "docs/data-management/data-exploration.html#common-use-cases",
+    "objectID": "content/data-management/data-exploration.html#common-use-cases",
+    "href": "content/data-management/data-exploration.html#common-use-cases",
     "title": "Data Exploration",
     "section": "",
     "text": "Literature review: Understand previous findings\nHypothesis generation: Identify potential relationships\nMethod selection: Choose appropriate statistical tests\nQuality assurance: Verify data integrity\n\n\n\n\n\nCustomer segmentation: Identify distinct groups\nTrend analysis: Spot patterns over time\nPerformance monitoring: Track key metrics\nDecision support: Inform business strategies\n\n\n\n\n\nLearning tool: Understand statistical concepts\nData storytelling: Present findings clearly\nMethod practice: Apply statistical techniques\nReport preparation: Generate insights for reports"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#limitations",
-    "href": "docs/data-management/data-exploration.html#limitations",
+    "objectID": "content/data-management/data-exploration.html#limitations",
+    "href": "content/data-management/data-exploration.html#limitations",
     "title": "Data Exploration",
     "section": "",
     "text": "Basic visualizations: Limited to fundamental chart types\nSingle dataset: Cannot compare multiple files\nNo advanced analytics: Focus on exploration, not modeling\nExport limitations: Filtered data only\nML preparation: Data exploration helps prepare for neural network analysis\n\n\n\n\n\nLarge datasets: Performance may slow with very large files\nMemory usage: Very large datasets may cause browser issues\nMobile compatibility: Best experience on desktop"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#tips-and-tricks",
-    "href": "docs/data-management/data-exploration.html#tips-and-tricks",
+    "objectID": "content/data-management/data-exploration.html#tips-and-tricks",
+    "href": "content/data-management/data-exploration.html#tips-and-tricks",
     "title": "Data Exploration",
     "section": "",
     "text": "Start broad: Begin with summary statistics\nFocus gradually: Apply filters to narrow scope\nDocument process: Keep notes of your exploration\nSave insights: Export important findings\n\n\n\n\n\nSlow performance: Try filtering to smaller datasets\nMissing visualizations: Ensure data types are appropriate\nFilter issues: Check data format and values\nExport problems: Verify file permissions"
   },
   {
-    "objectID": "docs/data-management/data-exploration.html#related-topics",
-    "href": "docs/data-management/data-exploration.html#related-topics",
+    "objectID": "content/data-management/data-exploration.html#related-topics",
+    "href": "content/data-management/data-exploration.html#related-topics",
     "title": "Data Exploration",
     "section": "",
     "text": "Uploading Data - Getting your data into StatKit\nUploading Data - Getting your data into StatKit\nDescriptive Statistics - Statistical summaries\nUnderstanding Results - Interpreting analysis output\n\n\nData exploration is the foundation of good statistical analysis. Take time to understand your data before running tests - it will lead to better insights and more appropriate statistical methods."
   },
   {
-    "objectID": "docs/getting-started.html",
-    "href": "docs/getting-started.html",
+    "objectID": "content/getting-started.html",
+    "href": "content/getting-started.html",
     "title": "Getting Started",
     "section": "",
     "text": "Follow these simple steps to run your first statistical analysis.\n\n\n\nSign in to your StatKit account\nClick “Upload Dataset”\nSelect your CSV file\nReview the data preview\n\n\n\n\nFormat: CSV files only\nEncoding: UTF-8 recommended\nHeader: First row should contain column names\nData: Numeric columns for statistical tests\n\n\n\n\n\nSelect from available statistical tests:\n\n\nSummarize your data with basic statistics.\n\n\n\nCompare means between groups:\n\nIndependent: Two separate groups\nPaired: Related measurements\nOne-sample: Test against a value\n\n\n\n\nCompare means across multiple groups.\n\n\n\nBuild predictive models:\n\nLinear: Predict continuous values\nLogistic: Predict categories\n\n\n\n\nTrain machine learning models for classification and regression.\n\n\n\n\n\nSelect your dependent variable\nChoose independent variables\nSet any additional options\nClick “Run Analysis”\n\n\n\n\nResults include:\n\nStatistical test output\nP-values and significance\nEffect sizes\nDescriptive statistics\n\n\n\n\nDownload your results in:\n\nLaTeX: For academic papers\nCSV: For further analysis\nJSON: For programmatic access\nModel files: For neural networks\n\n\n\n\n\nStart with descriptive statistics to understand your data\nCheck that your data meets test requirements\nSave important results\nCross-check with other software if needed\n\n\n\n\n\nFAQ - Common questions\nStatistical Tests - Detailed guides\nContact Support - Get help\n\n\nStatKit is in beta. Report issues to help us improve.",
@@ -735,8 +735,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#step-1-upload-your-data",
-    "href": "docs/getting-started.html#step-1-upload-your-data",
+    "objectID": "content/getting-started.html#step-1-upload-your-data",
+    "href": "content/getting-started.html#step-1-upload-your-data",
     "title": "Getting Started",
     "section": "",
     "text": "Sign in to your StatKit account\nClick “Upload Dataset”\nSelect your CSV file\nReview the data preview\n\n\n\n\nFormat: CSV files only\nEncoding: UTF-8 recommended\nHeader: First row should contain column names\nData: Numeric columns for statistical tests",
@@ -747,8 +747,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#step-2-choose-a-test",
-    "href": "docs/getting-started.html#step-2-choose-a-test",
+    "objectID": "content/getting-started.html#step-2-choose-a-test",
+    "href": "content/getting-started.html#step-2-choose-a-test",
     "title": "Getting Started",
     "section": "",
     "text": "Select from available statistical tests:\n\n\nSummarize your data with basic statistics.\n\n\n\nCompare means between groups:\n\nIndependent: Two separate groups\nPaired: Related measurements\nOne-sample: Test against a value\n\n\n\n\nCompare means across multiple groups.\n\n\n\nBuild predictive models:\n\nLinear: Predict continuous values\nLogistic: Predict categories\n\n\n\n\nTrain machine learning models for classification and regression.",
@@ -759,8 +759,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#step-3-configure-parameters",
-    "href": "docs/getting-started.html#step-3-configure-parameters",
+    "objectID": "content/getting-started.html#step-3-configure-parameters",
+    "href": "content/getting-started.html#step-3-configure-parameters",
     "title": "Getting Started",
     "section": "",
     "text": "Select your dependent variable\nChoose independent variables\nSet any additional options\nClick “Run Analysis”",
@@ -771,8 +771,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#step-4-view-results",
-    "href": "docs/getting-started.html#step-4-view-results",
+    "objectID": "content/getting-started.html#step-4-view-results",
+    "href": "content/getting-started.html#step-4-view-results",
     "title": "Getting Started",
     "section": "",
     "text": "Results include:\n\nStatistical test output\nP-values and significance\nEffect sizes\nDescriptive statistics",
@@ -783,8 +783,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#step-5-export-results",
-    "href": "docs/getting-started.html#step-5-export-results",
+    "objectID": "content/getting-started.html#step-5-export-results",
+    "href": "content/getting-started.html#step-5-export-results",
     "title": "Getting Started",
     "section": "",
     "text": "Download your results in:\n\nLaTeX: For academic papers\nCSV: For further analysis\nJSON: For programmatic access\nModel files: For neural networks",
@@ -795,8 +795,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#tips",
-    "href": "docs/getting-started.html#tips",
+    "objectID": "content/getting-started.html#tips",
+    "href": "content/getting-started.html#tips",
     "title": "Getting Started",
     "section": "",
     "text": "Start with descriptive statistics to understand your data\nCheck that your data meets test requirements\nSave important results\nCross-check with other software if needed",
@@ -807,8 +807,8 @@
     ]
   },
   {
-    "objectID": "docs/getting-started.html#need-help",
-    "href": "docs/getting-started.html#need-help",
+    "objectID": "content/getting-started.html#need-help",
+    "href": "content/getting-started.html#need-help",
     "title": "Getting Started",
     "section": "",
     "text": "FAQ - Common questions\nStatistical Tests - Detailed guides\nContact Support - Get help\n\n\nStatKit is in beta. Report issues to help us improve.",
@@ -819,106 +819,106 @@
     ]
   },
   {
-    "objectID": "docs/index.html",
-    "href": "docs/index.html",
+    "objectID": "content/index.html",
+    "href": "content/index.html",
     "title": "Documentation Overview",
     "section": "",
     "text": "This documentation provides comprehensive guides for all statistical tests available in StatKit."
   },
   {
-    "objectID": "docs/index.html#welcome-to-statkit-documentation",
-    "href": "docs/index.html#welcome-to-statkit-documentation",
+    "objectID": "content/index.html#welcome-to-statkit-documentation",
+    "href": "content/index.html#welcome-to-statkit-documentation",
     "title": "Documentation Overview",
     "section": "",
     "text": "This documentation provides comprehensive guides for all statistical tests available in StatKit."
   },
   {
-    "objectID": "docs/index.html#quick-navigation",
-    "href": "docs/index.html#quick-navigation",
+    "objectID": "content/index.html#quick-navigation",
+    "href": "content/index.html#quick-navigation",
     "title": "Documentation Overview",
     "section": "Quick Navigation",
     "text": "Quick Navigation\n\nGetting Started\n\nGetting Started Guide - Your first analysis with StatKit\nData Preparation - Tips for preparing your data\nUnderstanding Results - How to interpret your findings\n\n\n\nStatistical Tests\n\n📊 Descriptive Statistics\n\nComplete Guide\nSummarize and explore your data\nCalculate mean, median, standard deviation, and more\nExport results in LaTeX and CSV formats\n\n\n\n🔍 T-Tests\n\nComplete Guide\nIndependent Samples: Compare two independent groups\nPaired Samples: Compare related measurements\nOne-Sample: Test against a hypothesized population mean\n\n\n\n📈 ANOVA\n\nComplete Guide\nCompare means across three or more groups\nIdentify significant differences between conditions\nUnderstand F-statistics and p-values\n\n\n\n📉 Regression Analysis\n\nComplete Guide\nLinear Regression: Predict continuous outcomes\nLogistic Regression: Predict binary outcomes\nModel evaluation and coefficient interpretation"
   },
   {
-    "objectID": "docs/index.html#beta-version-notice",
-    "href": "docs/index.html#beta-version-notice",
+    "objectID": "content/index.html#beta-version-notice",
+    "href": "content/index.html#beta-version-notice",
     "title": "Documentation Overview",
     "section": "Beta Version Notice",
     "text": "Beta Version Notice\nStatKit is currently in beta development. While we strive for accuracy: - Cross-check results with other statistical software - Report any issues you encounter - Provide feedback to help us improve\n\nFor the most up-to-date information, visit statisticskit.com"
   },
   {
-    "objectID": "docs/results/understanding-results.html",
-    "href": "docs/results/understanding-results.html",
+    "objectID": "content/results/understanding-results.html",
+    "href": "content/results/understanding-results.html",
     "title": "Understanding Results",
     "section": "",
     "text": "Understanding your statistical results is crucial for drawing meaningful conclusions from your data. This guide will help you interpret the output from StatKit’s various statistical tests."
   },
   {
-    "objectID": "docs/results/understanding-results.html#overview",
-    "href": "docs/results/understanding-results.html#overview",
+    "objectID": "content/results/understanding-results.html#overview",
+    "href": "content/results/understanding-results.html#overview",
     "title": "Understanding Results",
     "section": "",
     "text": "Understanding your statistical results is crucial for drawing meaningful conclusions from your data. This guide will help you interpret the output from StatKit’s various statistical tests."
   },
   {
-    "objectID": "docs/results/understanding-results.html#key-concepts",
-    "href": "docs/results/understanding-results.html#key-concepts",
+    "objectID": "content/results/understanding-results.html#key-concepts",
+    "href": "content/results/understanding-results.html#key-concepts",
     "title": "Understanding Results",
     "section": "Key Concepts",
     "text": "Key Concepts\n\nStatistical Significance\n\np-value: Probability of observing results by chance\nAlpha level: Threshold for significance (typically 0.05)\nEffect size: Practical importance of the result\nConfidence intervals: Range of likely true values\n\n\n\nEffect Sizes\n\nSmall effect: Noticeable but not practically important\nMedium effect: Moderate practical importance\nLarge effect: Substantial practical importance"
   },
   {
-    "objectID": "docs/results/understanding-results.html#understanding-different-test-results",
-    "href": "docs/results/understanding-results.html#understanding-different-test-results",
+    "objectID": "content/results/understanding-results.html#understanding-different-test-results",
+    "href": "content/results/understanding-results.html#understanding-different-test-results",
     "title": "Understanding Results",
     "section": "Understanding Different Test Results",
     "text": "Understanding Different Test Results\n\nDescriptive Statistics\nWhat you get: - Measures of central tendency: Mean, median, mode - Measures of variability: Standard deviation, variance, range - Distribution shape: Skewness, kurtosis - Sample size: Number of observations\nHow to interpret: - Mean vs Median: Compare to understand skewness - Standard deviation: Higher values indicate more spread - Range: Difference between minimum and maximum\nRelated: Descriptive Statistics\n\n\nT-Test Results\nWhat you get: - t-statistic: Measure of difference relative to variability - p-value: Probability of observing this difference by chance - Degrees of freedom: Number of independent observations - Group means: Average values for each group - Effect size: Practical importance of the difference\nHow to interpret: - p &lt; 0.05: Statistically significant difference - t-statistic: Larger absolute values indicate bigger differences - Effect size: Consider practical significance beyond statistical significance\nRelated: T-Tests\n\n\nANOVA Results\nWhat you get: - F-statistic: Ratio of between-group to within-group variance - p-value: Probability of observing these differences by chance - Degrees of freedom: Between and within groups - Group means: Average values for each group - Effect size: Proportion of variance explained\nHow to interpret: - p &lt; 0.05: At least one group differs significantly - F-statistic: Larger values indicate bigger differences - Post-hoc tests: Identify which specific groups differ\nRelated: ANOVA\n\n\nRegression Results\nWhat you get: - R-squared: Proportion of variance explained by the model - Coefficients: Change in dependent variable per unit change in predictor - p-values: Statistical significance of each predictor - Standard errors: Uncertainty in coefficient estimates - Model fit statistics: Overall model performance\nHow to interpret: - R-squared: Higher values indicate better model fit - Coefficients: Direction and magnitude of relationships - p-values: Which predictors are statistically significant\nRelated: Regression Analysis\n\n\nNeural Network Results\nWhat you get: - Model architecture: Input, hidden, and output layer sizes - Task type: Classification or regression - Performance metrics: Accuracy (classification) or MSE/R² (regression) - Training progress: Loss values and convergence - Model download: Complete trained model for deployment\nHow to interpret: - Accuracy: Higher values indicate better classification performance - MSE/RMSE: Lower values indicate better regression predictions - Training loss: Should decrease and stabilize during training - Model complexity: Balance between performance and interpretability\nRelated: Neural Networks"
   },
   {
-    "objectID": "docs/results/understanding-results.html#reading-output-tables",
-    "href": "docs/results/understanding-results.html#reading-output-tables",
+    "objectID": "content/results/understanding-results.html#reading-output-tables",
+    "href": "content/results/understanding-results.html#reading-output-tables",
     "title": "Understanding Results",
     "section": "Reading Output Tables",
     "text": "Reading Output Tables\n\nTable Structure\nMost StatKit results include: - Variable names: What was tested - Test statistics: Calculated values (t, F, etc.) - p-values: Statistical significance - Effect sizes: Practical importance - Descriptive statistics: Means, standard deviations\n\n\nFormatting\n\nBold values: Often indicate significance\n**Asterisks (*)**: Mark significant results\nDecimal places: Precision of estimates\nUnits: Scale of measurement"
   },
   {
-    "objectID": "docs/results/understanding-results.html#common-interpretation-mistakes",
-    "href": "docs/results/understanding-results.html#common-interpretation-mistakes",
+    "objectID": "content/results/understanding-results.html#common-interpretation-mistakes",
+    "href": "content/results/understanding-results.html#common-interpretation-mistakes",
     "title": "Understanding Results",
     "section": "Common Interpretation Mistakes",
     "text": "Common Interpretation Mistakes\n\nP-Value Misconceptions\n\nMistake: “p = 0.04 means 96% chance the result is true”\nReality: p-value is probability of data given null hypothesis, not probability of hypothesis given data\n\n\n\nEffect Size Neglect\n\nMistake: Focusing only on statistical significance\nReality: Consider practical importance of the effect\n\n\n\nMultiple Testing\n\nMistake: Running many tests without adjusting significance levels\nReality: Multiple comparisons increase chance of false positives\n\n\n\nCorrelation vs Causation\n\nMistake: Assuming significant correlation means causation\nReality: Correlation doesn’t imply causation"
   },
   {
-    "objectID": "docs/results/understanding-results.html#best-practices",
-    "href": "docs/results/understanding-results.html#best-practices",
+    "objectID": "content/results/understanding-results.html#best-practices",
+    "href": "content/results/understanding-results.html#best-practices",
     "title": "Understanding Results",
     "section": "Best Practices",
     "text": "Best Practices\n\nBefore Analysis\n\nDefine hypotheses: What do you expect to find?\nChoose appropriate tests: Match test to your data and question\nSet significance level: Decide on alpha before analysis\nPlan sample size: Ensure adequate power\n\n\n\nDuring Analysis\n\nCheck assumptions: Ensure test requirements are met\nLook at effect sizes: Don’t just focus on p-values\nConsider practical significance: Is the effect meaningful?\nDocument your process: Keep notes for reproducibility\n\n\n\nAfter Analysis\n\nInterpret in context: Consider your research question\nReport effect sizes: Include practical importance\nAcknowledge limitations: Be honest about what you can’t conclude\nPlan follow-up: What questions remain?"
   },
   {
-    "objectID": "docs/results/understanding-results.html#exporting-and-sharing-results",
-    "href": "docs/results/understanding-results.html#exporting-and-sharing-results",
+    "objectID": "content/results/understanding-results.html#exporting-and-sharing-results",
+    "href": "content/results/understanding-results.html#exporting-and-sharing-results",
     "title": "Understanding Results",
     "section": "Exporting and Sharing Results",
     "text": "Exporting and Sharing Results\n\nExport Formats\n\nLaTeX tables: For academic papers\nCSV files: For further analysis\nJSON data: For programmatic access\nModel files: Trained neural networks for deployment\n\nRelated: Export Formats\n\n\nReporting Guidelines\n\nInclude effect sizes: Don’t just report p-values\nProvide context: Explain what the results mean\nAcknowledge limitations: Be transparent about assumptions\nUse appropriate precision: Don’t overstate precision"
   },
   {
-    "objectID": "docs/results/understanding-results.html#related-topics",
-    "href": "docs/results/understanding-results.html#related-topics",
+    "objectID": "content/results/understanding-results.html#related-topics",
+    "href": "content/results/understanding-results.html#related-topics",
     "title": "Understanding Results",
     "section": "Related Topics",
     "text": "Related Topics\n\nExport Formats - Sharing your results\nExport Formats - Downloading your results\nFAQ - Common questions and answers\nFAQ - Common questions and answers"
   },
   {
-    "objectID": "docs/results/understanding-results.html#next-steps",
-    "href": "docs/results/understanding-results.html#next-steps",
+    "objectID": "content/results/understanding-results.html#next-steps",
+    "href": "content/results/understanding-results.html#next-steps",
     "title": "Understanding Results",
     "section": "Next Steps",
     "text": "Next Steps\nAfter understanding your results: 1. Document your findings - Write clear interpretations 2. Share your results - Export in appropriate formats 3. Plan follow-up analyses - Address remaining questions 4. Consider implications - What do your results mean for your field?\n\nNeed help interpreting specific results? Check our FAQ or contact support."
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html",
-    "href": "docs/statistical-tests/descriptive-statistics.html",
+    "objectID": "content/statistical-tests/descriptive-statistics.html",
+    "href": "content/statistical-tests/descriptive-statistics.html",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Descriptive statistics summarize and explore your data with basic statistical measures.\n\n\n\n\n\nMean: Arithmetic average\nMedian: Middle value\nMode: Most frequent value\n\n\n\n\n\nStandard Deviation: Average distance from mean\nVariance: Square of standard deviation\nRange: Difference between min and max\nMin/Max: Smallest and largest values\n\n\n\n\n\nSkewness: Measure of asymmetry\nKurtosis: Measure of peakedness\n\n\n\n\n\n\nNumeric variables: For statistical calculations\nSample size: At least 2 observations\nMissing data: Automatically excluded\n\n\n\n\n\nSelect “Descriptive Statistics” from the test dropdown\nChoose your CSV file\nSelect numeric columns to analyze\nClick “Run Test”\n\n\n\n\n\n\n\nMean vs Median: Compare to understand skewness\nStandard deviation: Higher values indicate more spread\nRange: Shows the full spread of your data\n\n\n\n\n\nNormal distribution: Mean ≈ median, symmetric\nSkewed data: Mean ≠ median, asymmetric\nOutliers: Values far from the rest\n\n\n\n\n\n\nLaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -929,8 +929,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html#what-you-get",
-    "href": "docs/statistical-tests/descriptive-statistics.html#what-you-get",
+    "objectID": "content/statistical-tests/descriptive-statistics.html#what-you-get",
+    "href": "content/statistical-tests/descriptive-statistics.html#what-you-get",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Mean: Arithmetic average\nMedian: Middle value\nMode: Most frequent value\n\n\n\n\n\nStandard Deviation: Average distance from mean\nVariance: Square of standard deviation\nRange: Difference between min and max\nMin/Max: Smallest and largest values\n\n\n\n\n\nSkewness: Measure of asymmetry\nKurtosis: Measure of peakedness",
@@ -941,8 +941,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html#data-requirements",
-    "href": "docs/statistical-tests/descriptive-statistics.html#data-requirements",
+    "objectID": "content/statistical-tests/descriptive-statistics.html#data-requirements",
+    "href": "content/statistical-tests/descriptive-statistics.html#data-requirements",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Numeric variables: For statistical calculations\nSample size: At least 2 observations\nMissing data: Automatically excluded",
@@ -953,8 +953,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html#how-to-run",
-    "href": "docs/statistical-tests/descriptive-statistics.html#how-to-run",
+    "objectID": "content/statistical-tests/descriptive-statistics.html#how-to-run",
+    "href": "content/statistical-tests/descriptive-statistics.html#how-to-run",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Select “Descriptive Statistics” from the test dropdown\nChoose your CSV file\nSelect numeric columns to analyze\nClick “Run Test”",
@@ -965,8 +965,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html#interpreting-results",
-    "href": "docs/statistical-tests/descriptive-statistics.html#interpreting-results",
+    "objectID": "content/statistical-tests/descriptive-statistics.html#interpreting-results",
+    "href": "content/statistical-tests/descriptive-statistics.html#interpreting-results",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Mean vs Median: Compare to understand skewness\nStandard deviation: Higher values indicate more spread\nRange: Shows the full spread of your data\n\n\n\n\n\nNormal distribution: Mean ≈ median, symmetric\nSkewed data: Mean ≠ median, asymmetric\nOutliers: Values far from the rest",
@@ -977,8 +977,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/descriptive-statistics.html#export-options",
-    "href": "docs/statistical-tests/descriptive-statistics.html#export-options",
+    "objectID": "content/statistical-tests/descriptive-statistics.html#export-options",
+    "href": "content/statistical-tests/descriptive-statistics.html#export-options",
     "title": "Descriptive Statistics",
     "section": "",
     "text": "LaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -989,8 +989,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html",
-    "href": "docs/statistical-tests/regression.html",
+    "objectID": "content/statistical-tests/regression.html",
+    "href": "content/statistical-tests/regression.html",
     "title": "Regression",
     "section": "",
     "text": "Regression models predict outcomes based on input variables. StatKit supports linear and logistic regression.\n\n\n\n\nPredict continuous outcomes.\nExample: Predict house prices based on size, location, age.\n\n\n\nPredict binary outcomes.\nExample: Predict whether a customer will buy (yes/no) based on demographics.\n\n\n\n\n\n\n\nDependent Variable: Continuous numeric outcome\nIndependent Variables: One or more numeric predictors\nSample Size: At least n+1 observations (where n = number of predictors)\n\n\n\n\n\nDependent Variable: Binary or categorical with exactly 2 values\nIndependent Variables: One or more numeric or categorical predictors\nSample Size: At least n+1 observations per category\n\n\n\n\n\n\nSelect “Regression” from the test dropdown\nChoose your CSV file\nSelect your dependent variable\nChoose independent variables\nClick “Run Test”\n\n\n\n\n\n\n\nR-squared: Proportion of variance explained (0 to 1)\nRMSE: Root Mean Square Error - prediction accuracy\nCoefficients: Change in outcome per unit change in predictor\nP-values: Statistical significance of predictors\n\n\n\n\n\nPseudo R-squared: Measure of model fit\nCoefficients: Change in log-odds per unit change in predictor\nP-values: Statistical significance of predictors\n\n\n\n\n\nLinear: Higher R-squared indicates better fit\nLogistic: Higher pseudo R-squared indicates better fit\nP-values: &lt; 0.05 indicates significant predictors\n\n\n\n\n\n\n\n\nLinearity: Relationship between variables is linear\nIndependence: Observations are independent\nHomoscedasticity: Constant variance of residuals\nNormality: Residuals are normally distributed\n\n\n\n\n\nIndependence: Observations are independent\nNo multicollinearity: Predictors are not highly correlated\nLarge sample size: At least 10 events per predictor\n\n\n\n\n\n\nLaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -1001,8 +1001,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#types-of-regression",
-    "href": "docs/statistical-tests/regression.html#types-of-regression",
+    "objectID": "content/statistical-tests/regression.html#types-of-regression",
+    "href": "content/statistical-tests/regression.html#types-of-regression",
     "title": "Regression",
     "section": "",
     "text": "Predict continuous outcomes.\nExample: Predict house prices based on size, location, age.\n\n\n\nPredict binary outcomes.\nExample: Predict whether a customer will buy (yes/no) based on demographics.",
@@ -1013,8 +1013,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#data-requirements",
-    "href": "docs/statistical-tests/regression.html#data-requirements",
+    "objectID": "content/statistical-tests/regression.html#data-requirements",
+    "href": "content/statistical-tests/regression.html#data-requirements",
     "title": "Regression",
     "section": "",
     "text": "Dependent Variable: Continuous numeric outcome\nIndependent Variables: One or more numeric predictors\nSample Size: At least n+1 observations (where n = number of predictors)\n\n\n\n\n\nDependent Variable: Binary or categorical with exactly 2 values\nIndependent Variables: One or more numeric or categorical predictors\nSample Size: At least n+1 observations per category",
@@ -1025,8 +1025,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#how-to-run",
-    "href": "docs/statistical-tests/regression.html#how-to-run",
+    "objectID": "content/statistical-tests/regression.html#how-to-run",
+    "href": "content/statistical-tests/regression.html#how-to-run",
     "title": "Regression",
     "section": "",
     "text": "Select “Regression” from the test dropdown\nChoose your CSV file\nSelect your dependent variable\nChoose independent variables\nClick “Run Test”",
@@ -1037,8 +1037,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#interpreting-results",
-    "href": "docs/statistical-tests/regression.html#interpreting-results",
+    "objectID": "content/statistical-tests/regression.html#interpreting-results",
+    "href": "content/statistical-tests/regression.html#interpreting-results",
     "title": "Regression",
     "section": "",
     "text": "R-squared: Proportion of variance explained (0 to 1)\nRMSE: Root Mean Square Error - prediction accuracy\nCoefficients: Change in outcome per unit change in predictor\nP-values: Statistical significance of predictors\n\n\n\n\n\nPseudo R-squared: Measure of model fit\nCoefficients: Change in log-odds per unit change in predictor\nP-values: Statistical significance of predictors\n\n\n\n\n\nLinear: Higher R-squared indicates better fit\nLogistic: Higher pseudo R-squared indicates better fit\nP-values: &lt; 0.05 indicates significant predictors",
@@ -1049,8 +1049,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#assumptions",
-    "href": "docs/statistical-tests/regression.html#assumptions",
+    "objectID": "content/statistical-tests/regression.html#assumptions",
+    "href": "content/statistical-tests/regression.html#assumptions",
     "title": "Regression",
     "section": "",
     "text": "Linearity: Relationship between variables is linear\nIndependence: Observations are independent\nHomoscedasticity: Constant variance of residuals\nNormality: Residuals are normally distributed\n\n\n\n\n\nIndependence: Observations are independent\nNo multicollinearity: Predictors are not highly correlated\nLarge sample size: At least 10 events per predictor",
@@ -1061,8 +1061,8 @@
     ]
   },
   {
-    "objectID": "docs/statistical-tests/regression.html#export-options",
-    "href": "docs/statistical-tests/regression.html#export-options",
+    "objectID": "content/statistical-tests/regression.html#export-options",
+    "href": "content/statistical-tests/regression.html#export-options",
     "title": "Regression",
     "section": "",
     "text": "LaTeX: Copy-paste ready tables\nCSV: Structured data files\n\n\nNeed help? Check the FAQ or contact support.",
@@ -1073,71 +1073,71 @@
     ]
   },
   {
-    "objectID": "docs/test-categories/exploratory.html",
-    "href": "docs/test-categories/exploratory.html",
+    "objectID": "content/test-categories/exploratory.html",
+    "href": "content/test-categories/exploratory.html",
     "title": "Exploratory Analysis",
     "section": "",
     "text": "Exploratory analysis is the first step in any statistical investigation. It helps you understand your data’s structure, identify patterns, and detect potential issues before running formal statistical tests."
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#overview",
-    "href": "docs/test-categories/exploratory.html#overview",
+    "objectID": "content/test-categories/exploratory.html#overview",
+    "href": "content/test-categories/exploratory.html#overview",
     "title": "Exploratory Analysis",
     "section": "",
     "text": "Exploratory analysis is the first step in any statistical investigation. It helps you understand your data’s structure, identify patterns, and detect potential issues before running formal statistical tests."
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#what-is-exploratory-analysis",
-    "href": "docs/test-categories/exploratory.html#what-is-exploratory-analysis",
+    "objectID": "content/test-categories/exploratory.html#what-is-exploratory-analysis",
+    "href": "content/test-categories/exploratory.html#what-is-exploratory-analysis",
     "title": "Exploratory Analysis",
     "section": "What is Exploratory Analysis?",
     "text": "What is Exploratory Analysis?\nExploratory analysis involves: - Data summarization: Understanding central tendencies and variability - Pattern identification: Finding trends, outliers, and relationships - Data quality assessment: Checking for missing values, errors, and inconsistencies - Distribution analysis: Understanding how your data is distributed"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#available-tools-in-statkit",
-    "href": "docs/test-categories/exploratory.html#available-tools-in-statkit",
+    "objectID": "content/test-categories/exploratory.html#available-tools-in-statkit",
+    "href": "content/test-categories/exploratory.html#available-tools-in-statkit",
     "title": "Exploratory Analysis",
     "section": "Available Tools in StatKit",
     "text": "Available Tools in StatKit\n\nDescriptive Statistics\nThe foundation of exploratory analysis. Use this to: - Calculate means, medians, standard deviations - Identify minimum and maximum values - Understand data distributions - Check for outliers\nRelated: Descriptive Statistics\n\n\nData Quality Checks\nBefore running any analysis, ensure your data is clean: - Check for missing values - Identify data types - Verify data ranges - Look for inconsistencies\nRelated: Data Exploration"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#when-to-use-exploratory-analysis",
-    "href": "docs/test-categories/exploratory.html#when-to-use-exploratory-analysis",
+    "objectID": "content/test-categories/exploratory.html#when-to-use-exploratory-analysis",
+    "href": "content/test-categories/exploratory.html#when-to-use-exploratory-analysis",
     "title": "Exploratory Analysis",
     "section": "When to Use Exploratory Analysis",
     "text": "When to Use Exploratory Analysis\n\nAlways Start Here\n\nNew datasets: Understand what you’re working with\nData cleaning: Identify issues before analysis\nHypothesis generation: Discover patterns that suggest further testing\nQuality control: Ensure data meets assumptions\n\n\n\nSpecific Use Cases\n\nAcademic research: Preliminary data exploration\nBusiness analytics: Understanding customer behavior patterns\nStudent projects: Learning data analysis fundamentals\nData exploration: Discovering insights in large datasets"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#step-by-step-process",
-    "href": "docs/test-categories/exploratory.html#step-by-step-process",
+    "objectID": "content/test-categories/exploratory.html#step-by-step-process",
+    "href": "content/test-categories/exploratory.html#step-by-step-process",
     "title": "Exploratory Analysis",
     "section": "Step-by-Step Process",
     "text": "Step-by-Step Process\n\n1. Upload Your Data\nStart by uploading your CSV file to StatKit.\nRelated: Uploading Data\n\n\n2. Run Descriptive Statistics\nSelect multiple variables to get a comprehensive overview: - Numeric variables: Means, medians, standard deviations - Categorical variables: Frequency counts - Multiple variables: Compare distributions across groups\n\n\n3. Interpret Results\nLook for: - Central tendency: Where most values cluster - Variability: How spread out the data is - Skewness: Whether data is symmetric or skewed - Outliers: Unusual values that might need attention\n\n\n4. Plan Next Steps\nBased on your findings: - Clean data if needed - Choose appropriate tests for your research questions - Consider transformations for skewed data - Design follow-up analyses"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#best-practices",
-    "href": "docs/test-categories/exploratory.html#best-practices",
+    "objectID": "content/test-categories/exploratory.html#best-practices",
+    "href": "content/test-categories/exploratory.html#best-practices",
     "title": "Exploratory Analysis",
     "section": "Best Practices",
     "text": "Best Practices\n\nData Visualization\n\nAlways visualize your data when possible\nLook for patterns, trends, and outliers\nConsider different chart types for different data types\n\n\n\nMultiple Perspectives\n\nExamine data from different angles\nConsider different groupings and subsets\nLook for relationships between variables\n\n\n\nDocumentation\n\nKeep notes on your findings\nDocument any data cleaning steps\nRecord insights for future reference"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#common-issues-and-solutions",
-    "href": "docs/test-categories/exploratory.html#common-issues-and-solutions",
+    "objectID": "content/test-categories/exploratory.html#common-issues-and-solutions",
+    "href": "content/test-categories/exploratory.html#common-issues-and-solutions",
     "title": "Exploratory Analysis",
     "section": "Common Issues and Solutions",
     "text": "Common Issues and Solutions\n\nMissing Data\n\nIssue: Incomplete datasets\nSolution: Use StatKit’s data quality checks to identify missing values\n\n\n\nOutliers\n\nIssue: Extreme values affecting analysis\nSolution: Examine outliers carefully - they might be errors or important findings\n\n\n\nNon-normal Distributions\n\nIssue: Data doesn’t follow normal distribution\nSolution: Consider data transformations or non-parametric tests"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#related-topics",
-    "href": "docs/test-categories/exploratory.html#related-topics",
+    "objectID": "content/test-categories/exploratory.html#related-topics",
+    "href": "content/test-categories/exploratory.html#related-topics",
     "title": "Exploratory Analysis",
     "section": "Related Topics",
     "text": "Related Topics\n\nUploading Data - Getting your data into StatKit\nStatistical Tests - Moving from exploration to formal testing\nUnderstanding Results - Interpreting your findings\nExport Formats - Sharing your exploratory analysis"
   },
   {
-    "objectID": "docs/test-categories/exploratory.html#next-steps",
-    "href": "docs/test-categories/exploratory.html#next-steps",
+    "objectID": "content/test-categories/exploratory.html#next-steps",
+    "href": "content/test-categories/exploratory.html#next-steps",
     "title": "Exploratory Analysis",
     "section": "Next Steps",
     "text": "Next Steps\nAfter completing exploratory analysis: 1. Clean your data if issues were found 2. Choose appropriate statistical tests based on your findings 3. Run formal analyses to test your hypotheses 4. Document your process for reproducibility\n\nReady to start exploring your data? Upload a file and run your first descriptive statistics analysis!"

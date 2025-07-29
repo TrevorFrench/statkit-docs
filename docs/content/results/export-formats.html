@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Understanding Results – StatKit Documentation</title>
+<title>Export Formats – StatKit Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -112,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Understanding Results</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Export Formats</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -141,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/getting-started.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/getting-started.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quick Start</span></a>
   </div>
 </li>
@@ -164,31 +199,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Descriptive Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T-Tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ANOVA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neural Networks</span></a>
   </div>
 </li>
@@ -205,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/help/faq.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/help/faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -221,45 +256,66 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a>
+  <li><a href="#export-formats" id="toc-export-formats" class="nav-link active" data-scroll-target="#export-formats">Export Formats</a>
   <ul class="collapse">
-  <li><a href="#statistical-significance" id="toc-statistical-significance" class="nav-link" data-scroll-target="#statistical-significance">Statistical Significance</a></li>
-  <li><a href="#effect-sizes" id="toc-effect-sizes" class="nav-link" data-scroll-target="#effect-sizes">Effect Sizes</a></li>
+  <li><a href="#available-export-formats" id="toc-available-export-formats" class="nav-link" data-scroll-target="#available-export-formats">Available Export Formats</a>
+  <ul class="collapse">
+  <li><a href="#latex-tables" id="toc-latex-tables" class="nav-link" data-scroll-target="#latex-tables">LaTeX Tables</a></li>
+  <li><a href="#csv-files" id="toc-csv-files" class="nav-link" data-scroll-target="#csv-files">CSV Files</a></li>
+  <li><a href="#json-results" id="toc-json-results" class="nav-link" data-scroll-target="#json-results">JSON Results</a></li>
+  <li><a href="#model-files-neural-networks" id="toc-model-files-neural-networks" class="nav-link" data-scroll-target="#model-files-neural-networks">Model Files (Neural Networks)</a></li>
   </ul></li>
-  <li><a href="#understanding-different-test-results" id="toc-understanding-different-test-results" class="nav-link" data-scroll-target="#understanding-different-test-results">Understanding Different Test Results</a>
+  <li><a href="#export-options-by-analysis-type" id="toc-export-options-by-analysis-type" class="nav-link" data-scroll-target="#export-options-by-analysis-type">Export Options by Analysis Type</a>
   <ul class="collapse">
   <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link" data-scroll-target="#descriptive-statistics">Descriptive Statistics</a></li>
-  <li><a href="#t-test-results" id="toc-t-test-results" class="nav-link" data-scroll-target="#t-test-results">T-Test Results</a></li>
-  <li><a href="#anova-results" id="toc-anova-results" class="nav-link" data-scroll-target="#anova-results">ANOVA Results</a></li>
-  <li><a href="#regression-results" id="toc-regression-results" class="nav-link" data-scroll-target="#regression-results">Regression Results</a></li>
-  <li><a href="#neural-network-results" id="toc-neural-network-results" class="nav-link" data-scroll-target="#neural-network-results">Neural Network Results</a></li>
+  <li><a href="#t-tests" id="toc-t-tests" class="nav-link" data-scroll-target="#t-tests">T-Tests</a></li>
+  <li><a href="#anova" id="toc-anova" class="nav-link" data-scroll-target="#anova">ANOVA</a></li>
+  <li><a href="#regression-analysis" id="toc-regression-analysis" class="nav-link" data-scroll-target="#regression-analysis">Regression Analysis</a></li>
+  <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural Networks</a></li>
   </ul></li>
-  <li><a href="#reading-output-tables" id="toc-reading-output-tables" class="nav-link" data-scroll-target="#reading-output-tables">Reading Output Tables</a>
+  <li><a href="#how-to-export-results" id="toc-how-to-export-results" class="nav-link" data-scroll-target="#how-to-export-results">How to Export Results</a>
   <ul class="collapse">
-  <li><a href="#table-structure" id="toc-table-structure" class="nav-link" data-scroll-target="#table-structure">Table Structure</a></li>
-  <li><a href="#formatting" id="toc-formatting" class="nav-link" data-scroll-target="#formatting">Formatting</a></li>
+  <li><a href="#from-analysis-results" id="toc-from-analysis-results" class="nav-link" data-scroll-target="#from-analysis-results">From Analysis Results</a></li>
+  <li><a href="#from-dashboard" id="toc-from-dashboard" class="nav-link" data-scroll-target="#from-dashboard">From Dashboard</a></li>
+  <li><a href="#from-file-preview" id="toc-from-file-preview" class="nav-link" data-scroll-target="#from-file-preview">From File Preview</a></li>
   </ul></li>
-  <li><a href="#common-interpretation-mistakes" id="toc-common-interpretation-mistakes" class="nav-link" data-scroll-target="#common-interpretation-mistakes">Common Interpretation Mistakes</a>
+  <li><a href="#latex-export" id="toc-latex-export" class="nav-link" data-scroll-target="#latex-export">LaTeX Export</a>
   <ul class="collapse">
-  <li><a href="#p-value-misconceptions" id="toc-p-value-misconceptions" class="nav-link" data-scroll-target="#p-value-misconceptions">P-Value Misconceptions</a></li>
-  <li><a href="#effect-size-neglect" id="toc-effect-size-neglect" class="nav-link" data-scroll-target="#effect-size-neglect">Effect Size Neglect</a></li>
-  <li><a href="#multiple-testing" id="toc-multiple-testing" class="nav-link" data-scroll-target="#multiple-testing">Multiple Testing</a></li>
-  <li><a href="#correlation-vs-causation" id="toc-correlation-vs-causation" class="nav-link" data-scroll-target="#correlation-vs-causation">Correlation vs Causation</a></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
+  <li><a href="#example-output" id="toc-example-output" class="nav-link" data-scroll-target="#example-output">Example Output</a></li>
+  <li><a href="#usage-tips" id="toc-usage-tips" class="nav-link" data-scroll-target="#usage-tips">Usage Tips</a></li>
+  </ul></li>
+  <li><a href="#csv-export" id="toc-csv-export" class="nav-link" data-scroll-target="#csv-export">CSV Export</a>
+  <ul class="collapse">
+  <li><a href="#features-1" id="toc-features-1" class="nav-link" data-scroll-target="#features-1">Features</a></li>
+  <li><a href="#example-structure" id="toc-example-structure" class="nav-link" data-scroll-target="#example-structure">Example Structure</a></li>
+  <li><a href="#usage-tips-1" id="toc-usage-tips-1" class="nav-link" data-scroll-target="#usage-tips-1">Usage Tips</a></li>
+  </ul></li>
+  <li><a href="#json-export" id="toc-json-export" class="nav-link" data-scroll-target="#json-export">JSON Export</a>
+  <ul class="collapse">
+  <li><a href="#features-2" id="toc-features-2" class="nav-link" data-scroll-target="#features-2">Features</a></li>
+  <li><a href="#example-structure-1" id="toc-example-structure-1" class="nav-link" data-scroll-target="#example-structure-1">Example Structure</a></li>
+  <li><a href="#usage-tips-2" id="toc-usage-tips-2" class="nav-link" data-scroll-target="#usage-tips-2">Usage Tips</a></li>
+  </ul></li>
+  <li><a href="#neural-network-model-exports" id="toc-neural-network-model-exports" class="nav-link" data-scroll-target="#neural-network-model-exports">Neural Network Model Exports</a>
+  <ul class="collapse">
+  <li><a href="#model-file-.pkl" id="toc-model-file-.pkl" class="nav-link" data-scroll-target="#model-file-.pkl">Model File (.pkl)</a></li>
+  <li><a href="#python-script" id="toc-python-script" class="nav-link" data-scroll-target="#python-script">Python Script</a></li>
+  <li><a href="#model-info-.json" id="toc-model-info-.json" class="nav-link" data-scroll-target="#model-info-.json">Model Info (.json)</a></li>
   </ul></li>
   <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a>
   <ul class="collapse">
-  <li><a href="#before-analysis" id="toc-before-analysis" class="nav-link" data-scroll-target="#before-analysis">Before Analysis</a></li>
-  <li><a href="#during-analysis" id="toc-during-analysis" class="nav-link" data-scroll-target="#during-analysis">During Analysis</a></li>
-  <li><a href="#after-analysis" id="toc-after-analysis" class="nav-link" data-scroll-target="#after-analysis">After Analysis</a></li>
+  <li><a href="#choosing-export-formats" id="toc-choosing-export-formats" class="nav-link" data-scroll-target="#choosing-export-formats">Choosing Export Formats</a></li>
+  <li><a href="#file-management" id="toc-file-management" class="nav-link" data-scroll-target="#file-management">File Management</a></li>
+  <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">Quality Assurance</a></li>
   </ul></li>
-  <li><a href="#exporting-and-sharing-results" id="toc-exporting-and-sharing-results" class="nav-link" data-scroll-target="#exporting-and-sharing-results">Exporting and Sharing Results</a>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
   <ul class="collapse">
-  <li><a href="#export-formats" id="toc-export-formats" class="nav-link" data-scroll-target="#export-formats">Export Formats</a></li>
-  <li><a href="#reporting-guidelines" id="toc-reporting-guidelines" class="nav-link" data-scroll-target="#reporting-guidelines">Reporting Guidelines</a></li>
+  <li><a href="#common-issues" id="toc-common-issues" class="nav-link" data-scroll-target="#common-issues">Common Issues</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
   </ul></li>
   <li><a href="#related-topics" id="toc-related-topics" class="nav-link" data-scroll-target="#related-topics">Related Topics</a></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -268,8 +324,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Understanding Results</h1>
-<p class="subtitle lead">How to interpret and make sense of your statistical analysis results</p>
+<h1 class="title">Export Formats</h1>
+<p class="subtitle lead">Downloading and sharing your results</p>
 </div>
 
 
@@ -286,178 +342,323 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Understanding your statistical results is crucial for drawing meaningful conclusions from your data. This guide will help you interpret the output from StatKit’s various statistical tests.</p>
-</section>
-<section id="key-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
-<section id="statistical-significance" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-significance">Statistical Significance</h3>
+<section id="export-formats" class="level1">
+<h1>Export Formats</h1>
+<p>StatKit provides multiple export formats to meet different needs for sharing, publishing, and further analysis of your statistical results.</p>
+<section id="available-export-formats" class="level2">
+<h2 class="anchored" data-anchor-id="available-export-formats">Available Export Formats</h2>
+<section id="latex-tables" class="level3">
+<h3 class="anchored" data-anchor-id="latex-tables">LaTeX Tables</h3>
 <ul>
-<li><strong>p-value</strong>: Probability of observing results by chance</li>
-<li><strong>Alpha level</strong>: Threshold for significance (typically 0.05)</li>
-<li><strong>Effect size</strong>: Practical importance of the result</li>
-<li><strong>Confidence intervals</strong>: Range of likely true values</li>
+<li><strong>Format</strong>: LaTeX code for academic papers</li>
+<li><strong>Use case</strong>: Publication-ready tables</li>
+<li><strong>Features</strong>: Professional formatting, mathematical notation</li>
+<li><strong>Download</strong>: Copy-paste into LaTeX documents</li>
 </ul>
 </section>
-<section id="effect-sizes" class="level3">
-<h3 class="anchored" data-anchor-id="effect-sizes">Effect Sizes</h3>
+<section id="csv-files" class="level3">
+<h3 class="anchored" data-anchor-id="csv-files">CSV Files</h3>
 <ul>
-<li><strong>Small effect</strong>: Noticeable but not practically important</li>
-<li><strong>Medium effect</strong>: Moderate practical importance</li>
-<li><strong>Large effect</strong>: Substantial practical importance</li>
+<li><strong>Format</strong>: Comma-separated values</li>
+<li><strong>Use case</strong>: Further analysis in other tools</li>
+<li><strong>Features</strong>: Structured data, spreadsheet compatible</li>
+<li><strong>Download</strong>: Direct file download</li>
+</ul>
+</section>
+<section id="json-results" class="level3">
+<h3 class="anchored" data-anchor-id="json-results">JSON Results</h3>
+<ul>
+<li><strong>Format</strong>: JavaScript Object Notation</li>
+<li><strong>Use case</strong>: Programmatic access to results</li>
+<li><strong>Features</strong>: Complete data structure, API integration</li>
+<li><strong>Download</strong>: Raw result data</li>
+</ul>
+</section>
+<section id="model-files-neural-networks" class="level3">
+<h3 class="anchored" data-anchor-id="model-files-neural-networks">Model Files (Neural Networks)</h3>
+<ul>
+<li><strong>Format</strong>: Pickle (.pkl) files</li>
+<li><strong>Use case</strong>: Model deployment and reuse</li>
+<li><strong>Features</strong>: Complete trained models, ready for prediction</li>
+<li><strong>Download</strong>: Binary model files</li>
 </ul>
 </section>
 </section>
-<section id="understanding-different-test-results" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-different-test-results">Understanding Different Test Results</h2>
+<section id="export-options-by-analysis-type" class="level2">
+<h2 class="anchored" data-anchor-id="export-options-by-analysis-type">Export Options by Analysis Type</h2>
 <section id="descriptive-statistics" class="level3">
 <h3 class="anchored" data-anchor-id="descriptive-statistics">Descriptive Statistics</h3>
-<p><strong>What you get:</strong> - <strong>Measures of central tendency</strong>: Mean, median, mode - <strong>Measures of variability</strong>: Standard deviation, variance, range - <strong>Distribution shape</strong>: Skewness, kurtosis - <strong>Sample size</strong>: Number of observations</p>
-<p><strong>How to interpret:</strong> - <strong>Mean vs Median</strong>: Compare to understand skewness - <strong>Standard deviation</strong>: Higher values indicate more spread - <strong>Range</strong>: Difference between minimum and maximum</p>
-<p><strong>Related</strong>: <a href="../../docs/statistical-tests/descriptive-statistics.html">Descriptive Statistics</a></p>
-</section>
-<section id="t-test-results" class="level3">
-<h3 class="anchored" data-anchor-id="t-test-results">T-Test Results</h3>
-<p><strong>What you get:</strong> - <strong>t-statistic</strong>: Measure of difference relative to variability - <strong>p-value</strong>: Probability of observing this difference by chance - <strong>Degrees of freedom</strong>: Number of independent observations - <strong>Group means</strong>: Average values for each group - <strong>Effect size</strong>: Practical importance of the difference</p>
-<p><strong>How to interpret:</strong> - <strong>p &lt; 0.05</strong>: Statistically significant difference - <strong>t-statistic</strong>: Larger absolute values indicate bigger differences - <strong>Effect size</strong>: Consider practical significance beyond statistical significance</p>
-<p><strong>Related</strong>: <a href="../../docs/statistical-tests/t-tests.html">T-Tests</a></p>
-</section>
-<section id="anova-results" class="level3">
-<h3 class="anchored" data-anchor-id="anova-results">ANOVA Results</h3>
-<p><strong>What you get:</strong> - <strong>F-statistic</strong>: Ratio of between-group to within-group variance - <strong>p-value</strong>: Probability of observing these differences by chance - <strong>Degrees of freedom</strong>: Between and within groups - <strong>Group means</strong>: Average values for each group - <strong>Effect size</strong>: Proportion of variance explained</p>
-<p><strong>How to interpret:</strong> - <strong>p &lt; 0.05</strong>: At least one group differs significantly - <strong>F-statistic</strong>: Larger values indicate bigger differences - <strong>Post-hoc tests</strong>: Identify which specific groups differ</p>
-<p><strong>Related</strong>: <a href="../../docs/statistical-tests/anova.html">ANOVA</a></p>
-</section>
-<section id="regression-results" class="level3">
-<h3 class="anchored" data-anchor-id="regression-results">Regression Results</h3>
-<p><strong>What you get:</strong> - <strong>R-squared</strong>: Proportion of variance explained by the model - <strong>Coefficients</strong>: Change in dependent variable per unit change in predictor - <strong>p-values</strong>: Statistical significance of each predictor - <strong>Standard errors</strong>: Uncertainty in coefficient estimates - <strong>Model fit statistics</strong>: Overall model performance</p>
-<p><strong>How to interpret:</strong> - <strong>R-squared</strong>: Higher values indicate better model fit - <strong>Coefficients</strong>: Direction and magnitude of relationships - <strong>p-values</strong>: Which predictors are statistically significant</p>
-<p><strong>Related</strong>: <a href="../../docs/statistical-tests/regression.html">Regression Analysis</a></p>
-</section>
-<section id="neural-network-results" class="level3">
-<h3 class="anchored" data-anchor-id="neural-network-results">Neural Network Results</h3>
-<p><strong>What you get:</strong> - <strong>Model architecture</strong>: Input, hidden, and output layer sizes - <strong>Task type</strong>: Classification or regression - <strong>Performance metrics</strong>: Accuracy (classification) or MSE/R² (regression) - <strong>Training progress</strong>: Loss values and convergence - <strong>Model download</strong>: Complete trained model for deployment</p>
-<p><strong>How to interpret:</strong> - <strong>Accuracy</strong>: Higher values indicate better classification performance - <strong>MSE/RMSE</strong>: Lower values indicate better regression predictions - <strong>Training loss</strong>: Should decrease and stabilize during training - <strong>Model complexity</strong>: Balance between performance and interpretability</p>
-<p><strong>Related</strong>: <a href="../../docs/statistical-tests/neural-networks.html">Neural Networks</a></p>
-</section>
-</section>
-<section id="reading-output-tables" class="level2">
-<h2 class="anchored" data-anchor-id="reading-output-tables">Reading Output Tables</h2>
-<section id="table-structure" class="level3">
-<h3 class="anchored" data-anchor-id="table-structure">Table Structure</h3>
-<p>Most StatKit results include: - <strong>Variable names</strong>: What was tested - <strong>Test statistics</strong>: Calculated values (t, F, etc.) - <strong>p-values</strong>: Statistical significance - <strong>Effect sizes</strong>: Practical importance - <strong>Descriptive statistics</strong>: Means, standard deviations</p>
-</section>
-<section id="formatting" class="level3">
-<h3 class="anchored" data-anchor-id="formatting">Formatting</h3>
 <ul>
-<li><strong>Bold values</strong>: Often indicate significance</li>
-<li>**Asterisks (*)**: Mark significant results</li>
-<li><strong>Decimal places</strong>: Precision of estimates</li>
-<li><strong>Units</strong>: Scale of measurement</li>
+<li><strong>LaTeX</strong>: Publication-ready summary tables</li>
+<li><strong>CSV</strong>: Structured data with statistics by column</li>
+<li><strong>JSON</strong>: Complete result data with metadata</li>
+</ul>
+</section>
+<section id="t-tests" class="level3">
+<h3 class="anchored" data-anchor-id="t-tests">T-Tests</h3>
+<ul>
+<li><strong>LaTeX</strong>: Professional statistical tables</li>
+<li><strong>CSV</strong>: Detailed results with test statistics</li>
+<li><strong>JSON</strong>: Complete test results and metadata</li>
+</ul>
+</section>
+<section id="anova" class="level3">
+<h3 class="anchored" data-anchor-id="anova">ANOVA</h3>
+<ul>
+<li><strong>LaTeX</strong>: Analysis of variance tables</li>
+<li><strong>CSV</strong>: Group comparisons and significance tests</li>
+<li><strong>JSON</strong>: Complete ANOVA results</li>
+</ul>
+</section>
+<section id="regression-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="regression-analysis">Regression Analysis</h3>
+<ul>
+<li><strong>LaTeX</strong>: Model coefficients and fit statistics</li>
+<li><strong>CSV</strong>: Regression results and predictions</li>
+<li><strong>JSON</strong>: Complete model information</li>
+</ul>
+</section>
+<section id="neural-networks" class="level3">
+<h3 class="anchored" data-anchor-id="neural-networks">Neural Networks</h3>
+<ul>
+<li><strong>LaTeX</strong>: Model architecture and performance metrics</li>
+<li><strong>CSV</strong>: Training results and predictions</li>
+<li><strong>JSON</strong>: Complete model data</li>
+<li><strong>Model File</strong>: Trained neural network (.pkl)</li>
+<li><strong>Python Script</strong>: Ready-to-use deployment code</li>
 </ul>
 </section>
 </section>
-<section id="common-interpretation-mistakes" class="level2">
-<h2 class="anchored" data-anchor-id="common-interpretation-mistakes">Common Interpretation Mistakes</h2>
-<section id="p-value-misconceptions" class="level3">
-<h3 class="anchored" data-anchor-id="p-value-misconceptions">P-Value Misconceptions</h3>
+<section id="how-to-export-results" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-export-results">How to Export Results</h2>
+<section id="from-analysis-results" class="level3">
+<h3 class="anchored" data-anchor-id="from-analysis-results">From Analysis Results</h3>
+<ol type="1">
+<li><strong>Run your analysis</strong> in StatKit</li>
+<li><strong>View results</strong> in the dashboard</li>
+<li><strong>Choose export format</strong>:
 <ul>
-<li><strong>Mistake</strong>: “p = 0.04 means 96% chance the result is true”</li>
-<li><strong>Reality</strong>: p-value is probability of data given null hypothesis, not probability of hypothesis given data</li>
+<li>Click “Download” for CSV</li>
+<li>Copy LaTeX code</li>
+<li>Download model files (neural networks)</li>
+</ul></li>
+</ol>
+</section>
+<section id="from-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="from-dashboard">From Dashboard</h3>
+<ol type="1">
+<li><strong>Navigate to Analyses</strong> section</li>
+<li><strong>Find your analysis</strong> in the list</li>
+<li><strong>Click “Download”</strong> button</li>
+<li><strong>Select format</strong> if multiple options available</li>
+</ol>
+</section>
+<section id="from-file-preview" class="level3">
+<h3 class="anchored" data-anchor-id="from-file-preview">From File Preview</h3>
+<ol type="1">
+<li><strong>Open file preview</strong> for any dataset</li>
+<li><strong>Click “Download”</strong> button</li>
+<li><strong>File downloads</strong> directly to your device</li>
+</ol>
+</section>
+</section>
+<section id="latex-export" class="level2">
+<h2 class="anchored" data-anchor-id="latex-export">LaTeX Export</h2>
+<section id="features" class="level3">
+<h3 class="anchored" data-anchor-id="features">Features</h3>
+<ul>
+<li><strong>Publication-ready</strong>: Professional academic formatting</li>
+<li><strong>Mathematical notation</strong>: Proper statistical symbols</li>
+<li><strong>Table structure</strong>: Organized data presentation</li>
+<li><strong>Copy-paste</strong>: Easy integration into documents</li>
 </ul>
 </section>
-<section id="effect-size-neglect" class="level3">
-<h3 class="anchored" data-anchor-id="effect-size-neglect">Effect Size Neglect</h3>
+<section id="example-output" class="level3">
+<h3 class="anchored" data-anchor-id="example-output">Example Output</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular</span>}{lc}<span class="fu">\toprule</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Statistic <span class="op">&amp;</span> Value <span class="fu">\\</span> <span class="fu">\midrule</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Test Type <span class="op">&amp;</span> Independent Samples T-Test <span class="fu">\\</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>Tested Variable <span class="op">&amp;</span> Height <span class="fu">\\</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Grouping Variable <span class="op">&amp;</span> Gender <span class="fu">\\</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>t-statistic <span class="op">&amp;</span> 2.3456 <span class="fu">\\</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>p-value <span class="op">&amp;</span> 0.023456 <span class="fu">\\</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>Degrees of Freedom <span class="op">&amp;</span> 45.0 <span class="fu">\\</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Male Mean <span class="op">&amp;</span> 175.2 <span class="fu">\\</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Female Mean <span class="op">&amp;</span> 162.8 <span class="fu">\\</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">\bottomrule</span><span class="kw">\end</span>{<span class="ex">tabular</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usage-tips" class="level3">
+<h3 class="anchored" data-anchor-id="usage-tips">Usage Tips</h3>
 <ul>
-<li><strong>Mistake</strong>: Focusing only on statistical significance</li>
-<li><strong>Reality</strong>: Consider practical importance of the effect</li>
+<li><strong>Copy the entire table</strong>: Include all LaTeX commands</li>
+<li><strong>Check formatting</strong>: Verify in your LaTeX editor</li>
+<li><strong>Customize if needed</strong>: Modify for specific journal requirements</li>
+<li><strong>Include in document</strong>: Paste into your LaTeX file</li>
 </ul>
 </section>
-<section id="multiple-testing" class="level3">
-<h3 class="anchored" data-anchor-id="multiple-testing">Multiple Testing</h3>
+</section>
+<section id="csv-export" class="level2">
+<h2 class="anchored" data-anchor-id="csv-export">CSV Export</h2>
+<section id="features-1" class="level3">
+<h3 class="anchored" data-anchor-id="features-1">Features</h3>
 <ul>
-<li><strong>Mistake</strong>: Running many tests without adjusting significance levels</li>
-<li><strong>Reality</strong>: Multiple comparisons increase chance of false positives</li>
+<li><strong>Structured data</strong>: Organized in rows and columns</li>
+<li><strong>Spreadsheet compatible</strong>: Opens in Excel, Google Sheets</li>
+<li><strong>Further analysis</strong>: Import into statistical software</li>
+<li><strong>Data sharing</strong>: Easy to share with colleagues</li>
 </ul>
 </section>
-<section id="correlation-vs-causation" class="level3">
-<h3 class="anchored" data-anchor-id="correlation-vs-causation">Correlation vs Causation</h3>
+<section id="example-structure" class="level3">
+<h3 class="anchored" data-anchor-id="example-structure">Example Structure</h3>
+<pre class="csv"><code>Statistic,Value
+Test Type,Independent Samples T-Test
+Tested Variable,Height
+Grouping Variable,Gender
+t-statistic,2.3456
+p-value,0.023456
+Degrees of Freedom,45.0
+Male Mean,175.2
+Female Mean,162.8</code></pre>
+</section>
+<section id="usage-tips-1" class="level3">
+<h3 class="anchored" data-anchor-id="usage-tips-1">Usage Tips</h3>
 <ul>
-<li><strong>Mistake</strong>: Assuming significant correlation means causation</li>
-<li><strong>Reality</strong>: Correlation doesn’t imply causation</li>
+<li><strong>Open in spreadsheet</strong>: Excel, Google Sheets, or similar</li>
+<li><strong>Check formatting</strong>: Ensure proper column separation</li>
+<li><strong>Further analysis</strong>: Import into R, Python, or other tools</li>
+<li><strong>Data cleaning</strong>: Verify data types and formatting</li>
+</ul>
+</section>
+</section>
+<section id="json-export" class="level2">
+<h2 class="anchored" data-anchor-id="json-export">JSON Export</h2>
+<section id="features-2" class="level3">
+<h3 class="anchored" data-anchor-id="features-2">Features</h3>
+<ul>
+<li><strong>Complete data</strong>: All analysis results included</li>
+<li><strong>Programmatic access</strong>: Easy to parse with code</li>
+<li><strong>Metadata</strong>: Additional information about the analysis</li>
+<li><strong>API integration</strong>: Suitable for automated workflows</li>
+</ul>
+</section>
+<section id="example-structure-1" class="level3">
+<h3 class="anchored" data-anchor-id="example-structure-1">Example Structure</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"test_type"</span><span class="fu">:</span> <span class="st">"Independent Samples T-Test"</span><span class="fu">,</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"column1"</span><span class="fu">:</span> <span class="st">"Height"</span><span class="fu">,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"column2"</span><span class="fu">:</span> <span class="st">"Gender"</span><span class="fu">,</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"t_statistic"</span><span class="fu">:</span> <span class="fl">2.3456</span><span class="fu">,</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"p_value"</span><span class="fu">:</span> <span class="fl">0.023456</span><span class="fu">,</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"df"</span><span class="fu">:</span> <span class="fl">45.0</span><span class="fu">,</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"sample1_mean"</span><span class="fu">:</span> <span class="fl">175.2</span><span class="fu">,</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"sample2_mean"</span><span class="fu">:</span> <span class="fl">162.8</span><span class="fu">,</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"sample1_n"</span><span class="fu">:</span> <span class="dv">25</span><span class="fu">,</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"sample2_n"</span><span class="fu">:</span> <span class="dv">22</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usage-tips-2" class="level3">
+<h3 class="anchored" data-anchor-id="usage-tips-2">Usage Tips</h3>
+<ul>
+<li><strong>Parse with code</strong>: Use in Python, R, or JavaScript</li>
+<li><strong>Extract specific values</strong>: Access individual statistics</li>
+<li><strong>Build applications</strong>: Integrate into custom tools</li>
+<li><strong>Data validation</strong>: Verify result structure</li>
+</ul>
+</section>
+</section>
+<section id="neural-network-model-exports" class="level2">
+<h2 class="anchored" data-anchor-id="neural-network-model-exports">Neural Network Model Exports</h2>
+<section id="model-file-.pkl" class="level3">
+<h3 class="anchored" data-anchor-id="model-file-.pkl">Model File (.pkl)</h3>
+<ul>
+<li><strong>Complete model</strong>: Trained neural network</li>
+<li><strong>Ready for deployment</strong>: Load and use immediately</li>
+<li><strong>Binary format</strong>: Efficient storage and transfer</li>
+<li><strong>Python compatible</strong>: Works with NumPy and pickle</li>
+</ul>
+</section>
+<section id="python-script" class="level3">
+<h3 class="anchored" data-anchor-id="python-script">Python Script</h3>
+<ul>
+<li><strong>Ready-to-use code</strong>: Complete implementation</li>
+<li><strong>Example usage</strong>: Shows how to load and use model</li>
+<li><strong>Documentation</strong>: Includes comments and explanations</li>
+<li><strong>Customizable</strong>: Easy to modify for your needs</li>
+</ul>
+</section>
+<section id="model-info-.json" class="level3">
+<h3 class="anchored" data-anchor-id="model-info-.json">Model Info (.json)</h3>
+<ul>
+<li><strong>Human-readable</strong>: Architecture and performance details</li>
+<li><strong>Metadata</strong>: Training configuration and results</li>
+<li><strong>Documentation</strong>: Model specifications and limitations</li>
+<li><strong>Sharing</strong>: Easy to share model information</li>
 </ul>
 </section>
 </section>
 <section id="best-practices" class="level2">
 <h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
-<section id="before-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="before-analysis">Before Analysis</h3>
+<section id="choosing-export-formats" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-export-formats">Choosing Export Formats</h3>
 <ul>
-<li><strong>Define hypotheses</strong>: What do you expect to find?</li>
-<li><strong>Choose appropriate tests</strong>: Match test to your data and question</li>
-<li><strong>Set significance level</strong>: Decide on alpha before analysis</li>
-<li><strong>Plan sample size</strong>: Ensure adequate power</li>
+<li><strong>Academic papers</strong>: Use LaTeX tables</li>
+<li><strong>Further analysis</strong>: Use CSV or JSON</li>
+<li><strong>Model deployment</strong>: Use .pkl files</li>
+<li><strong>Documentation</strong>: Use JSON for metadata</li>
 </ul>
 </section>
-<section id="during-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="during-analysis">During Analysis</h3>
+<section id="file-management" class="level3">
+<h3 class="anchored" data-anchor-id="file-management">File Management</h3>
 <ul>
-<li><strong>Check assumptions</strong>: Ensure test requirements are met</li>
-<li><strong>Look at effect sizes</strong>: Don’t just focus on p-values</li>
-<li><strong>Consider practical significance</strong>: Is the effect meaningful?</li>
-<li><strong>Document your process</strong>: Keep notes for reproducibility</li>
+<li><strong>Organize downloads</strong>: Create folders for different projects</li>
+<li><strong>Version control</strong>: Keep track of different analysis runs</li>
+<li><strong>Backup important results</strong>: Save multiple copies</li>
+<li><strong>Naming conventions</strong>: Use descriptive file names</li>
 </ul>
 </section>
-<section id="after-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="after-analysis">After Analysis</h3>
+<section id="quality-assurance" class="level3">
+<h3 class="anchored" data-anchor-id="quality-assurance">Quality Assurance</h3>
 <ul>
-<li><strong>Interpret in context</strong>: Consider your research question</li>
-<li><strong>Report effect sizes</strong>: Include practical importance</li>
-<li><strong>Acknowledge limitations</strong>: Be honest about what you can’t conclude</li>
-<li><strong>Plan follow-up</strong>: What questions remain?</li>
+<li><strong>Verify downloads</strong>: Check file integrity</li>
+<li><strong>Test imports</strong>: Ensure files work in target applications</li>
+<li><strong>Cross-reference</strong>: Compare with original results</li>
+<li><strong>Document process</strong>: Keep notes on export choices</li>
 </ul>
 </section>
 </section>
-<section id="exporting-and-sharing-results" class="level2">
-<h2 class="anchored" data-anchor-id="exporting-and-sharing-results">Exporting and Sharing Results</h2>
-<section id="export-formats" class="level3">
-<h3 class="anchored" data-anchor-id="export-formats">Export Formats</h3>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
+<section id="common-issues" class="level3">
+<h3 class="anchored" data-anchor-id="common-issues">Common Issues</h3>
 <ul>
-<li><strong>LaTeX tables</strong>: For academic papers</li>
-<li><strong>CSV files</strong>: For further analysis</li>
-<li><strong>JSON data</strong>: For programmatic access</li>
-<li><strong>Model files</strong>: Trained neural networks for deployment</li>
+<li><strong>Download fails</strong>: Check browser settings and permissions</li>
+<li><strong>File corruption</strong>: Try downloading again</li>
+<li><strong>Format issues</strong>: Verify file extension and content</li>
+<li><strong>Import problems</strong>: Check target application compatibility</li>
 </ul>
-<p><strong>Related</strong>: <a href="../../docs/results/export-formats.html">Export Formats</a></p>
 </section>
-<section id="reporting-guidelines" class="level3">
-<h3 class="anchored" data-anchor-id="reporting-guidelines">Reporting Guidelines</h3>
+<section id="solutions" class="level3">
+<h3 class="anchored" data-anchor-id="solutions">Solutions</h3>
 <ul>
-<li><strong>Include effect sizes</strong>: Don’t just report p-values</li>
-<li><strong>Provide context</strong>: Explain what the results mean</li>
-<li><strong>Acknowledge limitations</strong>: Be transparent about assumptions</li>
-<li><strong>Use appropriate precision</strong>: Don’t overstate precision</li>
+<li><strong>Clear browser cache</strong>: Remove temporary files</li>
+<li><strong>Check file size</strong>: Ensure complete download</li>
+<li><strong>Verify format</strong>: Open file to check content</li>
+<li><strong>Try different browser</strong>: Use alternative web browser</li>
 </ul>
 </section>
 </section>
 <section id="related-topics" class="level2">
 <h2 class="anchored" data-anchor-id="related-topics">Related Topics</h2>
 <ul>
-<li><a href="../../docs/results/export-formats.html">Export Formats</a> - Sharing your results</li>
-<li><a href="../../docs/results/export-formats.html">Export Formats</a> - Downloading your results</li>
-<li><a href="../../docs/help/faq.html">FAQ</a> - Common questions and answers</li>
-<li><a href="../../docs/help/faq.html">FAQ</a> - Common questions and answers</li>
+<li><a href="../../content/results/understanding-results.html">Understanding Results</a> - Interpreting your analysis</li>
+<li><a href="../../content/results/understanding-results.html">Understanding Results</a> - Interpreting your analysis</li>
+<li><a href="../../content/statistical-tests/neural-networks.html">Neural Networks</a> - Model downloads</li>
 </ul>
-</section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
-<p>After understanding your results: 1. <strong>Document your findings</strong> - Write clear interpretations 2. <strong>Share your results</strong> - Export in appropriate formats 3. <strong>Plan follow-up analyses</strong> - Address remaining questions 4. <strong>Consider implications</strong> - What do your results mean for your field?</p>
 <hr>
-<p><em>Need help interpreting specific results? Check our <a href="../../docs/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
+<p><em>Choose the right export format for your needs. LaTeX for publications, CSV for analysis, JSON for programming, and model files for deployment.</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
