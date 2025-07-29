@@ -1,0 +1,211 @@
+---
+title: "Data Exploration"
+subtitle: "Interactive data analysis and visualization"
+---
+
+# Data Exploration
+
+StatKit's data exploration feature allows you to interactively analyze and visualize your data before running statistical tests. This powerful tool helps you understand your data structure, identify patterns, and prepare for analysis.
+
+## Overview
+
+The data explorer provides a comprehensive interface for:
+- **Data preview**: View your data in a paginated table
+- **Filtering**: Apply filters to focus on specific data subsets
+- **Visualization**: Create basic charts and graphs
+- **Summary statistics**: Get quick insights about your data
+
+## Accessing Data Exploration
+
+### From File Preview
+1. Upload your CSV file
+2. Click "Preview" on any dataset
+3. Click "Explore Data" button (appears for CSV files)
+4. The data explorer modal will open
+
+### Features Available
+
+#### Data Table View
+- **Pagination**: Navigate through large datasets
+- **Column selection**: Show/hide specific columns
+- **Sorting**: Click column headers to sort
+- **Search**: Find specific values quickly
+
+#### Filtering Capabilities
+- **Equals**: Exact value matching
+- **Contains**: Text search within values
+- **Greater/Less than**: Numeric comparisons
+- **Between**: Range filtering for numeric data
+- **In list**: Multiple value selection
+
+#### Visualization Options
+- **Histograms**: Distribution of numeric variables
+- **Scatter plots**: Relationship between two variables
+- **Bar charts**: Frequency of categorical variables
+- **Box plots**: Distribution and outliers
+
+#### Summary Statistics
+- **Numeric variables**: Mean, median, min, max, standard deviation
+- **Categorical variables**: Count, unique values, most common
+- **Data quality**: Missing values, data types
+
+## How to Use Data Exploration
+
+### Step 1: Open the Explorer
+1. Navigate to your uploaded CSV file
+2. Click "Preview" to view the file
+3. Click "Explore Data" button
+4. The explorer opens in a modal window
+
+### Step 2: Navigate the Interface
+The explorer has three main views:
+
+#### Table View
+- **View your data**: Browse through rows and columns
+- **Select columns**: Choose which variables to display
+- **Pagination**: Navigate large datasets efficiently
+- **Export filtered data**: Download filtered results
+
+#### Charts View
+- **Select chart type**: Histogram, scatter, bar, or box plot
+- **Choose variables**: Pick X and Y axes for visualizations
+- **Interpret results**: Understand data distributions and relationships
+
+#### Summary View
+- **Variable overview**: Statistics for each column
+- **Data quality**: Missing values and data types
+- **Quick insights**: Key characteristics of your data
+
+### Step 3: Apply Filters
+1. Click "Add Filter" button
+2. Select the column to filter
+3. Choose the filter operator
+4. Enter filter values
+5. Click "Add Filter" to apply
+
+### Step 4: Analyze Results
+- **Review filtered data**: See how filters affect your dataset
+- **Check visualizations**: Understand data patterns
+- **Note insights**: Document important findings
+- **Prepare for analysis**: Use insights to choose appropriate tests
+
+## Filtering Options
+
+### Numeric Variables
+- **Equals**: Exact numeric match
+- **Greater than**: Values above threshold
+- **Less than**: Values below threshold
+- **Between**: Values within range
+
+### Text Variables
+- **Equals**: Exact text match
+- **Contains**: Text search (case-insensitive)
+- **In list**: Multiple value selection
+
+### Advanced Filtering
+- **Multiple filters**: Combine different conditions
+- **Clear filters**: Remove all filters at once
+- **Filter persistence**: Filters remain active across views
+
+## Visualization Types
+
+### Histograms
+- **Purpose**: Show distribution of numeric variables
+- **Use when**: Understanding data spread and shape
+- **Interpretation**: Look for normal distribution, skewness, outliers
+
+### Scatter Plots
+- **Purpose**: Show relationship between two numeric variables
+- **Use when**: Investigating correlations or patterns
+- **Interpretation**: Look for linear relationships, clusters, outliers
+
+### Bar Charts
+- **Purpose**: Show frequency of categorical variables
+- **Use when**: Understanding category distributions
+- **Interpretation**: Identify most/least common categories
+
+### Box Plots
+- **Purpose**: Show distribution and identify outliers
+- **Use when**: Understanding data spread and detecting anomalies
+- **Interpretation**: Look for symmetry, outliers, data range
+
+## Best Practices
+
+### Data Quality Checks
+- **Check for missing values**: Identify incomplete data
+- **Verify data types**: Ensure numeric variables are properly formatted
+- **Look for outliers**: Identify unusual values that might affect analysis
+- **Assess sample size**: Ensure sufficient data for statistical tests
+
+### Exploration Workflow
+1. **Start with summary**: Get overview of all variables
+2. **Examine distributions**: Use histograms for numeric data
+3. **Check relationships**: Use scatter plots for correlations
+4. **Apply filters**: Focus on relevant data subsets
+5. **Document findings**: Note important patterns and issues
+
+### Preparation for Analysis
+- **Choose appropriate tests**: Use insights to select statistical methods
+- **Handle missing data**: Decide how to treat incomplete observations
+- **Consider transformations**: Note if data needs normalization
+- **Plan follow-up**: Identify additional analyses needed
+- **Evaluate ML potential**: Consider neural networks for complex patterns
+
+## Common Use Cases
+
+### Academic Research
+- **Literature review**: Understand previous findings
+- **Hypothesis generation**: Identify potential relationships
+- **Method selection**: Choose appropriate statistical tests
+- **Quality assurance**: Verify data integrity
+
+### Business Analytics
+- **Customer segmentation**: Identify distinct groups
+- **Trend analysis**: Spot patterns over time
+- **Performance monitoring**: Track key metrics
+- **Decision support**: Inform business strategies
+
+### Student Projects
+- **Learning tool**: Understand statistical concepts
+- **Data storytelling**: Present findings clearly
+- **Method practice**: Apply statistical techniques
+- **Report preparation**: Generate insights for reports
+
+## Limitations
+
+### Current Features
+- **Basic visualizations**: Limited to fundamental chart types
+- **Single dataset**: Cannot compare multiple files
+- **No advanced analytics**: Focus on exploration, not modeling
+- **Export limitations**: Filtered data only
+- **ML preparation**: Data exploration helps prepare for neural network analysis
+
+### Browser Considerations
+- **Large datasets**: Performance may slow with very large files
+- **Memory usage**: Very large datasets may cause browser issues
+- **Mobile compatibility**: Best experience on desktop
+
+## Tips and Tricks
+
+### Efficient Exploration
+- **Start broad**: Begin with summary statistics
+- **Focus gradually**: Apply filters to narrow scope
+- **Document process**: Keep notes of your exploration
+- **Save insights**: Export important findings
+
+### Troubleshooting
+- **Slow performance**: Try filtering to smaller datasets
+- **Missing visualizations**: Ensure data types are appropriate
+- **Filter issues**: Check data format and values
+- **Export problems**: Verify file permissions
+
+## Related Topics
+
+- [Uploading Data](uploading-data.qmd) - Getting your data into StatKit
+- [Uploading Data](uploading-data.qmd) - Getting your data into StatKit
+- [Descriptive Statistics](../statistical-tests/descriptive-statistics.qmd) - Statistical summaries
+- [Understanding Results](../results/understanding-results.qmd) - Interpreting analysis output
+
+---
+
+*Data exploration is the foundation of good statistical analysis. Take time to understand your data before running tests - it will lead to better insights and more appropriate statistical methods.* 

@@ -1,0 +1,103 @@
+---
+title: "FAQ"
+subtitle: "Common questions"
+---
+
+# Frequently Asked Questions
+
+## Getting Started
+
+### How do I create an account?
+Visit [statisticskit.com](https://statisticskit.com) and click "Sign In" to create an account.
+
+### What file formats are supported?
+StatKit supports CSV files only. Use UTF-8 encoding for best results.
+
+### How large can my files be?
+Currently no file size limits, but very large files may take longer to process.
+
+## Statistical Tests
+
+### What tests are available?
+
+- Descriptive Statistics
+- T-Tests (Independent, Paired, One-sample)
+- ANOVA
+- Regression (Linear, Logistic)
+- Neural Networks
+
+### How do I choose the right test?
+
+- **Comparing means**: T-Tests or ANOVA
+- **Exploring relationships**: Regression
+- **Data exploration**: Descriptive Statistics
+- **Machine learning**: Neural Networks
+
+### How do I interpret p-values?
+
+- **p < 0.05**: Generally significant
+- **p < 0.01**: Strong significance
+- **p < 0.001**: Very strong significance
+
+## Results and Export
+
+### What output formats are available?
+
+- **LaTeX tables**: For academic papers
+- **CSV files**: For further analysis
+- **JSON data**: For programmatic access
+- **Model files**: For neural networks
+
+### How do I download my results?
+After running an analysis, click "Download" to get your results.
+
+### Can I save my analyses?
+Yes, all analyses are automatically saved to your account.
+
+## Troubleshooting
+
+### My upload failed. What should I do?
+
+- Check file format (CSV only)
+- Verify UTF-8 encoding
+- Try a smaller file
+- Check your internet connection
+
+### My analysis is taking too long.
+Analysis time depends on:
+
+- Data size
+- Test complexity
+- Server load
+
+### I'm getting an error message.
+
+- Check your data meets test requirements
+- Verify file format
+- Review test parameters
+- Contact support if needed
+
+## Privacy and Security
+
+### Is my data secure?
+Yes, StatKit takes data security seriously:
+
+- Encrypted storage
+- Secure transmission
+- Access control
+- Regular backups
+
+### Who can see my data?
+Only you can access your data and analyses.
+
+## Support
+
+### Where can I get help?
+
+- [Documentation](../getting-started.qmd) - Guides for all features
+- [FAQ](faq.qmd) - This page
+- [Contact Support](https://statisticskit.com) - For specific issues
+
+---
+
+*Still have questions? [Contact support](https://statisticskit.com).* 

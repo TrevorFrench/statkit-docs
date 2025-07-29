@@ -1,0 +1,80 @@
+---
+title: "T-Tests"
+subtitle: "Compare means between groups"
+---
+
+# T-Tests
+
+T-tests compare means between groups to determine if differences are statistically significant.
+
+## Types of T-Tests
+
+### Independent Samples T-Test
+Compare means between two separate groups.
+
+**Example**: Compare test scores between students in different schools.
+
+**Data Requirements**:
+
+- **Data Column**: Numeric variable to compare
+- **Group Column**: Categorical variable with exactly 2 groups
+- **Sample Size**: At least 2 observations per group
+
+### Paired Samples T-Test
+Compare means of related observations.
+
+**Example**: Before/after treatment measurements.
+
+**Data Requirements**:
+
+- **Column 1**: First set of measurements
+- **Column 2**: Second set of measurements (paired)
+- **Sample Size**: At least 2 pairs
+
+### One-Sample T-Test
+Test if a single group differs from a hypothesized value.
+
+**Example**: Test if a class average differs from the national average.
+
+**Data Requirements**:
+
+- **Column**: Numeric variable
+- **Population Mean**: Hypothesized value (default: 0)
+- **Sample Size**: At least 2 observations
+
+## How to Run
+
+1. Select "T-Test" from the test dropdown
+2. Choose the test type (Independent, Paired, One-sample)
+3. Select your data columns
+4. Click "Run Test"
+
+## Interpreting Results
+
+### Key Statistics
+
+- **t-statistic**: Measure of difference relative to variability
+- **p-value**: Probability of observing this difference by chance
+- **Degrees of Freedom**: Number of independent observations
+- **Group Means**: Average values for each group
+
+### Statistical Significance
+
+- **p < 0.05**: Generally significant
+- **p < 0.01**: Strong significance
+- **p < 0.001**: Very strong significance
+
+## Assumptions
+
+- **Normality**: Data approximately follows normal distribution
+- **Independence**: Observations are independent (except paired tests)
+- **Equal Variance**: Groups have similar variability (independent tests)
+
+## Export Options
+
+- **LaTeX**: Copy-paste ready tables
+- **CSV**: Structured data files
+
+---
+
+*Need help? Check the [FAQ](../help/faq.qmd) or [contact support](https://statisticskit.com).* 

@@ -1,0 +1,55 @@
+---
+title: "Documentation Overview"
+subtitle: "Complete guide to StatKit statistical analysis"
+page-layout: article
+anchor-sections: true
+search: true
+---
+
+## Welcome to StatKit Documentation
+
+This documentation provides comprehensive guides for all statistical tests available in StatKit.
+
+## Quick Navigation
+
+### Getting Started
+- **[Getting Started Guide](getting-started.qmd)** - Your first analysis with StatKit
+- **Data Preparation** - Tips for preparing your data
+- **Understanding Results** - How to interpret your findings
+
+### Statistical Tests
+
+#### 📊 Descriptive Statistics
+- **[Complete Guide](statistical-tests/descriptive-statistics.qmd)**
+- Summarize and explore your data
+- Calculate mean, median, standard deviation, and more
+- Export results in LaTeX and CSV formats
+
+#### 🔍 T-Tests
+- **[Complete Guide](statistical-tests/t-tests.qmd)**
+- **Independent Samples**: Compare two independent groups
+- **Paired Samples**: Compare related measurements
+- **One-Sample**: Test against a hypothesized population mean
+
+#### 📈 ANOVA
+- **[Complete Guide](statistical-tests/anova.qmd)**
+- Compare means across three or more groups
+- Identify significant differences between conditions
+- Understand F-statistics and p-values
+
+#### 📉 Regression Analysis
+- **[Complete Guide](statistical-tests/regression.qmd)**
+- **Linear Regression**: Predict continuous outcomes
+- **Logistic Regression**: Predict binary outcomes
+- Model evaluation and coefficient interpretation
+
+## Beta Version Notice
+
+StatKit is currently in beta development. While we strive for accuracy:
+- Cross-check results with other statistical software
+- Report any issues you encounter
+- Provide feedback to help us improve
+
+---
+
+*For the most up-to-date information, visit [statisticskit.com](https://statisticskit.com)*

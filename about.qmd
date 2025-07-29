@@ -1,0 +1,53 @@
+---
+title: "About StatKit"
+subtitle: "Making statistical analysis accessible to everyone"
+page-layout: article
+anchor-sections: true
+search: true
+---
+
+## About StatKit
+
+StatKit is a comprehensive statistical analysis platform designed to make complex statistical tests accessible to researchers, students, and data analysts.
+
+## Our Mission
+
+We believe that powerful statistical tools should be available to everyone, regardless of their technical background. StatKit provides:
+
+- **User-friendly interfaces** for complex statistical procedures
+- **Publication-ready outputs** for academic and professional use
+- **Educational resources** to help users understand statistical concepts
+- **Reliable results** using proven statistical methods
+
+## What We Offer
+
+### Statistical Tests
+- **Descriptive Statistics**: Explore and summarize your data
+- **T-Tests**: Compare means between groups or against hypothesized values
+- **ANOVA**: Compare means across multiple groups
+- **Regression Analysis**: Build predictive models with linear and logistic regression
+
+### Key Features
+- **Web-based Interface**: No software installation required
+- **Real-time Results**: Fast processing and immediate feedback
+- **Multiple Export Formats**: LaTeX tables, CSV files, and JSON data
+- **Mobile Responsive**: Works on all devices
+- **Secure Data Handling**: Your data is protected
+
+## Development Status
+
+StatKit is currently in **beta development**. We're actively improving the platform based on user feedback and adding new features.
+
+## Get Started
+
+Ready to try StatKit? [Visit our platform](https://statisticskit.com) to start your first analysis.
+
+## Contact & Support
+
+- **Website**: [statisticskit.com](https://statisticskit.com)
+- **Documentation**: This site
+- **Feedback**: We welcome your input to help improve StatKit
+
+---
+
+*StatKit - Making statistical analysis accessible to everyone.*

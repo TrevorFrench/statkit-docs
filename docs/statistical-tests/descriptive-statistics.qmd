@@ -1,0 +1,64 @@
+---
+title: "Descriptive Statistics"
+subtitle: "Summarize your data"
+---
+
+# Descriptive Statistics
+
+Descriptive statistics summarize and explore your data with basic statistical measures.
+
+## What You Get
+
+### Central Tendency
+
+- **Mean**: Arithmetic average
+- **Median**: Middle value
+- **Mode**: Most frequent value
+
+### Variability
+
+- **Standard Deviation**: Average distance from mean
+- **Variance**: Square of standard deviation
+- **Range**: Difference between min and max
+- **Min/Max**: Smallest and largest values
+
+### Distribution Shape
+
+- **Skewness**: Measure of asymmetry
+- **Kurtosis**: Measure of peakedness
+
+## Data Requirements
+
+- **Numeric variables**: For statistical calculations
+- **Sample size**: At least 2 observations
+- **Missing data**: Automatically excluded
+
+## How to Run
+
+1. Select "Descriptive Statistics" from the test dropdown
+2. Choose your CSV file
+3. Select numeric columns to analyze
+4. Click "Run Test"
+
+## Interpreting Results
+
+### Key Statistics
+
+- **Mean vs Median**: Compare to understand skewness
+- **Standard deviation**: Higher values indicate more spread
+- **Range**: Shows the full spread of your data
+
+### Distribution Analysis
+
+- **Normal distribution**: Mean ≈ median, symmetric
+- **Skewed data**: Mean ≠ median, asymmetric
+- **Outliers**: Values far from the rest
+
+## Export Options
+
+- **LaTeX**: Copy-paste ready tables
+- **CSV**: Structured data files
+
+---
+
+*Need help? Check the [FAQ](../help/faq.qmd) or [contact support](https://statisticskit.com).* 

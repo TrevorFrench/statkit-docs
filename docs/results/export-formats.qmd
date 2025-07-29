@@ -1,0 +1,234 @@
+---
+title: "Export Formats"
+subtitle: "Downloading and sharing your results"
+---
+
+# Export Formats
+
+StatKit provides multiple export formats to meet different needs for sharing, publishing, and further analysis of your statistical results.
+
+## Available Export Formats
+
+### LaTeX Tables
+- **Format**: LaTeX code for academic papers
+- **Use case**: Publication-ready tables
+- **Features**: Professional formatting, mathematical notation
+- **Download**: Copy-paste into LaTeX documents
+
+### CSV Files
+- **Format**: Comma-separated values
+- **Use case**: Further analysis in other tools
+- **Features**: Structured data, spreadsheet compatible
+- **Download**: Direct file download
+
+### JSON Results
+- **Format**: JavaScript Object Notation
+- **Use case**: Programmatic access to results
+- **Features**: Complete data structure, API integration
+- **Download**: Raw result data
+
+### Model Files (Neural Networks)
+- **Format**: Pickle (.pkl) files
+- **Use case**: Model deployment and reuse
+- **Features**: Complete trained models, ready for prediction
+- **Download**: Binary model files
+
+## Export Options by Analysis Type
+
+### Descriptive Statistics
+- **LaTeX**: Publication-ready summary tables
+- **CSV**: Structured data with statistics by column
+- **JSON**: Complete result data with metadata
+
+### T-Tests
+- **LaTeX**: Professional statistical tables
+- **CSV**: Detailed results with test statistics
+- **JSON**: Complete test results and metadata
+
+### ANOVA
+- **LaTeX**: Analysis of variance tables
+- **CSV**: Group comparisons and significance tests
+- **JSON**: Complete ANOVA results
+
+### Regression Analysis
+- **LaTeX**: Model coefficients and fit statistics
+- **CSV**: Regression results and predictions
+- **JSON**: Complete model information
+
+### Neural Networks
+- **LaTeX**: Model architecture and performance metrics
+- **CSV**: Training results and predictions
+- **JSON**: Complete model data
+- **Model File**: Trained neural network (.pkl)
+- **Python Script**: Ready-to-use deployment code
+
+## How to Export Results
+
+### From Analysis Results
+1. **Run your analysis** in StatKit
+2. **View results** in the dashboard
+3. **Choose export format**:
+   - Click "Download" for CSV
+   - Copy LaTeX code
+   - Download model files (neural networks)
+
+### From Dashboard
+1. **Navigate to Analyses** section
+2. **Find your analysis** in the list
+3. **Click "Download"** button
+4. **Select format** if multiple options available
+
+### From File Preview
+1. **Open file preview** for any dataset
+2. **Click "Download"** button
+3. **File downloads** directly to your device
+
+## LaTeX Export
+
+### Features
+- **Publication-ready**: Professional academic formatting
+- **Mathematical notation**: Proper statistical symbols
+- **Table structure**: Organized data presentation
+- **Copy-paste**: Easy integration into documents
+
+### Example Output
+```latex
+\begin{tabular}{lc}\toprule
+Statistic & Value \\ \midrule
+Test Type & Independent Samples T-Test \\
+Tested Variable & Height \\
+Grouping Variable & Gender \\
+t-statistic & 2.3456 \\
+p-value & 0.023456 \\
+Degrees of Freedom & 45.0 \\
+Male Mean & 175.2 \\
+Female Mean & 162.8 \\
+\bottomrule\end{tabular}
+```
+
+### Usage Tips
+- **Copy the entire table**: Include all LaTeX commands
+- **Check formatting**: Verify in your LaTeX editor
+- **Customize if needed**: Modify for specific journal requirements
+- **Include in document**: Paste into your LaTeX file
+
+## CSV Export
+
+### Features
+- **Structured data**: Organized in rows and columns
+- **Spreadsheet compatible**: Opens in Excel, Google Sheets
+- **Further analysis**: Import into statistical software
+- **Data sharing**: Easy to share with colleagues
+
+### Example Structure
+```csv
+Statistic,Value
+Test Type,Independent Samples T-Test
+Tested Variable,Height
+Grouping Variable,Gender
+t-statistic,2.3456
+p-value,0.023456
+Degrees of Freedom,45.0
+Male Mean,175.2
+Female Mean,162.8
+```
+
+### Usage Tips
+- **Open in spreadsheet**: Excel, Google Sheets, or similar
+- **Check formatting**: Ensure proper column separation
+- **Further analysis**: Import into R, Python, or other tools
+- **Data cleaning**: Verify data types and formatting
+
+## JSON Export
+
+### Features
+- **Complete data**: All analysis results included
+- **Programmatic access**: Easy to parse with code
+- **Metadata**: Additional information about the analysis
+- **API integration**: Suitable for automated workflows
+
+### Example Structure
+```json
+{
+  "test_type": "Independent Samples T-Test",
+  "column1": "Height",
+  "column2": "Gender",
+  "t_statistic": 2.3456,
+  "p_value": 0.023456,
+  "df": 45.0,
+  "sample1_mean": 175.2,
+  "sample2_mean": 162.8,
+  "sample1_n": 25,
+  "sample2_n": 22
+}
+```
+
+### Usage Tips
+- **Parse with code**: Use in Python, R, or JavaScript
+- **Extract specific values**: Access individual statistics
+- **Build applications**: Integrate into custom tools
+- **Data validation**: Verify result structure
+
+## Neural Network Model Exports
+
+### Model File (.pkl)
+- **Complete model**: Trained neural network
+- **Ready for deployment**: Load and use immediately
+- **Binary format**: Efficient storage and transfer
+- **Python compatible**: Works with NumPy and pickle
+
+### Python Script
+- **Ready-to-use code**: Complete implementation
+- **Example usage**: Shows how to load and use model
+- **Documentation**: Includes comments and explanations
+- **Customizable**: Easy to modify for your needs
+
+### Model Info (.json)
+- **Human-readable**: Architecture and performance details
+- **Metadata**: Training configuration and results
+- **Documentation**: Model specifications and limitations
+- **Sharing**: Easy to share model information
+
+## Best Practices
+
+### Choosing Export Formats
+- **Academic papers**: Use LaTeX tables
+- **Further analysis**: Use CSV or JSON
+- **Model deployment**: Use .pkl files
+- **Documentation**: Use JSON for metadata
+
+### File Management
+- **Organize downloads**: Create folders for different projects
+- **Version control**: Keep track of different analysis runs
+- **Backup important results**: Save multiple copies
+- **Naming conventions**: Use descriptive file names
+
+### Quality Assurance
+- **Verify downloads**: Check file integrity
+- **Test imports**: Ensure files work in target applications
+- **Cross-reference**: Compare with original results
+- **Document process**: Keep notes on export choices
+
+## Troubleshooting
+
+### Common Issues
+- **Download fails**: Check browser settings and permissions
+- **File corruption**: Try downloading again
+- **Format issues**: Verify file extension and content
+- **Import problems**: Check target application compatibility
+
+### Solutions
+- **Clear browser cache**: Remove temporary files
+- **Check file size**: Ensure complete download
+- **Verify format**: Open file to check content
+- **Try different browser**: Use alternative web browser
+
+## Related Topics
+
+- [Understanding Results](understanding-results.qmd) - Interpreting your analysis
+- [Understanding Results](understanding-results.qmd) - Interpreting your analysis
+- [Neural Networks](../statistical-tests/neural-networks.qmd) - Model downloads
+
+---
+
+*Choose the right export format for your needs. LaTeX for publications, CSV for analysis, JSON for programming, and model files for deployment.* 

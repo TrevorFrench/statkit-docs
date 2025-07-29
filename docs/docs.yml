@@ -1,0 +1,36 @@
+  
+- title: Authoring
+  subtitle: Create content with markdown 
+  links:
+    - text: Markdown Basics
+      href: ../authoring/markdown-basics.qmd
+    - text: Figures
+      href: ../authoring/figures.qmd
+    - text: Tables
+      href: ../authoring/tables.qmd
+    - text: Diagrams
+      href: ../authoring/diagrams.qmd
+    - text: Citations
+      href: ../authoring/citations.qmd
+    - text: Cross References
+      href: ../authoring/cross-references.qmd
+    - text: Article Layout
+      href: ../authoring/article-layout.qmd
+    - text: Shortcodes
+      href: ../authoring/shortcodes.qmd
+
+- title: Computations
+  subtitle: Execute code and display its output
+  links:
+    - text: "Using Python"
+      href: ../computations/python.qmd
+    - text: "Using R"
+      href: ../computations/r.qmd
+    - text: "Using Julia"
+      href: ../computations/julia.qmd
+    - text: "Using Observable"
+      href: ../computations/ojs.qmd
+    - text: Execution Options
+      href: ../computations/execution-options.qmd
+    - text: Parameters
+      href: ../computations/parameters.qmd

@@ -1,0 +1,155 @@
+---
+title: "Uploading Data"
+subtitle: "How to upload and prepare your data for analysis in StatKit"
+page-layout: article
+anchor-sections: true
+search: true
+---
+
+## Overview
+
+Uploading data is the first step in any statistical analysis. StatKit makes it easy to upload your data files and get started with analysis quickly.
+
+## Supported File Formats
+
+### CSV Files (Recommended)
+- **Comma-separated values**: Most common format
+- **UTF-8 encoding**: Supports international characters
+- **Header row**: Column names in the first row
+- **File size**: Currently no limits (subject to change)
+
+**Related**: [Data Exploration](data-exploration.qmd)
+
+### Other Formats
+- **Excel files** (.xlsx, .xls): Convert to CSV for best results
+- **Text files** (.txt): Tab or comma separated
+- **JSON files**: Structured data format
+
+## Step-by-Step Upload Process
+
+### 1. Prepare Your Data
+Before uploading, ensure your data is ready:
+- **Clean your data**: Remove errors and inconsistencies
+- **Check formatting**: Ensure proper column headers
+- **Verify data types**: Numeric columns should contain numbers
+- **Handle missing values**: Decide how to treat missing data
+
+**Related**: [Data Exploration](data-exploration.qmd)
+
+### 2. Access the Upload Feature
+- **Sign in** to your StatKit account
+- **Navigate** to the dashboard
+- **Click** "Upload Dataset" button
+- **Select** your file from your device
+
+### 3. File Selection
+- **Browse** your computer for the file
+- **Select** the file you want to upload
+- **Verify** the file name and size
+- **Click** "Upload" to proceed
+
+### 4. Data Preview
+After upload, StatKit will:
+- **Display** a preview of your data
+- **Show** column names and data types
+- **Identify** potential issues
+- **Allow** you to review before proceeding
+
+## Data Requirements
+
+### Column Types
+- **Numeric columns**: For statistical calculations
+- **Categorical columns**: For grouping and comparison
+- **Text columns**: For labels and descriptions
+- **Date columns**: For time-series analysis
+
+### Data Quality
+- **No empty headers**: All columns should have names
+- **Consistent formatting**: Same data type within columns
+- **Reasonable values**: Check for obvious errors
+- **Appropriate sample size**: Enough data for meaningful analysis
+
+## Common Upload Issues
+
+### File Too Large
+- **Issue**: File too large for processing
+- **Solution**: Consider sampling or reducing file size if needed
+
+### Encoding Problems
+- **Issue**: Special characters appear incorrectly
+- **Solution**: Save file with UTF-8 encoding
+
+### Missing Headers
+- **Issue**: Column names are missing or unclear
+- **Solution**: Add descriptive column names in the first row
+
+### Mixed Data Types
+- **Issue**: Numeric columns contain text
+- **Solution**: Clean data before upload, separate numeric and text columns
+
+## Best Practices
+
+### Before Upload
+- **Backup your data**: Keep original files safe
+- **Document your data**: Note what each column represents
+- **Check for errors**: Look for obvious mistakes
+- **Consider privacy**: Remove sensitive information if needed
+
+### During Upload
+- **Use descriptive names**: Make column names clear and meaningful
+- **Check preview**: Verify data looks correct
+- **Note any warnings**: Address issues before analysis
+- **Save metadata**: Keep track of data sources and dates
+
+### After Upload
+- **Run data quality checks**: Use StatKit's built-in tools
+- **Explore your data**: Start with descriptive statistics
+- **Plan your analysis**: Decide which tests to run
+- **Document your process**: Keep notes for reproducibility
+
+## Data Management
+
+### Organizing Files
+- **Use clear names**: Descriptive file names
+- **Group related data**: Keep similar datasets together
+- **Version control**: Keep track of different versions
+- **Backup regularly**: Don't rely on cloud storage alone
+
+### Updating Data
+- **Replace old files**: Upload new versions when data changes
+- **Note changes**: Document what was updated
+- **Check compatibility**: Ensure new data works with existing analyses
+- **Archive old versions**: Keep previous versions for reference
+
+## Related Topics
+
+- [Data Exploration](data-exploration.qmd) - Interactive data analysis
+- [Data Exploration](data-exploration.qmd) - Interactive data analysis
+- [Descriptive Statistics](../statistical-tests/descriptive-statistics.qmd) - First steps after upload
+- [Getting Started Guide](../getting-started.qmd) - Complete beginner's guide
+
+## Troubleshooting
+
+### Common Problems
+- **Upload fails**: Check file size and format
+- **Data looks wrong**: Verify encoding and formatting
+- **Columns missing**: Check for empty headers
+- **Analysis errors**: Ensure data types are correct
+
+### Getting Help
+- **Check documentation**: Review related guides
+- **Contact support**: Get help with specific issues
+- **Community forums**: Ask other users for advice
+- **Video tutorials**: Watch step-by-step guides
+
+## Next Steps
+
+After successfully uploading your data:
+1. **Run descriptive statistics** to understand your data
+2. **Check data quality** to identify any issues
+3. **Plan your analysis** based on your research questions
+4. **Start with exploratory analysis** before formal testing
+
+---
+
+*Ready to upload your first dataset? [Sign in to StatKit](https://statisticskit.com) and start your analysis journey!* 

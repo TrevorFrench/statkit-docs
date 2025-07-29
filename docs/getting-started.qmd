@@ -1,0 +1,90 @@
+---
+title: "Getting Started"
+subtitle: "Your first analysis"
+---
+
+# Getting Started
+
+Follow these simple steps to run your first statistical analysis.
+
+## Step 1: Upload Your Data
+
+1. Sign in to your StatKit account
+2. Click "Upload Dataset" 
+3. Select your CSV file
+4. Review the data preview
+
+### File Requirements
+
+- **Format**: CSV files only
+- **Encoding**: UTF-8 recommended
+- **Header**: First row should contain column names
+- **Data**: Numeric columns for statistical tests
+
+## Step 2: Choose a Test
+
+Select from available statistical tests:
+
+### Descriptive Statistics
+Summarize your data with basic statistics.
+
+### T-Tests
+Compare means between groups:
+
+- **Independent**: Two separate groups
+- **Paired**: Related measurements
+- **One-sample**: Test against a value
+
+### ANOVA
+Compare means across multiple groups.
+
+### Regression
+Build predictive models:
+
+- **Linear**: Predict continuous values
+- **Logistic**: Predict categories
+
+### Neural Networks
+Train machine learning models for classification and regression.
+
+## Step 3: Configure Parameters
+
+1. Select your dependent variable
+2. Choose independent variables
+3. Set any additional options
+4. Click "Run Analysis"
+
+## Step 4: View Results
+
+Results include:
+
+- Statistical test output
+- P-values and significance
+- Effect sizes
+- Descriptive statistics
+
+## Step 5: Export Results
+
+Download your results in:
+
+- **LaTeX**: For academic papers
+- **CSV**: For further analysis
+- **JSON**: For programmatic access
+- **Model files**: For neural networks
+
+## Tips
+
+- Start with descriptive statistics to understand your data
+- Check that your data meets test requirements
+- Save important results
+- Cross-check with other software if needed
+
+## Need Help?
+
+- [FAQ](help/faq.qmd) - Common questions
+- [Statistical Tests](docs/statistical-tests/) - Detailed guides
+- [Contact Support](https://statisticskit.com) - Get help
+
+---
+
+*StatKit is in beta. Report issues to help us improve.* 
