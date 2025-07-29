@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>T-Tests – StatKit Documentation</title>
+<title>Descriptive Statistics – StatKit Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../docs/statistical-tests/t-tests.html">T-Tests</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Descriptive Statistics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/getting-started.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/getting-started.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quick Start</span></a>
   </div>
 </li>
@@ -164,31 +164,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Descriptive Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T-Tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ANOVA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neural Networks</span></a>
   </div>
 </li>
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/help/faq.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/help/faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -221,21 +221,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#t-tests" id="toc-t-tests" class="nav-link active" data-scroll-target="#t-tests">T-Tests</a>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link active" data-scroll-target="#descriptive-statistics">Descriptive Statistics</a>
   <ul class="collapse">
-  <li><a href="#types-of-t-tests" id="toc-types-of-t-tests" class="nav-link" data-scroll-target="#types-of-t-tests">Types of T-Tests</a>
+  <li><a href="#what-you-get" id="toc-what-you-get" class="nav-link" data-scroll-target="#what-you-get">What You Get</a>
   <ul class="collapse">
-  <li><a href="#independent-samples-t-test" id="toc-independent-samples-t-test" class="nav-link" data-scroll-target="#independent-samples-t-test">Independent Samples T-Test</a></li>
-  <li><a href="#paired-samples-t-test" id="toc-paired-samples-t-test" class="nav-link" data-scroll-target="#paired-samples-t-test">Paired Samples T-Test</a></li>
-  <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link" data-scroll-target="#one-sample-t-test">One-Sample T-Test</a></li>
+  <li><a href="#central-tendency" id="toc-central-tendency" class="nav-link" data-scroll-target="#central-tendency">Central Tendency</a></li>
+  <li><a href="#variability" id="toc-variability" class="nav-link" data-scroll-target="#variability">Variability</a></li>
+  <li><a href="#distribution-shape" id="toc-distribution-shape" class="nav-link" data-scroll-target="#distribution-shape">Distribution Shape</a></li>
   </ul></li>
+  <li><a href="#data-requirements" id="toc-data-requirements" class="nav-link" data-scroll-target="#data-requirements">Data Requirements</a></li>
   <li><a href="#how-to-run" id="toc-how-to-run" class="nav-link" data-scroll-target="#how-to-run">How to Run</a></li>
   <li><a href="#interpreting-results" id="toc-interpreting-results" class="nav-link" data-scroll-target="#interpreting-results">Interpreting Results</a>
   <ul class="collapse">
   <li><a href="#key-statistics" id="toc-key-statistics" class="nav-link" data-scroll-target="#key-statistics">Key Statistics</a></li>
-  <li><a href="#statistical-significance" id="toc-statistical-significance" class="nav-link" data-scroll-target="#statistical-significance">Statistical Significance</a></li>
+  <li><a href="#distribution-analysis" id="toc-distribution-analysis" class="nav-link" data-scroll-target="#distribution-analysis">Distribution Analysis</a></li>
   </ul></li>
-  <li><a href="#assumptions" id="toc-assumptions" class="nav-link" data-scroll-target="#assumptions">Assumptions</a></li>
   <li><a href="#export-options" id="toc-export-options" class="nav-link" data-scroll-target="#export-options">Export Options</a></li>
   </ul></li>
   </ul>
@@ -244,10 +244,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../docs/statistical-tests/t-tests.html">T-Tests</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Descriptive Statistics</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">T-Tests</h1>
-<p class="subtitle lead">Compare means between groups</p>
+<h1 class="title">Descriptive Statistics</h1>
+<p class="subtitle lead">Summarize your data</p>
 </div>
 
 
@@ -264,51 +264,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="t-tests" class="level1">
-<h1>T-Tests</h1>
-<p>T-tests compare means between groups to determine if differences are statistically significant.</p>
-<section id="types-of-t-tests" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-t-tests">Types of T-Tests</h2>
-<section id="independent-samples-t-test" class="level3">
-<h3 class="anchored" data-anchor-id="independent-samples-t-test">Independent Samples T-Test</h3>
-<p>Compare means between two separate groups.</p>
-<p><strong>Example</strong>: Compare test scores between students in different schools.</p>
-<p><strong>Data Requirements</strong>:</p>
+<section id="descriptive-statistics" class="level1">
+<h1>Descriptive Statistics</h1>
+<p>Descriptive statistics summarize and explore your data with basic statistical measures.</p>
+<section id="what-you-get" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-get">What You Get</h2>
+<section id="central-tendency" class="level3">
+<h3 class="anchored" data-anchor-id="central-tendency">Central Tendency</h3>
 <ul>
-<li><strong>Data Column</strong>: Numeric variable to compare</li>
-<li><strong>Group Column</strong>: Categorical variable with exactly 2 groups</li>
-<li><strong>Sample Size</strong>: At least 2 observations per group</li>
+<li><strong>Mean</strong>: Arithmetic average</li>
+<li><strong>Median</strong>: Middle value</li>
+<li><strong>Mode</strong>: Most frequent value</li>
 </ul>
 </section>
-<section id="paired-samples-t-test" class="level3">
-<h3 class="anchored" data-anchor-id="paired-samples-t-test">Paired Samples T-Test</h3>
-<p>Compare means of related observations.</p>
-<p><strong>Example</strong>: Before/after treatment measurements.</p>
-<p><strong>Data Requirements</strong>:</p>
+<section id="variability" class="level3">
+<h3 class="anchored" data-anchor-id="variability">Variability</h3>
 <ul>
-<li><strong>Column 1</strong>: First set of measurements</li>
-<li><strong>Column 2</strong>: Second set of measurements (paired)</li>
-<li><strong>Sample Size</strong>: At least 2 pairs</li>
+<li><strong>Standard Deviation</strong>: Average distance from mean</li>
+<li><strong>Variance</strong>: Square of standard deviation</li>
+<li><strong>Range</strong>: Difference between min and max</li>
+<li><strong>Min/Max</strong>: Smallest and largest values</li>
 </ul>
 </section>
-<section id="one-sample-t-test" class="level3">
-<h3 class="anchored" data-anchor-id="one-sample-t-test">One-Sample T-Test</h3>
-<p>Test if a single group differs from a hypothesized value.</p>
-<p><strong>Example</strong>: Test if a class average differs from the national average.</p>
-<p><strong>Data Requirements</strong>:</p>
+<section id="distribution-shape" class="level3">
+<h3 class="anchored" data-anchor-id="distribution-shape">Distribution Shape</h3>
 <ul>
-<li><strong>Column</strong>: Numeric variable</li>
-<li><strong>Population Mean</strong>: Hypothesized value (default: 0)</li>
-<li><strong>Sample Size</strong>: At least 2 observations</li>
+<li><strong>Skewness</strong>: Measure of asymmetry</li>
+<li><strong>Kurtosis</strong>: Measure of peakedness</li>
 </ul>
 </section>
+</section>
+<section id="data-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="data-requirements">Data Requirements</h2>
+<ul>
+<li><strong>Numeric variables</strong>: For statistical calculations</li>
+<li><strong>Sample size</strong>: At least 2 observations</li>
+<li><strong>Missing data</strong>: Automatically excluded</li>
+</ul>
 </section>
 <section id="how-to-run" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-run">How to Run</h2>
 <ol type="1">
-<li>Select “T-Test” from the test dropdown</li>
-<li>Choose the test type (Independent, Paired, One-sample)</li>
-<li>Select your data columns</li>
+<li>Select “Descriptive Statistics” from the test dropdown</li>
+<li>Choose your CSV file</li>
+<li>Select numeric columns to analyze</li>
 <li>Click “Run Test”</li>
 </ol>
 </section>
@@ -317,28 +316,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-statistics" class="level3">
 <h3 class="anchored" data-anchor-id="key-statistics">Key Statistics</h3>
 <ul>
-<li><strong>t-statistic</strong>: Measure of difference relative to variability</li>
-<li><strong>p-value</strong>: Probability of observing this difference by chance</li>
-<li><strong>Degrees of Freedom</strong>: Number of independent observations</li>
-<li><strong>Group Means</strong>: Average values for each group</li>
+<li><strong>Mean vs Median</strong>: Compare to understand skewness</li>
+<li><strong>Standard deviation</strong>: Higher values indicate more spread</li>
+<li><strong>Range</strong>: Shows the full spread of your data</li>
 </ul>
 </section>
-<section id="statistical-significance" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-significance">Statistical Significance</h3>
+<section id="distribution-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="distribution-analysis">Distribution Analysis</h3>
 <ul>
-<li><strong>p &lt; 0.05</strong>: Generally significant</li>
-<li><strong>p &lt; 0.01</strong>: Strong significance</li>
-<li><strong>p &lt; 0.001</strong>: Very strong significance</li>
+<li><strong>Normal distribution</strong>: Mean ≈ median, symmetric</li>
+<li><strong>Skewed data</strong>: Mean ≠ median, asymmetric</li>
+<li><strong>Outliers</strong>: Values far from the rest</li>
 </ul>
 </section>
-</section>
-<section id="assumptions" class="level2">
-<h2 class="anchored" data-anchor-id="assumptions">Assumptions</h2>
-<ul>
-<li><strong>Normality</strong>: Data approximately follows normal distribution</li>
-<li><strong>Independence</strong>: Observations are independent (except paired tests)</li>
-<li><strong>Equal Variance</strong>: Groups have similar variability (independent tests)</li>
-</ul>
 </section>
 <section id="export-options" class="level2">
 <h2 class="anchored" data-anchor-id="export-options">Export Options</h2>
@@ -347,7 +337,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>CSV</strong>: Structured data files</li>
 </ul>
 <hr>
-<p><em>Need help? Check the <a href="../../docs/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
+<p><em>Need help? Check the <a href="../../content/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
 
 
 </section>

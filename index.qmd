@@ -46,9 +46,9 @@ Train machine learning models for classification and regression.
 
 ## Getting Help
 
-- [Quick Start Guide](docs/getting-started.qmd) - Your first analysis
-- [Statistical Tests](docs/statistical-tests/) - Detailed test guides
-- [FAQ](docs/help/faq.qmd) - Common questions
+- [Quick Start Guide](content/getting-started.qmd) - Your first analysis
+- [Statistical Tests](content/statistical-tests/) - Detailed test guides
+- [FAQ](content/help/faq.qmd) - Common questions
 - [Contact Support](https://statisticskit.com) - Get help
 
 ---

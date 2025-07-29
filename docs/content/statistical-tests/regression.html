@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Exploration – StatKit Documentation</title>
+<title>Regression – StatKit Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Data Exploration</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/regression.html">Regression</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/getting-started.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/getting-started.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quick Start</span></a>
   </div>
 </li>
@@ -164,31 +164,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Descriptive Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T-Tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ANOVA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/regression.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neural Networks</span></a>
   </div>
 </li>
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/help/faq.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/help/faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -221,57 +221,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-exploration" id="toc-data-exploration" class="nav-link active" data-scroll-target="#data-exploration">Data Exploration</a>
+  <li><a href="#regression" id="toc-regression" class="nav-link active" data-scroll-target="#regression">Regression</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#accessing-data-exploration" id="toc-accessing-data-exploration" class="nav-link" data-scroll-target="#accessing-data-exploration">Accessing Data Exploration</a>
+  <li><a href="#types-of-regression" id="toc-types-of-regression" class="nav-link" data-scroll-target="#types-of-regression">Types of Regression</a>
   <ul class="collapse">
-  <li><a href="#from-file-preview" id="toc-from-file-preview" class="nav-link" data-scroll-target="#from-file-preview">From File Preview</a></li>
-  <li><a href="#features-available" id="toc-features-available" class="nav-link" data-scroll-target="#features-available">Features Available</a></li>
+  <li><a href="#linear-regression" id="toc-linear-regression" class="nav-link" data-scroll-target="#linear-regression">Linear Regression</a></li>
+  <li><a href="#logistic-regression" id="toc-logistic-regression" class="nav-link" data-scroll-target="#logistic-regression">Logistic Regression</a></li>
   </ul></li>
-  <li><a href="#how-to-use-data-exploration" id="toc-how-to-use-data-exploration" class="nav-link" data-scroll-target="#how-to-use-data-exploration">How to Use Data Exploration</a>
+  <li><a href="#data-requirements" id="toc-data-requirements" class="nav-link" data-scroll-target="#data-requirements">Data Requirements</a>
   <ul class="collapse">
-  <li><a href="#step-1-open-the-explorer" id="toc-step-1-open-the-explorer" class="nav-link" data-scroll-target="#step-1-open-the-explorer">Step 1: Open the Explorer</a></li>
-  <li><a href="#step-2-navigate-the-interface" id="toc-step-2-navigate-the-interface" class="nav-link" data-scroll-target="#step-2-navigate-the-interface">Step 2: Navigate the Interface</a></li>
-  <li><a href="#step-3-apply-filters" id="toc-step-3-apply-filters" class="nav-link" data-scroll-target="#step-3-apply-filters">Step 3: Apply Filters</a></li>
-  <li><a href="#step-4-analyze-results" id="toc-step-4-analyze-results" class="nav-link" data-scroll-target="#step-4-analyze-results">Step 4: Analyze Results</a></li>
+  <li><a href="#linear-regression-1" id="toc-linear-regression-1" class="nav-link" data-scroll-target="#linear-regression-1">Linear Regression</a></li>
+  <li><a href="#logistic-regression-1" id="toc-logistic-regression-1" class="nav-link" data-scroll-target="#logistic-regression-1">Logistic Regression</a></li>
   </ul></li>
-  <li><a href="#filtering-options" id="toc-filtering-options" class="nav-link" data-scroll-target="#filtering-options">Filtering Options</a>
+  <li><a href="#how-to-run" id="toc-how-to-run" class="nav-link" data-scroll-target="#how-to-run">How to Run</a></li>
+  <li><a href="#interpreting-results" id="toc-interpreting-results" class="nav-link" data-scroll-target="#interpreting-results">Interpreting Results</a>
   <ul class="collapse">
-  <li><a href="#numeric-variables" id="toc-numeric-variables" class="nav-link" data-scroll-target="#numeric-variables">Numeric Variables</a></li>
-  <li><a href="#text-variables" id="toc-text-variables" class="nav-link" data-scroll-target="#text-variables">Text Variables</a></li>
-  <li><a href="#advanced-filtering" id="toc-advanced-filtering" class="nav-link" data-scroll-target="#advanced-filtering">Advanced Filtering</a></li>
+  <li><a href="#linear-regression-2" id="toc-linear-regression-2" class="nav-link" data-scroll-target="#linear-regression-2">Linear Regression</a></li>
+  <li><a href="#logistic-regression-2" id="toc-logistic-regression-2" class="nav-link" data-scroll-target="#logistic-regression-2">Logistic Regression</a></li>
+  <li><a href="#model-fit" id="toc-model-fit" class="nav-link" data-scroll-target="#model-fit">Model Fit</a></li>
   </ul></li>
-  <li><a href="#visualization-types" id="toc-visualization-types" class="nav-link" data-scroll-target="#visualization-types">Visualization Types</a>
+  <li><a href="#assumptions" id="toc-assumptions" class="nav-link" data-scroll-target="#assumptions">Assumptions</a>
   <ul class="collapse">
-  <li><a href="#histograms" id="toc-histograms" class="nav-link" data-scroll-target="#histograms">Histograms</a></li>
-  <li><a href="#scatter-plots" id="toc-scatter-plots" class="nav-link" data-scroll-target="#scatter-plots">Scatter Plots</a></li>
-  <li><a href="#bar-charts" id="toc-bar-charts" class="nav-link" data-scroll-target="#bar-charts">Bar Charts</a></li>
-  <li><a href="#box-plots" id="toc-box-plots" class="nav-link" data-scroll-target="#box-plots">Box Plots</a></li>
+  <li><a href="#linear-regression-3" id="toc-linear-regression-3" class="nav-link" data-scroll-target="#linear-regression-3">Linear Regression</a></li>
+  <li><a href="#logistic-regression-3" id="toc-logistic-regression-3" class="nav-link" data-scroll-target="#logistic-regression-3">Logistic Regression</a></li>
   </ul></li>
-  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a>
-  <ul class="collapse">
-  <li><a href="#data-quality-checks" id="toc-data-quality-checks" class="nav-link" data-scroll-target="#data-quality-checks">Data Quality Checks</a></li>
-  <li><a href="#exploration-workflow" id="toc-exploration-workflow" class="nav-link" data-scroll-target="#exploration-workflow">Exploration Workflow</a></li>
-  <li><a href="#preparation-for-analysis" id="toc-preparation-for-analysis" class="nav-link" data-scroll-target="#preparation-for-analysis">Preparation for Analysis</a></li>
-  </ul></li>
-  <li><a href="#common-use-cases" id="toc-common-use-cases" class="nav-link" data-scroll-target="#common-use-cases">Common Use Cases</a>
-  <ul class="collapse">
-  <li><a href="#academic-research" id="toc-academic-research" class="nav-link" data-scroll-target="#academic-research">Academic Research</a></li>
-  <li><a href="#business-analytics" id="toc-business-analytics" class="nav-link" data-scroll-target="#business-analytics">Business Analytics</a></li>
-  <li><a href="#student-projects" id="toc-student-projects" class="nav-link" data-scroll-target="#student-projects">Student Projects</a></li>
-  </ul></li>
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a>
-  <ul class="collapse">
-  <li><a href="#current-features" id="toc-current-features" class="nav-link" data-scroll-target="#current-features">Current Features</a></li>
-  <li><a href="#browser-considerations" id="toc-browser-considerations" class="nav-link" data-scroll-target="#browser-considerations">Browser Considerations</a></li>
-  </ul></li>
-  <li><a href="#tips-and-tricks" id="toc-tips-and-tricks" class="nav-link" data-scroll-target="#tips-and-tricks">Tips and Tricks</a>
-  <ul class="collapse">
-  <li><a href="#efficient-exploration" id="toc-efficient-exploration" class="nav-link" data-scroll-target="#efficient-exploration">Efficient Exploration</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a></li>
-  </ul></li>
-  <li><a href="#related-topics" id="toc-related-topics" class="nav-link" data-scroll-target="#related-topics">Related Topics</a></li>
+  <li><a href="#export-options" id="toc-export-options" class="nav-link" data-scroll-target="#export-options">Export Options</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -279,10 +253,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/regression.html">Regression</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data Exploration</h1>
-<p class="subtitle lead">Interactive data analysis and visualization</p>
+<h1 class="title">Regression</h1>
+<p class="subtitle lead">Build predictive models</p>
 </div>
 
 
@@ -299,301 +273,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="data-exploration" class="level1">
-<h1>Data Exploration</h1>
-<p>StatKit’s data exploration feature allows you to interactively analyze and visualize your data before running statistical tests. This powerful tool helps you understand your data structure, identify patterns, and prepare for analysis.</p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The data explorer provides a comprehensive interface for: - <strong>Data preview</strong>: View your data in a paginated table - <strong>Filtering</strong>: Apply filters to focus on specific data subsets - <strong>Visualization</strong>: Create basic charts and graphs - <strong>Summary statistics</strong>: Get quick insights about your data</p>
+<section id="regression" class="level1">
+<h1>Regression</h1>
+<p>Regression models predict outcomes based on input variables. StatKit supports linear and logistic regression.</p>
+<section id="types-of-regression" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-regression">Types of Regression</h2>
+<section id="linear-regression" class="level3">
+<h3 class="anchored" data-anchor-id="linear-regression">Linear Regression</h3>
+<p>Predict continuous outcomes.</p>
+<p><strong>Example</strong>: Predict house prices based on size, location, age.</p>
 </section>
-<section id="accessing-data-exploration" class="level2">
-<h2 class="anchored" data-anchor-id="accessing-data-exploration">Accessing Data Exploration</h2>
-<section id="from-file-preview" class="level3">
-<h3 class="anchored" data-anchor-id="from-file-preview">From File Preview</h3>
+<section id="logistic-regression" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression">Logistic Regression</h3>
+<p>Predict binary outcomes.</p>
+<p><strong>Example</strong>: Predict whether a customer will buy (yes/no) based on demographics.</p>
+</section>
+</section>
+<section id="data-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="data-requirements">Data Requirements</h2>
+<section id="linear-regression-1" class="level3">
+<h3 class="anchored" data-anchor-id="linear-regression-1">Linear Regression</h3>
+<ul>
+<li><strong>Dependent Variable</strong>: Continuous numeric outcome</li>
+<li><strong>Independent Variables</strong>: One or more numeric predictors</li>
+<li><strong>Sample Size</strong>: At least n+1 observations (where n = number of predictors)</li>
+</ul>
+</section>
+<section id="logistic-regression-1" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression-1">Logistic Regression</h3>
+<ul>
+<li><strong>Dependent Variable</strong>: Binary or categorical with exactly 2 values</li>
+<li><strong>Independent Variables</strong>: One or more numeric or categorical predictors</li>
+<li><strong>Sample Size</strong>: At least n+1 observations per category</li>
+</ul>
+</section>
+</section>
+<section id="how-to-run" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-run">How to Run</h2>
 <ol type="1">
-<li>Upload your CSV file</li>
-<li>Click “Preview” on any dataset</li>
-<li>Click “Explore Data” button (appears for CSV files)</li>
-<li>The data explorer modal will open</li>
+<li>Select “Regression” from the test dropdown</li>
+<li>Choose your CSV file</li>
+<li>Select your dependent variable</li>
+<li>Choose independent variables</li>
+<li>Click “Run Test”</li>
 </ol>
 </section>
-<section id="features-available" class="level3">
-<h3 class="anchored" data-anchor-id="features-available">Features Available</h3>
-<section id="data-table-view" class="level4">
-<h4 class="anchored" data-anchor-id="data-table-view">Data Table View</h4>
+<section id="interpreting-results" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-results">Interpreting Results</h2>
+<section id="linear-regression-2" class="level3">
+<h3 class="anchored" data-anchor-id="linear-regression-2">Linear Regression</h3>
 <ul>
-<li><strong>Pagination</strong>: Navigate through large datasets</li>
-<li><strong>Column selection</strong>: Show/hide specific columns</li>
-<li><strong>Sorting</strong>: Click column headers to sort</li>
-<li><strong>Search</strong>: Find specific values quickly</li>
+<li><strong>R-squared</strong>: Proportion of variance explained (0 to 1)</li>
+<li><strong>RMSE</strong>: Root Mean Square Error - prediction accuracy</li>
+<li><strong>Coefficients</strong>: Change in outcome per unit change in predictor</li>
+<li><strong>P-values</strong>: Statistical significance of predictors</li>
 </ul>
 </section>
-<section id="filtering-capabilities" class="level4">
-<h4 class="anchored" data-anchor-id="filtering-capabilities">Filtering Capabilities</h4>
+<section id="logistic-regression-2" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression-2">Logistic Regression</h3>
 <ul>
-<li><strong>Equals</strong>: Exact value matching</li>
-<li><strong>Contains</strong>: Text search within values</li>
-<li><strong>Greater/Less than</strong>: Numeric comparisons</li>
-<li><strong>Between</strong>: Range filtering for numeric data</li>
-<li><strong>In list</strong>: Multiple value selection</li>
+<li><strong>Pseudo R-squared</strong>: Measure of model fit</li>
+<li><strong>Coefficients</strong>: Change in log-odds per unit change in predictor</li>
+<li><strong>P-values</strong>: Statistical significance of predictors</li>
 </ul>
 </section>
-<section id="visualization-options" class="level4">
-<h4 class="anchored" data-anchor-id="visualization-options">Visualization Options</h4>
+<section id="model-fit" class="level3">
+<h3 class="anchored" data-anchor-id="model-fit">Model Fit</h3>
 <ul>
-<li><strong>Histograms</strong>: Distribution of numeric variables</li>
-<li><strong>Scatter plots</strong>: Relationship between two variables</li>
-<li><strong>Bar charts</strong>: Frequency of categorical variables</li>
-<li><strong>Box plots</strong>: Distribution and outliers</li>
-</ul>
-</section>
-<section id="summary-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="summary-statistics">Summary Statistics</h4>
-<ul>
-<li><strong>Numeric variables</strong>: Mean, median, min, max, standard deviation</li>
-<li><strong>Categorical variables</strong>: Count, unique values, most common</li>
-<li><strong>Data quality</strong>: Missing values, data types</li>
+<li><strong>Linear</strong>: Higher R-squared indicates better fit</li>
+<li><strong>Logistic</strong>: Higher pseudo R-squared indicates better fit</li>
+<li><strong>P-values</strong>: &lt; 0.05 indicates significant predictors</li>
 </ul>
 </section>
 </section>
-</section>
-<section id="how-to-use-data-exploration" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-data-exploration">How to Use Data Exploration</h2>
-<section id="step-1-open-the-explorer" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-open-the-explorer">Step 1: Open the Explorer</h3>
-<ol type="1">
-<li>Navigate to your uploaded CSV file</li>
-<li>Click “Preview” to view the file</li>
-<li>Click “Explore Data” button</li>
-<li>The explorer opens in a modal window</li>
-</ol>
-</section>
-<section id="step-2-navigate-the-interface" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-navigate-the-interface">Step 2: Navigate the Interface</h3>
-<p>The explorer has three main views:</p>
-<section id="table-view" class="level4">
-<h4 class="anchored" data-anchor-id="table-view">Table View</h4>
+<section id="assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="assumptions">Assumptions</h2>
+<section id="linear-regression-3" class="level3">
+<h3 class="anchored" data-anchor-id="linear-regression-3">Linear Regression</h3>
 <ul>
-<li><strong>View your data</strong>: Browse through rows and columns</li>
-<li><strong>Select columns</strong>: Choose which variables to display</li>
-<li><strong>Pagination</strong>: Navigate large datasets efficiently</li>
-<li><strong>Export filtered data</strong>: Download filtered results</li>
+<li><strong>Linearity</strong>: Relationship between variables is linear</li>
+<li><strong>Independence</strong>: Observations are independent</li>
+<li><strong>Homoscedasticity</strong>: Constant variance of residuals</li>
+<li><strong>Normality</strong>: Residuals are normally distributed</li>
 </ul>
 </section>
-<section id="charts-view" class="level4">
-<h4 class="anchored" data-anchor-id="charts-view">Charts View</h4>
+<section id="logistic-regression-3" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression-3">Logistic Regression</h3>
 <ul>
-<li><strong>Select chart type</strong>: Histogram, scatter, bar, or box plot</li>
-<li><strong>Choose variables</strong>: Pick X and Y axes for visualizations</li>
-<li><strong>Interpret results</strong>: Understand data distributions and relationships</li>
-</ul>
-</section>
-<section id="summary-view" class="level4">
-<h4 class="anchored" data-anchor-id="summary-view">Summary View</h4>
-<ul>
-<li><strong>Variable overview</strong>: Statistics for each column</li>
-<li><strong>Data quality</strong>: Missing values and data types</li>
-<li><strong>Quick insights</strong>: Key characteristics of your data</li>
+<li><strong>Independence</strong>: Observations are independent</li>
+<li><strong>No multicollinearity</strong>: Predictors are not highly correlated</li>
+<li><strong>Large sample size</strong>: At least 10 events per predictor</li>
 </ul>
 </section>
 </section>
-<section id="step-3-apply-filters" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-apply-filters">Step 3: Apply Filters</h3>
-<ol type="1">
-<li>Click “Add Filter” button</li>
-<li>Select the column to filter</li>
-<li>Choose the filter operator</li>
-<li>Enter filter values</li>
-<li>Click “Add Filter” to apply</li>
-</ol>
-</section>
-<section id="step-4-analyze-results" class="level3">
-<h3 class="anchored" data-anchor-id="step-4-analyze-results">Step 4: Analyze Results</h3>
+<section id="export-options" class="level2">
+<h2 class="anchored" data-anchor-id="export-options">Export Options</h2>
 <ul>
-<li><strong>Review filtered data</strong>: See how filters affect your dataset</li>
-<li><strong>Check visualizations</strong>: Understand data patterns</li>
-<li><strong>Note insights</strong>: Document important findings</li>
-<li><strong>Prepare for analysis</strong>: Use insights to choose appropriate tests</li>
-</ul>
-</section>
-</section>
-<section id="filtering-options" class="level2">
-<h2 class="anchored" data-anchor-id="filtering-options">Filtering Options</h2>
-<section id="numeric-variables" class="level3">
-<h3 class="anchored" data-anchor-id="numeric-variables">Numeric Variables</h3>
-<ul>
-<li><strong>Equals</strong>: Exact numeric match</li>
-<li><strong>Greater than</strong>: Values above threshold</li>
-<li><strong>Less than</strong>: Values below threshold</li>
-<li><strong>Between</strong>: Values within range</li>
-</ul>
-</section>
-<section id="text-variables" class="level3">
-<h3 class="anchored" data-anchor-id="text-variables">Text Variables</h3>
-<ul>
-<li><strong>Equals</strong>: Exact text match</li>
-<li><strong>Contains</strong>: Text search (case-insensitive)</li>
-<li><strong>In list</strong>: Multiple value selection</li>
-</ul>
-</section>
-<section id="advanced-filtering" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-filtering">Advanced Filtering</h3>
-<ul>
-<li><strong>Multiple filters</strong>: Combine different conditions</li>
-<li><strong>Clear filters</strong>: Remove all filters at once</li>
-<li><strong>Filter persistence</strong>: Filters remain active across views</li>
-</ul>
-</section>
-</section>
-<section id="visualization-types" class="level2">
-<h2 class="anchored" data-anchor-id="visualization-types">Visualization Types</h2>
-<section id="histograms" class="level3">
-<h3 class="anchored" data-anchor-id="histograms">Histograms</h3>
-<ul>
-<li><strong>Purpose</strong>: Show distribution of numeric variables</li>
-<li><strong>Use when</strong>: Understanding data spread and shape</li>
-<li><strong>Interpretation</strong>: Look for normal distribution, skewness, outliers</li>
-</ul>
-</section>
-<section id="scatter-plots" class="level3">
-<h3 class="anchored" data-anchor-id="scatter-plots">Scatter Plots</h3>
-<ul>
-<li><strong>Purpose</strong>: Show relationship between two numeric variables</li>
-<li><strong>Use when</strong>: Investigating correlations or patterns</li>
-<li><strong>Interpretation</strong>: Look for linear relationships, clusters, outliers</li>
-</ul>
-</section>
-<section id="bar-charts" class="level3">
-<h3 class="anchored" data-anchor-id="bar-charts">Bar Charts</h3>
-<ul>
-<li><strong>Purpose</strong>: Show frequency of categorical variables</li>
-<li><strong>Use when</strong>: Understanding category distributions</li>
-<li><strong>Interpretation</strong>: Identify most/least common categories</li>
-</ul>
-</section>
-<section id="box-plots" class="level3">
-<h3 class="anchored" data-anchor-id="box-plots">Box Plots</h3>
-<ul>
-<li><strong>Purpose</strong>: Show distribution and identify outliers</li>
-<li><strong>Use when</strong>: Understanding data spread and detecting anomalies</li>
-<li><strong>Interpretation</strong>: Look for symmetry, outliers, data range</li>
-</ul>
-</section>
-</section>
-<section id="best-practices" class="level2">
-<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
-<section id="data-quality-checks" class="level3">
-<h3 class="anchored" data-anchor-id="data-quality-checks">Data Quality Checks</h3>
-<ul>
-<li><strong>Check for missing values</strong>: Identify incomplete data</li>
-<li><strong>Verify data types</strong>: Ensure numeric variables are properly formatted</li>
-<li><strong>Look for outliers</strong>: Identify unusual values that might affect analysis</li>
-<li><strong>Assess sample size</strong>: Ensure sufficient data for statistical tests</li>
-</ul>
-</section>
-<section id="exploration-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="exploration-workflow">Exploration Workflow</h3>
-<ol type="1">
-<li><strong>Start with summary</strong>: Get overview of all variables</li>
-<li><strong>Examine distributions</strong>: Use histograms for numeric data</li>
-<li><strong>Check relationships</strong>: Use scatter plots for correlations</li>
-<li><strong>Apply filters</strong>: Focus on relevant data subsets</li>
-<li><strong>Document findings</strong>: Note important patterns and issues</li>
-</ol>
-</section>
-<section id="preparation-for-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="preparation-for-analysis">Preparation for Analysis</h3>
-<ul>
-<li><strong>Choose appropriate tests</strong>: Use insights to select statistical methods</li>
-<li><strong>Handle missing data</strong>: Decide how to treat incomplete observations</li>
-<li><strong>Consider transformations</strong>: Note if data needs normalization</li>
-<li><strong>Plan follow-up</strong>: Identify additional analyses needed</li>
-<li><strong>Evaluate ML potential</strong>: Consider neural networks for complex patterns</li>
-</ul>
-</section>
-</section>
-<section id="common-use-cases" class="level2">
-<h2 class="anchored" data-anchor-id="common-use-cases">Common Use Cases</h2>
-<section id="academic-research" class="level3">
-<h3 class="anchored" data-anchor-id="academic-research">Academic Research</h3>
-<ul>
-<li><strong>Literature review</strong>: Understand previous findings</li>
-<li><strong>Hypothesis generation</strong>: Identify potential relationships</li>
-<li><strong>Method selection</strong>: Choose appropriate statistical tests</li>
-<li><strong>Quality assurance</strong>: Verify data integrity</li>
-</ul>
-</section>
-<section id="business-analytics" class="level3">
-<h3 class="anchored" data-anchor-id="business-analytics">Business Analytics</h3>
-<ul>
-<li><strong>Customer segmentation</strong>: Identify distinct groups</li>
-<li><strong>Trend analysis</strong>: Spot patterns over time</li>
-<li><strong>Performance monitoring</strong>: Track key metrics</li>
-<li><strong>Decision support</strong>: Inform business strategies</li>
-</ul>
-</section>
-<section id="student-projects" class="level3">
-<h3 class="anchored" data-anchor-id="student-projects">Student Projects</h3>
-<ul>
-<li><strong>Learning tool</strong>: Understand statistical concepts</li>
-<li><strong>Data storytelling</strong>: Present findings clearly</li>
-<li><strong>Method practice</strong>: Apply statistical techniques</li>
-<li><strong>Report preparation</strong>: Generate insights for reports</li>
-</ul>
-</section>
-</section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
-<section id="current-features" class="level3">
-<h3 class="anchored" data-anchor-id="current-features">Current Features</h3>
-<ul>
-<li><strong>Basic visualizations</strong>: Limited to fundamental chart types</li>
-<li><strong>Single dataset</strong>: Cannot compare multiple files</li>
-<li><strong>No advanced analytics</strong>: Focus on exploration, not modeling</li>
-<li><strong>Export limitations</strong>: Filtered data only</li>
-<li><strong>ML preparation</strong>: Data exploration helps prepare for neural network analysis</li>
-</ul>
-</section>
-<section id="browser-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="browser-considerations">Browser Considerations</h3>
-<ul>
-<li><strong>Large datasets</strong>: Performance may slow with very large files</li>
-<li><strong>Memory usage</strong>: Very large datasets may cause browser issues</li>
-<li><strong>Mobile compatibility</strong>: Best experience on desktop</li>
-</ul>
-</section>
-</section>
-<section id="tips-and-tricks" class="level2">
-<h2 class="anchored" data-anchor-id="tips-and-tricks">Tips and Tricks</h2>
-<section id="efficient-exploration" class="level3">
-<h3 class="anchored" data-anchor-id="efficient-exploration">Efficient Exploration</h3>
-<ul>
-<li><strong>Start broad</strong>: Begin with summary statistics</li>
-<li><strong>Focus gradually</strong>: Apply filters to narrow scope</li>
-<li><strong>Document process</strong>: Keep notes of your exploration</li>
-<li><strong>Save insights</strong>: Export important findings</li>
-</ul>
-</section>
-<section id="troubleshooting" class="level3">
-<h3 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h3>
-<ul>
-<li><strong>Slow performance</strong>: Try filtering to smaller datasets</li>
-<li><strong>Missing visualizations</strong>: Ensure data types are appropriate</li>
-<li><strong>Filter issues</strong>: Check data format and values</li>
-<li><strong>Export problems</strong>: Verify file permissions</li>
-</ul>
-</section>
-</section>
-<section id="related-topics" class="level2">
-<h2 class="anchored" data-anchor-id="related-topics">Related Topics</h2>
-<ul>
-<li><a href="../../docs/data-management/uploading-data.html">Uploading Data</a> - Getting your data into StatKit</li>
-<li><a href="../../docs/data-management/uploading-data.html">Uploading Data</a> - Getting your data into StatKit</li>
-<li><a href="../../docs/statistical-tests/descriptive-statistics.html">Descriptive Statistics</a> - Statistical summaries</li>
-<li><a href="../../docs/results/understanding-results.html">Understanding Results</a> - Interpreting analysis output</li>
+<li><strong>LaTeX</strong>: Copy-paste ready tables</li>
+<li><strong>CSV</strong>: Structured data files</li>
 </ul>
 <hr>
-<p><em>Data exploration is the foundation of good statistical analysis. Take time to understand your data before running tests - it will lead to better insights and more appropriate statistical methods.</em></p>
+<p><em>Need help? Check the <a href="../../content/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
 
 
 </section>

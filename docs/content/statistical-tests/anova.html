@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Neural Networks – StatKit Documentation</title>
+<title>ANOVA – StatKit Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -147,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../docs/statistical-tests/neural-networks.html">Neural Networks</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/anova.html">ANOVA</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -176,7 +141,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/getting-started.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/getting-started.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quick Start</span></a>
   </div>
 </li>
@@ -199,31 +164,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/descriptive-statistics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Descriptive Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/t-tests.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T-Tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/anova.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/anova.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">ANOVA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/statistical-tests/regression.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Regression</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/statistical-tests/neural-networks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neural Networks</span></a>
   </div>
 </li>
@@ -240,7 +205,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/help/faq.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/help/faq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -256,45 +221,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link active" data-scroll-target="#neural-networks">Neural Networks</a>
+  <li><a href="#anova" id="toc-anova" class="nav-link active" data-scroll-target="#anova">ANOVA</a>
   <ul class="collapse">
-  <li><a href="#types-of-tasks" id="toc-types-of-tasks" class="nav-link" data-scroll-target="#types-of-tasks">Types of Tasks</a>
-  <ul class="collapse">
-  <li><a href="#classification" id="toc-classification" class="nav-link" data-scroll-target="#classification">Classification</a></li>
-  <li><a href="#regression" id="toc-regression" class="nav-link" data-scroll-target="#regression">Regression</a></li>
-  </ul></li>
-  <li><a href="#data-requirements" id="toc-data-requirements" class="nav-link" data-scroll-target="#data-requirements">Data Requirements</a>
-  <ul class="collapse">
-  <li><a href="#input-data" id="toc-input-data" class="nav-link" data-scroll-target="#input-data">Input Data</a></li>
-  <li><a href="#target-variable" id="toc-target-variable" class="nav-link" data-scroll-target="#target-variable">Target Variable</a></li>
-  </ul></li>
-  <li><a href="#how-to-run" id="toc-how-to-run" class="nav-link" data-scroll-target="#how-to-run">How to Run</a>
-  <ul class="collapse">
-  <li><a href="#step-1-select-neural-network" id="toc-step-1-select-neural-network" class="nav-link" data-scroll-target="#step-1-select-neural-network">Step 1: Select Neural Network</a></li>
-  <li><a href="#step-2-configure-the-model" id="toc-step-2-configure-the-model" class="nav-link" data-scroll-target="#step-2-configure-the-model">Step 2: Configure the Model</a></li>
-  <li><a href="#step-3-run-analysis" id="toc-step-3-run-analysis" class="nav-link" data-scroll-target="#step-3-run-analysis">Step 3: Run Analysis</a></li>
-  </ul></li>
+  <li><a href="#when-to-use" id="toc-when-to-use" class="nav-link" data-scroll-target="#when-to-use">When to Use</a></li>
+  <li><a href="#data-requirements" id="toc-data-requirements" class="nav-link" data-scroll-target="#data-requirements">Data Requirements</a></li>
+  <li><a href="#how-to-run" id="toc-how-to-run" class="nav-link" data-scroll-target="#how-to-run">How to Run</a></li>
   <li><a href="#interpreting-results" id="toc-interpreting-results" class="nav-link" data-scroll-target="#interpreting-results">Interpreting Results</a>
   <ul class="collapse">
-  <li><a href="#model-information" id="toc-model-information" class="nav-link" data-scroll-target="#model-information">Model Information</a></li>
-  <li><a href="#performance-metrics" id="toc-performance-metrics" class="nav-link" data-scroll-target="#performance-metrics">Performance Metrics</a></li>
-  <li><a href="#training-progress" id="toc-training-progress" class="nav-link" data-scroll-target="#training-progress">Training Progress</a></li>
+  <li><a href="#key-statistics" id="toc-key-statistics" class="nav-link" data-scroll-target="#key-statistics">Key Statistics</a></li>
+  <li><a href="#statistical-significance" id="toc-statistical-significance" class="nav-link" data-scroll-target="#statistical-significance">Statistical Significance</a></li>
+  <li><a href="#effect-size" id="toc-effect-size" class="nav-link" data-scroll-target="#effect-size">Effect Size</a></li>
   </ul></li>
-  <li><a href="#model-download" id="toc-model-download" class="nav-link" data-scroll-target="#model-download">Model Download</a>
-  <ul class="collapse">
-  <li><a href="#download-options" id="toc-download-options" class="nav-link" data-scroll-target="#download-options">Download Options</a></li>
-  <li><a href="#using-downloaded-models" id="toc-using-downloaded-models" class="nav-link" data-scroll-target="#using-downloaded-models">Using Downloaded Models</a></li>
-  </ul></li>
-  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a>
-  <ul class="collapse">
-  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
-  <li><a href="#model-configuration" id="toc-model-configuration" class="nav-link" data-scroll-target="#model-configuration">Model Configuration</a></li>
-  </ul></li>
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a>
-  <ul class="collapse">
-  <li><a href="#current-implementation" id="toc-current-implementation" class="nav-link" data-scroll-target="#current-implementation">Current Implementation</a></li>
-  <li><a href="#general-limitations" id="toc-general-limitations" class="nav-link" data-scroll-target="#general-limitations">General Limitations</a></li>
-  </ul></li>
+  <li><a href="#assumptions" id="toc-assumptions" class="nav-link" data-scroll-target="#assumptions">Assumptions</a></li>
   <li><a href="#export-options" id="toc-export-options" class="nav-link" data-scroll-target="#export-options">Export Options</a></li>
   </ul></li>
   </ul>
@@ -303,10 +241,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../docs/statistical-tests/neural-networks.html">Neural Networks</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/statistical-tests/descriptive-statistics.html">Tests</a></li><li class="breadcrumb-item"><a href="../../content/statistical-tests/anova.html">ANOVA</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Neural Networks</h1>
-<p class="subtitle lead">Machine learning models</p>
+<h1 class="title">ANOVA</h1>
+<p class="subtitle lead">Compare means across groups</p>
 </div>
 
 
@@ -323,177 +261,83 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="neural-networks" class="level1">
-<h1>Neural Networks</h1>
-<p>Neural networks are machine learning models that can learn complex patterns in your data for classification and regression tasks.</p>
-<section id="types-of-tasks" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-tasks">Types of Tasks</h2>
-<section id="classification" class="level3">
-<h3 class="anchored" data-anchor-id="classification">Classification</h3>
-<p>Predict categories or classes.</p>
-<p><strong>Example</strong>: Spam vs.&nbsp;not spam, flower species identification.</p>
-</section>
-<section id="regression" class="level3">
-<h3 class="anchored" data-anchor-id="regression">Regression</h3>
-<p>Predict continuous values.</p>
-<p><strong>Example</strong>: House prices, stock prices, temperature forecasting.</p>
-</section>
+<section id="anova" class="level1">
+<h1>ANOVA</h1>
+<p>ANOVA (Analysis of Variance) compares means across three or more groups to determine if there are significant differences.</p>
+<section id="when-to-use" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-use">When to Use</h2>
+<ul>
+<li><strong>Multiple groups</strong>: Compare means across 3+ groups</li>
+<li><strong>Categorical predictor</strong>: One categorical variable defining groups</li>
+<li><strong>Continuous outcome</strong>: Numeric variable to compare</li>
+</ul>
+<p><strong>Example</strong>: Compare test scores across students in different schools.</p>
 </section>
 <section id="data-requirements" class="level2">
 <h2 class="anchored" data-anchor-id="data-requirements">Data Requirements</h2>
-<section id="input-data" class="level3">
-<h3 class="anchored" data-anchor-id="input-data">Input Data</h3>
 <ul>
-<li><strong>Numeric features</strong>: All input variables must be numeric</li>
-<li><strong>Clean data</strong>: Remove or handle missing values</li>
-<li><strong>Sufficient samples</strong>: More data generally leads to better performance</li>
+<li><strong>Outcome Variable</strong>: Continuous numeric variable</li>
+<li><strong>Group Variable</strong>: Categorical variable with 3+ groups</li>
+<li><strong>Sample Size</strong>: At least 2 observations per group</li>
+<li><strong>Independence</strong>: Observations are independent</li>
 </ul>
-</section>
-<section id="target-variable" class="level3">
-<h3 class="anchored" data-anchor-id="target-variable">Target Variable</h3>
-<ul>
-<li><strong>Classification</strong>: Categorical variable (2+ classes)</li>
-<li><strong>Regression</strong>: Continuous numeric variable</li>
-</ul>
-</section>
 </section>
 <section id="how-to-run" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-run">How to Run</h2>
-<section id="step-1-select-neural-network" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-select-neural-network">Step 1: Select Neural Network</h3>
 <ol type="1">
-<li>Choose “Neural Network” from the test dropdown</li>
-<li>Select your CSV file</li>
+<li>Select “ANOVA” from the test dropdown</li>
+<li>Choose your CSV file</li>
+<li>Select your outcome variable</li>
+<li>Select your group variable</li>
+<li>Click “Run Test”</li>
 </ol>
-</section>
-<section id="step-2-configure-the-model" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-configure-the-model">Step 2: Configure the Model</h3>
-<ol type="1">
-<li><strong>Task Type</strong>: Choose Classification or Regression</li>
-<li><strong>Dependent Variable</strong>: Select your target variable</li>
-<li><strong>Independent Variables</strong>: Select one or more feature variables</li>
-<li><strong>Hyperparameters</strong> (optional):
-<ul>
-<li><strong>Hidden Layer Size</strong>: Number of neurons (default: 10)</li>
-<li><strong>Learning Rate</strong>: Step size for training (default: 0.01)</li>
-<li><strong>Epochs</strong>: Training iterations (default: 1000)</li>
-</ul></li>
-</ol>
-</section>
-<section id="step-3-run-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-run-analysis">Step 3: Run Analysis</h3>
-<p>Click “Run Analysis” to train your neural network.</p>
-</section>
 </section>
 <section id="interpreting-results" class="level2">
 <h2 class="anchored" data-anchor-id="interpreting-results">Interpreting Results</h2>
-<section id="model-information" class="level3">
-<h3 class="anchored" data-anchor-id="model-information">Model Information</h3>
+<section id="key-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="key-statistics">Key Statistics</h3>
 <ul>
-<li><strong>Architecture</strong>: Input → Hidden → Output layer sizes</li>
-<li><strong>Task Type</strong>: Classification or Regression</li>
-<li><strong>Hyperparameters</strong>: Training configuration used</li>
+<li><strong>F-statistic</strong>: Ratio of between-group to within-group variance</li>
+<li><strong>p-value</strong>: Probability of observing these differences by chance</li>
+<li><strong>Degrees of Freedom</strong>: Between and within groups</li>
+<li><strong>Group Means</strong>: Average values for each group</li>
 </ul>
 </section>
-<section id="performance-metrics" class="level3">
-<h3 class="anchored" data-anchor-id="performance-metrics">Performance Metrics</h3>
-<p><strong>For Classification:</strong></p>
+<section id="statistical-significance" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-significance">Statistical Significance</h3>
 <ul>
-<li><strong>Accuracy</strong>: Percentage of correct predictions</li>
-<li><strong>Number of Classes</strong>: Total categories in your data</li>
-</ul>
-<p><strong>For Regression:</strong></p>
-<ul>
-<li><strong>MSE (Mean Squared Error)</strong>: Average squared prediction error</li>
-<li><strong>RMSE (Root Mean Squared Error)</strong>: Square root of MSE</li>
-<li><strong>MAE (Mean Absolute Error)</strong>: Average absolute prediction error</li>
-<li><strong>R²</strong>: Proportion of variance explained by the model</li>
+<li><strong>p &lt; 0.05</strong>: At least one group differs significantly</li>
+<li><strong>p &lt; 0.01</strong>: Strong evidence of differences</li>
+<li><strong>p &lt; 0.001</strong>: Very strong evidence of differences</li>
 </ul>
 </section>
-<section id="training-progress" class="level3">
-<h3 class="anchored" data-anchor-id="training-progress">Training Progress</h3>
+<section id="effect-size" class="level3">
+<h3 class="anchored" data-anchor-id="effect-size">Effect Size</h3>
 <ul>
-<li><strong>Training Loss</strong>: Error on training data</li>
-<li><strong>Validation Loss</strong>: Error on validation data</li>
-<li><strong>Convergence</strong>: Whether the model stopped improving</li>
+<li><strong>Eta-squared</strong>: Proportion of variance explained by groups</li>
+<li><strong>Large effect</strong>: η² &gt; 0.14</li>
+<li><strong>Medium effect</strong>: η² = 0.06 - 0.14</li>
+<li><strong>Small effect</strong>: η² &lt; 0.06</li>
 </ul>
 </section>
 </section>
-<section id="model-download" class="level2">
-<h2 class="anchored" data-anchor-id="model-download">Model Download</h2>
-<section id="download-options" class="level3">
-<h3 class="anchored" data-anchor-id="download-options">Download Options</h3>
-<ol type="1">
-<li><strong>Model File (.pkl)</strong>: Complete trained neural network</li>
-<li><strong>Model Info (.json)</strong>: Architecture and performance details</li>
-<li><strong>Python Script</strong>: Ready-to-use code for deployment</li>
-</ol>
-</section>
-<section id="using-downloaded-models" class="level3">
-<h3 class="anchored" data-anchor-id="using-downloaded-models">Using Downloaded Models</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> base64</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load your model</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> SimpleNeuralNetwork(input_size, hidden_size, output_size)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>model.load_model(model_base64)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Preprocess new data</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>normalized_data <span class="op">=</span> preprocess_data(new_data, X_mean, X_std)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(normalized_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="best-practices" class="level2">
-<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
-<section id="data-preparation" class="level3">
-<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<section id="assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="assumptions">Assumptions</h2>
 <ul>
-<li><strong>Clean your data</strong>: Remove missing values and outliers</li>
-<li><strong>Feature selection</strong>: Choose relevant variables</li>
-<li><strong>Data splitting</strong>: Ensure sufficient training data</li>
+<li><strong>Normality</strong>: Data approximately follows normal distribution</li>
+<li><strong>Independence</strong>: Observations are independent</li>
+<li><strong>Equal Variance</strong>: Groups have similar variability</li>
+<li><strong>Random Sampling</strong>: Data collected randomly</li>
 </ul>
-</section>
-<section id="model-configuration" class="level3">
-<h3 class="anchored" data-anchor-id="model-configuration">Model Configuration</h3>
-<ul>
-<li><strong>Start simple</strong>: Use default hyperparameters first</li>
-<li><strong>Experiment</strong>: Try different hidden layer sizes</li>
-<li><strong>Monitor training</strong>: Watch for overfitting</li>
-</ul>
-</section>
-</section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
-<section id="current-implementation" class="level3">
-<h3 class="anchored" data-anchor-id="current-implementation">Current Implementation</h3>
-<ul>
-<li><strong>Single hidden layer</strong>: Limited to one hidden layer</li>
-<li><strong>Fixed architecture</strong>: Cannot add custom layers</li>
-<li><strong>Basic optimization</strong>: Uses simple gradient descent</li>
-</ul>
-</section>
-<section id="general-limitations" class="level3">
-<h3 class="anchored" data-anchor-id="general-limitations">General Limitations</h3>
-<ul>
-<li><strong>Black-box nature</strong>: Difficult to interpret decisions</li>
-<li><strong>Data requirements</strong>: Need sufficient training data</li>
-<li><strong>Computational cost</strong>: Training can be time-consuming</li>
-<li><strong>Overfitting risk</strong>: Can memorize training data</li>
-</ul>
-</section>
 </section>
 <section id="export-options" class="level2">
 <h2 class="anchored" data-anchor-id="export-options">Export Options</h2>
 <ul>
-<li><strong>LaTeX</strong>: Publication-ready tables</li>
-<li><strong>CSV</strong>: Structured data format</li>
-<li><strong>Model files</strong>: Complete models for deployment</li>
+<li><strong>LaTeX</strong>: Copy-paste ready tables</li>
+<li><strong>CSV</strong>: Structured data files</li>
 </ul>
 <hr>
-<p><em>Need help? Check the <a href="../../docs/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
+<p><em>Need help? Check the <a href="../../content/help/faq.html">FAQ</a> or <a href="https://statisticskit.com">contact support</a>.</em></p>
 
 
 </section>
