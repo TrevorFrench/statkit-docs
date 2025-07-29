@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  title: "StatKit Documentation"
+  image: "logo.png"
+  favicon: "favicon.ico"
+  navbar:
+    logo: logo.png
+    logo-alt: "StatKit logo."
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    style: "docked"
+    contents: 
+      - section: "Getting Started"
+        contents:
+          - href: index.qmd
+            text: "Home"
+          - href: docs/getting-started.qmd
+            text: "Quick Start"
+          - href: about.qmd
+            text: "About"
+      - section: "Tests"
+        contents:
+          - href: docs/statistical-tests/descriptive-statistics.qmd
+            text: "Descriptive Statistics"
+          - href: docs/statistical-tests/t-tests.qmd
+            text: "T-Tests"
+          - href: docs/statistical-tests/anova.qmd
+            text: "ANOVA"
+          - href: docs/statistical-tests/regression.qmd
+            text: "Regression"
+          - href: docs/statistical-tests/neural-networks.qmd
+            text: "Neural Networks"
+      - section: "Help"
+        contents:
+          - href: docs/help/faq.qmd
+            text: "FAQ"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

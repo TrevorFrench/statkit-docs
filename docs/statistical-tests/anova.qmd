@@ -1,0 +1,69 @@
+---
+title: "ANOVA"
+subtitle: "Compare means across groups"
+---
+
+# ANOVA
+
+ANOVA (Analysis of Variance) compares means across three or more groups to determine if there are significant differences.
+
+## When to Use
+
+- **Multiple groups**: Compare means across 3+ groups
+- **Categorical predictor**: One categorical variable defining groups
+- **Continuous outcome**: Numeric variable to compare
+
+**Example**: Compare test scores across students in different schools.
+
+## Data Requirements
+
+- **Outcome Variable**: Continuous numeric variable
+- **Group Variable**: Categorical variable with 3+ groups
+- **Sample Size**: At least 2 observations per group
+- **Independence**: Observations are independent
+
+## How to Run
+
+1. Select "ANOVA" from the test dropdown
+2. Choose your CSV file
+3. Select your outcome variable
+4. Select your group variable
+5. Click "Run Test"
+
+## Interpreting Results
+
+### Key Statistics
+
+- **F-statistic**: Ratio of between-group to within-group variance
+- **p-value**: Probability of observing these differences by chance
+- **Degrees of Freedom**: Between and within groups
+- **Group Means**: Average values for each group
+
+### Statistical Significance
+
+- **p < 0.05**: At least one group differs significantly
+- **p < 0.01**: Strong evidence of differences
+- **p < 0.001**: Very strong evidence of differences
+
+### Effect Size
+
+- **Eta-squared**: Proportion of variance explained by groups
+- **Large effect**: η² > 0.14
+- **Medium effect**: η² = 0.06 - 0.14
+- **Small effect**: η² < 0.06
+
+## Assumptions
+
+- **Normality**: Data approximately follows normal distribution
+- **Independence**: Observations are independent
+- **Equal Variance**: Groups have similar variability
+- **Random Sampling**: Data collected randomly
+
+## Export Options
+
+- **LaTeX**: Copy-paste ready tables
+- **CSV**: Structured data files
+
+---
+
+*Need help? Check the [FAQ](../help/faq.qmd) or [contact support](https://statisticskit.com).* 

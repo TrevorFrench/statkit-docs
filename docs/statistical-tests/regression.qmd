@@ -1,0 +1,87 @@
+---
+title: "Regression"
+subtitle: "Build predictive models"
+---
+
+# Regression
+
+Regression models predict outcomes based on input variables. StatKit supports linear and logistic regression.
+
+## Types of Regression
+
+### Linear Regression
+Predict continuous outcomes.
+
+**Example**: Predict house prices based on size, location, age.
+
+### Logistic Regression
+Predict binary outcomes.
+
+**Example**: Predict whether a customer will buy (yes/no) based on demographics.
+
+## Data Requirements
+
+### Linear Regression
+
+- **Dependent Variable**: Continuous numeric outcome
+- **Independent Variables**: One or more numeric predictors
+- **Sample Size**: At least n+1 observations (where n = number of predictors)
+
+### Logistic Regression
+
+- **Dependent Variable**: Binary or categorical with exactly 2 values
+- **Independent Variables**: One or more numeric or categorical predictors
+- **Sample Size**: At least n+1 observations per category
+
+## How to Run
+
+1. Select "Regression" from the test dropdown
+2. Choose your CSV file
+3. Select your dependent variable
+4. Choose independent variables
+5. Click "Run Test"
+
+## Interpreting Results
+
+### Linear Regression
+
+- **R-squared**: Proportion of variance explained (0 to 1)
+- **RMSE**: Root Mean Square Error - prediction accuracy
+- **Coefficients**: Change in outcome per unit change in predictor
+- **P-values**: Statistical significance of predictors
+
+### Logistic Regression
+
+- **Pseudo R-squared**: Measure of model fit
+- **Coefficients**: Change in log-odds per unit change in predictor
+- **P-values**: Statistical significance of predictors
+
+### Model Fit
+
+- **Linear**: Higher R-squared indicates better fit
+- **Logistic**: Higher pseudo R-squared indicates better fit
+- **P-values**: < 0.05 indicates significant predictors
+
+## Assumptions
+
+### Linear Regression
+
+- **Linearity**: Relationship between variables is linear
+- **Independence**: Observations are independent
+- **Homoscedasticity**: Constant variance of residuals
+- **Normality**: Residuals are normally distributed
+
+### Logistic Regression
+
+- **Independence**: Observations are independent
+- **No multicollinearity**: Predictors are not highly correlated
+- **Large sample size**: At least 10 events per predictor
+
+## Export Options
+
+- **LaTeX**: Copy-paste ready tables
+- **CSV**: Structured data files
+
+---
+
+*Need help? Check the [FAQ](../help/faq.qmd) or [contact support](https://statisticskit.com).* 

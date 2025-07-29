@@ -1,0 +1,56 @@
+---
+title: "StatKit"
+subtitle: "Simple statistical analysis"
+---
+
+# StatKit
+
+StatKit is a web-based platform for statistical analysis. Upload your CSV data and run tests with just a few clicks.
+
+## Features
+
+- **Upload CSV files** - Drag and drop your data
+- **Run statistical tests** - T-tests, ANOVA, regression, neural networks
+- **Export results** - LaTeX tables, CSV files, model downloads
+- **Explore data** - Interactive tables and basic visualizations
+
+## Quick Start
+
+1. **Upload your data** - CSV files only
+2. **Choose a test** - Select from available options
+3. **Configure parameters** - Set variables and options
+4. **Run analysis** - Get results instantly
+5. **Download results** - Export in your preferred format
+
+## Available Tests
+
+### Descriptive Statistics
+Summarize your data with means, medians, standard deviations, and more.
+
+### T-Tests
+Compare means between groups:
+- Independent samples
+- Paired samples  
+- One-sample tests
+
+### ANOVA
+Compare means across multiple groups.
+
+### Regression
+Build predictive models:
+- Linear regression
+- Logistic regression
+
+### Neural Networks
+Train machine learning models for classification and regression.
+
+## Getting Help
+
+- [Quick Start Guide](docs/getting-started.qmd) - Your first analysis
+- [Statistical Tests](docs/statistical-tests/) - Detailed test guides
+- [FAQ](docs/help/faq.qmd) - Common questions
+- [Contact Support](https://statisticskit.com) - Get help
+
+---
+
+*StatKit is currently in beta. Report issues and provide feedback to help us improve.*

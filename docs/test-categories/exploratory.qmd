@@ -1,0 +1,130 @@
+---
+title: "Exploratory Analysis"
+subtitle: "Understanding your data through descriptive statistics and visualization"
+page-layout: article
+anchor-sections: true
+search: true
+---
+
+## Overview
+
+Exploratory analysis is the first step in any statistical investigation. It helps you understand your data's structure, identify patterns, and detect potential issues before running formal statistical tests.
+
+## What is Exploratory Analysis?
+
+Exploratory analysis involves:
+- **Data summarization**: Understanding central tendencies and variability
+- **Pattern identification**: Finding trends, outliers, and relationships
+- **Data quality assessment**: Checking for missing values, errors, and inconsistencies
+- **Distribution analysis**: Understanding how your data is distributed
+
+## Available Tools in StatKit
+
+### Descriptive Statistics
+The foundation of exploratory analysis. Use this to:
+- Calculate means, medians, standard deviations
+- Identify minimum and maximum values
+- Understand data distributions
+- Check for outliers
+
+**Related**: [Descriptive Statistics](../statistical-tests/descriptive-statistics.qmd)
+
+### Data Quality Checks
+Before running any analysis, ensure your data is clean:
+- Check for missing values
+- Identify data types
+- Verify data ranges
+- Look for inconsistencies
+
+**Related**: [Data Exploration](../data-management/data-exploration.qmd)
+
+## When to Use Exploratory Analysis
+
+### Always Start Here
+- **New datasets**: Understand what you're working with
+- **Data cleaning**: Identify issues before analysis
+- **Hypothesis generation**: Discover patterns that suggest further testing
+- **Quality control**: Ensure data meets assumptions
+
+### Specific Use Cases
+- **Academic research**: Preliminary data exploration
+- **Business analytics**: Understanding customer behavior patterns
+- **Student projects**: Learning data analysis fundamentals
+- **Data exploration**: Discovering insights in large datasets
+
+## Step-by-Step Process
+
+### 1. Upload Your Data
+Start by uploading your CSV file to StatKit.
+
+**Related**: [Uploading Data](../data-management/uploading-data.qmd)
+
+### 2. Run Descriptive Statistics
+Select multiple variables to get a comprehensive overview:
+- **Numeric variables**: Means, medians, standard deviations
+- **Categorical variables**: Frequency counts
+- **Multiple variables**: Compare distributions across groups
+
+### 3. Interpret Results
+Look for:
+- **Central tendency**: Where most values cluster
+- **Variability**: How spread out the data is
+- **Skewness**: Whether data is symmetric or skewed
+- **Outliers**: Unusual values that might need attention
+
+### 4. Plan Next Steps
+Based on your findings:
+- **Clean data** if needed
+- **Choose appropriate tests** for your research questions
+- **Consider transformations** for skewed data
+- **Design follow-up analyses**
+
+## Best Practices
+
+### Data Visualization
+- Always visualize your data when possible
+- Look for patterns, trends, and outliers
+- Consider different chart types for different data types
+
+### Multiple Perspectives
+- Examine data from different angles
+- Consider different groupings and subsets
+- Look for relationships between variables
+
+### Documentation
+- Keep notes on your findings
+- Document any data cleaning steps
+- Record insights for future reference
+
+## Common Issues and Solutions
+
+### Missing Data
+- **Issue**: Incomplete datasets
+- **Solution**: Use StatKit's data quality checks to identify missing values
+
+### Outliers
+- **Issue**: Extreme values affecting analysis
+- **Solution**: Examine outliers carefully - they might be errors or important findings
+
+### Non-normal Distributions
+- **Issue**: Data doesn't follow normal distribution
+- **Solution**: Consider data transformations or non-parametric tests
+
+## Related Topics
+
+- [Uploading Data](../data-management/uploading-data.qmd) - Getting your data into StatKit
+- [Statistical Tests](../statistical-tests/descriptive-statistics.qmd) - Moving from exploration to formal testing
+- [Understanding Results](../results/understanding-results.qmd) - Interpreting your findings
+- [Export Formats](../results/export-formats.qmd) - Sharing your exploratory analysis
+
+## Next Steps
+
+After completing exploratory analysis:
+1. **Clean your data** if issues were found
+2. **Choose appropriate statistical tests** based on your findings
+3. **Run formal analyses** to test your hypotheses
+4. **Document your process** for reproducibility
+
+---
+
+*Ready to start exploring your data? [Upload a file](https://statisticskit.com) and run your first descriptive statistics analysis!* 

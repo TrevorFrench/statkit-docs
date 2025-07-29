@@ -1,0 +1,190 @@
+---
+title: "Understanding Results"
+subtitle: "How to interpret and make sense of your statistical analysis results"
+page-layout: article
+anchor-sections: true
+search: true
+---
+
+## Overview
+
+Understanding your statistical results is crucial for drawing meaningful conclusions from your data. This guide will help you interpret the output from StatKit's various statistical tests.
+
+## Key Concepts
+
+### Statistical Significance
+- **p-value**: Probability of observing results by chance
+- **Alpha level**: Threshold for significance (typically 0.05)
+- **Effect size**: Practical importance of the result
+- **Confidence intervals**: Range of likely true values
+
+### Effect Sizes
+- **Small effect**: Noticeable but not practically important
+- **Medium effect**: Moderate practical importance
+- **Large effect**: Substantial practical importance
+
+## Understanding Different Test Results
+
+### Descriptive Statistics
+**What you get:**
+- **Measures of central tendency**: Mean, median, mode
+- **Measures of variability**: Standard deviation, variance, range
+- **Distribution shape**: Skewness, kurtosis
+- **Sample size**: Number of observations
+
+**How to interpret:**
+- **Mean vs Median**: Compare to understand skewness
+- **Standard deviation**: Higher values indicate more spread
+- **Range**: Difference between minimum and maximum
+
+**Related**: [Descriptive Statistics](../statistical-tests/descriptive-statistics.qmd)
+
+### T-Test Results
+**What you get:**
+- **t-statistic**: Measure of difference relative to variability
+- **p-value**: Probability of observing this difference by chance
+- **Degrees of freedom**: Number of independent observations
+- **Group means**: Average values for each group
+- **Effect size**: Practical importance of the difference
+
+**How to interpret:**
+- **p < 0.05**: Statistically significant difference
+- **t-statistic**: Larger absolute values indicate bigger differences
+- **Effect size**: Consider practical significance beyond statistical significance
+
+**Related**: [T-Tests](../statistical-tests/t-tests.qmd)
+
+### ANOVA Results
+**What you get:**
+- **F-statistic**: Ratio of between-group to within-group variance
+- **p-value**: Probability of observing these differences by chance
+- **Degrees of freedom**: Between and within groups
+- **Group means**: Average values for each group
+- **Effect size**: Proportion of variance explained
+
+**How to interpret:**
+- **p < 0.05**: At least one group differs significantly
+- **F-statistic**: Larger values indicate bigger differences
+- **Post-hoc tests**: Identify which specific groups differ
+
+**Related**: [ANOVA](../statistical-tests/anova.qmd)
+
+### Regression Results
+**What you get:**
+- **R-squared**: Proportion of variance explained by the model
+- **Coefficients**: Change in dependent variable per unit change in predictor
+- **p-values**: Statistical significance of each predictor
+- **Standard errors**: Uncertainty in coefficient estimates
+- **Model fit statistics**: Overall model performance
+
+**How to interpret:**
+- **R-squared**: Higher values indicate better model fit
+- **Coefficients**: Direction and magnitude of relationships
+- **p-values**: Which predictors are statistically significant
+
+**Related**: [Regression Analysis](../statistical-tests/regression.qmd)
+
+### Neural Network Results
+**What you get:**
+- **Model architecture**: Input, hidden, and output layer sizes
+- **Task type**: Classification or regression
+- **Performance metrics**: Accuracy (classification) or MSE/R² (regression)
+- **Training progress**: Loss values and convergence
+- **Model download**: Complete trained model for deployment
+
+**How to interpret:**
+- **Accuracy**: Higher values indicate better classification performance
+- **MSE/RMSE**: Lower values indicate better regression predictions
+- **Training loss**: Should decrease and stabilize during training
+- **Model complexity**: Balance between performance and interpretability
+
+**Related**: [Neural Networks](../statistical-tests/neural-networks.qmd)
+
+## Reading Output Tables
+
+### Table Structure
+Most StatKit results include:
+- **Variable names**: What was tested
+- **Test statistics**: Calculated values (t, F, etc.)
+- **p-values**: Statistical significance
+- **Effect sizes**: Practical importance
+- **Descriptive statistics**: Means, standard deviations
+
+### Formatting
+- **Bold values**: Often indicate significance
+- **Asterisks (*)**: Mark significant results
+- **Decimal places**: Precision of estimates
+- **Units**: Scale of measurement
+
+## Common Interpretation Mistakes
+
+### P-Value Misconceptions
+- **Mistake**: "p = 0.04 means 96% chance the result is true"
+- **Reality**: p-value is probability of data given null hypothesis, not probability of hypothesis given data
+
+### Effect Size Neglect
+- **Mistake**: Focusing only on statistical significance
+- **Reality**: Consider practical importance of the effect
+
+### Multiple Testing
+- **Mistake**: Running many tests without adjusting significance levels
+- **Reality**: Multiple comparisons increase chance of false positives
+
+### Correlation vs Causation
+- **Mistake**: Assuming significant correlation means causation
+- **Reality**: Correlation doesn't imply causation
+
+## Best Practices
+
+### Before Analysis
+- **Define hypotheses**: What do you expect to find?
+- **Choose appropriate tests**: Match test to your data and question
+- **Set significance level**: Decide on alpha before analysis
+- **Plan sample size**: Ensure adequate power
+
+### During Analysis
+- **Check assumptions**: Ensure test requirements are met
+- **Look at effect sizes**: Don't just focus on p-values
+- **Consider practical significance**: Is the effect meaningful?
+- **Document your process**: Keep notes for reproducibility
+
+### After Analysis
+- **Interpret in context**: Consider your research question
+- **Report effect sizes**: Include practical importance
+- **Acknowledge limitations**: Be honest about what you can't conclude
+- **Plan follow-up**: What questions remain?
+
+## Exporting and Sharing Results
+
+### Export Formats
+- **LaTeX tables**: For academic papers
+- **CSV files**: For further analysis
+- **JSON data**: For programmatic access
+- **Model files**: Trained neural networks for deployment
+
+**Related**: [Export Formats](export-formats.qmd)
+
+### Reporting Guidelines
+- **Include effect sizes**: Don't just report p-values
+- **Provide context**: Explain what the results mean
+- **Acknowledge limitations**: Be transparent about assumptions
+- **Use appropriate precision**: Don't overstate precision
+
+## Related Topics
+
+- [Export Formats](export-formats.qmd) - Sharing your results
+- [Export Formats](export-formats.qmd) - Downloading your results
+- [FAQ](../help/faq.qmd) - Common questions and answers
+- [FAQ](../help/faq.qmd) - Common questions and answers
+
+## Next Steps
+
+After understanding your results:
+1. **Document your findings** - Write clear interpretations
+2. **Share your results** - Export in appropriate formats
+3. **Plan follow-up analyses** - Address remaining questions
+4. **Consider implications** - What do your results mean for your field?
+
+---
+
+*Need help interpreting specific results? Check our [FAQ](../help/faq.qmd) or [contact support](https://statisticskit.com).* 
